@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ELNTextFieldFormattingKit_Example', :exclusive => true do
+  pod 'ELNTextFieldFormattingKit', :path => '../'
+end
+
+target 'ELNTextFieldFormattingKit_Tests', :exclusive => true do
+  pod 'ELNTextFieldFormattingKit', :path => '../'
+
+  
+end
