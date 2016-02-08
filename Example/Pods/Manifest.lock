@@ -1,0 +1,18 @@
+PODS:
+  - ELNTextFieldFormattingKit (0.1.0):
+    - ELNUtils
+  - ELNUtils (0.0.3)
+
+DEPENDENCIES:
+  - ELNTextFieldFormattingKit (from `../`)
+  - ELNUtils
+
+EXTERNAL SOURCES:
+  ELNTextFieldFormattingKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ELNTextFieldFormattingKit: 92becbe788349d3faa9ba86fa086d625e8944616
+  ELNUtils: 57353e57be4710970aa8384a8ab6b4bc8c72f0e9
+
+COCOAPODS: 0.39.0

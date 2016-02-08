@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -14,14 +14,79 @@
                         <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hY2-Yd-E4C">
+                                <rect key="frame" x="24" y="44" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Awx-Uz-Uhs" customClass="ELNCurrencyTextField">
+                                <rect key="frame" x="100" y="148" width="196" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7lh-RB-Kiv">
+                                <rect key="frame" x="100" y="94" width="196" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Card" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tpi-sb-ORb">
+                                <rect key="frame" x="24" y="98" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Money" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OvN-gw-LL4">
+                                <rect key="frame" x="24" y="152" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VcY-lO-Ml9">
+                                <rect key="frame" x="100" y="40" width="196" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Yd5-cp-str"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7lh-RB-Kiv" firstAttribute="top" secondItem="VcY-lO-Ml9" secondAttribute="bottom" constant="24" id="1bO-v9-4pQ"/>
+                            <constraint firstItem="hY2-Yd-E4C" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="24" id="2hn-zB-IZL"/>
+                            <constraint firstItem="Awx-Uz-Uhs" firstAttribute="leading" secondItem="7lh-RB-Kiv" secondAttribute="leading" id="4IL-WR-LSI"/>
+                            <constraint firstItem="Tpi-sb-ORb" firstAttribute="leading" secondItem="hY2-Yd-E4C" secondAttribute="leading" id="979-q4-uX1"/>
+                            <constraint firstItem="7lh-RB-Kiv" firstAttribute="leading" secondItem="VcY-lO-Ml9" secondAttribute="leading" id="Kck-yV-34B"/>
+                            <constraint firstItem="7lh-RB-Kiv" firstAttribute="height" secondItem="VcY-lO-Ml9" secondAttribute="height" id="NLC-Vf-MAS"/>
+                            <constraint firstItem="Tpi-sb-ORb" firstAttribute="centerY" secondItem="7lh-RB-Kiv" secondAttribute="centerY" id="OUc-4b-6nq"/>
+                            <constraint firstItem="OvN-gw-LL4" firstAttribute="centerY" secondItem="Awx-Uz-Uhs" secondAttribute="centerY" id="RAK-Dn-6Ou"/>
+                            <constraint firstItem="Awx-Uz-Uhs" firstAttribute="height" secondItem="7lh-RB-Kiv" secondAttribute="height" id="SPl-RA-lPU"/>
+                            <constraint firstItem="Tpi-sb-ORb" firstAttribute="trailing" secondItem="hY2-Yd-E4C" secondAttribute="trailing" id="Yet-GB-pbP"/>
+                            <constraint firstItem="Awx-Uz-Uhs" firstAttribute="top" secondItem="7lh-RB-Kiv" secondAttribute="bottom" constant="24" id="e1V-EB-jOM"/>
+                            <constraint firstItem="OvN-gw-LL4" firstAttribute="leading" secondItem="Tpi-sb-ORb" secondAttribute="leading" id="gqK-oN-eJp"/>
+                            <constraint firstItem="VcY-lO-Ml9" firstAttribute="leading" secondItem="hY2-Yd-E4C" secondAttribute="trailing" constant="24" id="jJ1-7J-1q1"/>
+                            <constraint firstAttribute="trailing" secondItem="VcY-lO-Ml9" secondAttribute="trailing" constant="24" id="kAA-iS-SK2"/>
+                            <constraint firstItem="hY2-Yd-E4C" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="24" id="mEc-tf-PAC"/>
+                            <constraint firstItem="Awx-Uz-Uhs" firstAttribute="trailing" secondItem="7lh-RB-Kiv" secondAttribute="trailing" id="pIX-ak-d6g"/>
+                            <constraint firstItem="hY2-Yd-E4C" firstAttribute="centerY" secondItem="VcY-lO-Ml9" secondAttribute="centerY" id="sH4-40-7dl"/>
+                            <constraint firstItem="7lh-RB-Kiv" firstAttribute="trailing" secondItem="VcY-lO-Ml9" secondAttribute="trailing" id="wX6-Rp-dKx"/>
+                            <constraint firstItem="OvN-gw-LL4" firstAttribute="trailing" secondItem="Tpi-sb-ORb" secondAttribute="trailing" id="zAH-mM-cfz"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="cardTextField" destination="7lh-RB-Kiv" id="xKQ-5f-MEa"/>
+                        <outlet property="moneyTextField" destination="Awx-Uz-Uhs" id="y9r-OX-w68"/>
+                        <outlet property="phoneTextField" destination="VcY-lO-Ml9" id="VKm-tz-FR6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="479" y="418"/>
         </scene>
     </scenes>
 </document>

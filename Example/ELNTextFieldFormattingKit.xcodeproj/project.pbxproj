@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C8839CC9EC99A089EF8DE7D /* Pods_ELNTextFieldFormattingKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DD31B02831AF0ECB471BB0 /* Pods_ELNTextFieldFormattingKit_Tests.framework */; };
+		146D4D9C1C68A0970042039B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146D4D9B1C68A0970042039B /* Launch Screen.storyboard */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,8 +21,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		7AE4407851D1084442C98583 /* Pods_ELNTextFieldFormattingKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57631022360DEEF4EA03DFE1 /* Pods_ELNTextFieldFormattingKit_Example.framework */; };
+		67CD9BF6F65B54BAFD4D6AD7 /* libPods-ELNTextFieldFormattingKit_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D0C83A36933ED27B0BD1BB /* libPods-ELNTextFieldFormattingKit_Example.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		E6EC5A027062C86C0FF6093E /* libPods-ELNTextFieldFormattingKit_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F959A5D44AAF0C3CFF6231D6 /* libPods-ELNTextFieldFormattingKit_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +38,9 @@
 
 /* Begin PBXFileReference section */
 		0156FD180238AE29130F2F84 /* ELNTextFieldFormattingKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ELNTextFieldFormattingKit.podspec; path = ../ELNTextFieldFormattingKit.podspec; sourceTree = "<group>"; };
-		02DD31B02831AF0ECB471BB0 /* Pods_ELNTextFieldFormattingKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ELNTextFieldFormattingKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		146D4D9B1C68A0970042039B /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		2A0706AFFC6EE1C7B9047ADF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2C7693A6C4B01BF1D77265FC /* Pods-ELNTextFieldFormattingKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELNTextFieldFormattingKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ELNTextFieldFormattingKit_Example/Pods-ELNTextFieldFormattingKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		57631022360DEEF4EA03DFE1 /* Pods_ELNTextFieldFormattingKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ELNTextFieldFormattingKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ELNTextFieldFormattingKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELNTextFieldFormattingKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,8 +63,10 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		992434A2331727CF2CA68530 /* Pods-ELNTextFieldFormattingKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELNTextFieldFormattingKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ELNTextFieldFormattingKit_Example/Pods-ELNTextFieldFormattingKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9ED93FD30A0EA96EE6E7D19B /* Pods-ELNTextFieldFormattingKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELNTextFieldFormattingKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ELNTextFieldFormattingKit_Tests/Pods-ELNTextFieldFormattingKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D0D0C83A36933ED27B0BD1BB /* libPods-ELNTextFieldFormattingKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELNTextFieldFormattingKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B53A60790ABA63E83F5640 /* Pods-ELNTextFieldFormattingKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELNTextFieldFormattingKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ELNTextFieldFormattingKit_Tests/Pods-ELNTextFieldFormattingKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D780941DE0EF89018AA3C231 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F959A5D44AAF0C3CFF6231D6 /* libPods-ELNTextFieldFormattingKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELNTextFieldFormattingKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				7AE4407851D1084442C98583 /* Pods_ELNTextFieldFormattingKit_Example.framework in Frameworks */,
+				67CD9BF6F65B54BAFD4D6AD7 /* libPods-ELNTextFieldFormattingKit_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				0C8839CC9EC99A089EF8DE7D /* Pods_ELNTextFieldFormattingKit_Tests.framework in Frameworks */,
+				E6EC5A027062C86C0FF6093E /* libPods-ELNTextFieldFormattingKit_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				57631022360DEEF4EA03DFE1 /* Pods_ELNTextFieldFormattingKit_Example.framework */,
-				02DD31B02831AF0ECB471BB0 /* Pods_ELNTextFieldFormattingKit_Tests.framework */,
+				D0D0C83A36933ED27B0BD1BB /* libPods-ELNTextFieldFormattingKit_Example.a */,
+				F959A5D44AAF0C3CFF6231D6 /* libPods-ELNTextFieldFormattingKit_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -143,10 +145,11 @@
 			children = (
 				6003F59C195388D20070C39A /* ELNAppDelegate.h */,
 				6003F59D195388D20070C39A /* ELNAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ELNViewController.h */,
 				6003F5A6195388D20070C39A /* ELNViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
+				146D4D9B1C68A0970042039B /* Launch Screen.storyboard */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for ELNTextFieldFormattingKit";
@@ -278,6 +281,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				146D4D9C1C68A0970042039B /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
