@@ -43,7 +43,7 @@
     
     // money
     
-    // nothing to setup - see ELNCurrencyTextField
+    self.moneyTextField.currencyCode = @"USD";
 }
 
 #pragma mark - UITextFieldDelegate

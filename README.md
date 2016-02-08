@@ -37,7 +37,6 @@
 
 @end
 
-
 ```
 
 #### Card
@@ -73,16 +72,28 @@
 
 @end
 
-
 ```
 
 #### Currency
 
-Just use ELNCurrencyTextField
-
 ```objectivec
 
-@property (weak, nonatomic) IBOutlet ELNCurrencyTextField *currencyTextField;
+@interface ELNViewController ()
+
+@property (weak, nonatomic) IBOutlet ELNCurrencyTextField *moneyTextField;
+
+@end
+
+@implementation ELNViewController
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+
+    self.moneyTextField.currencyCode = @"USD";
+}
+
+@end
 
 ```
 
