@@ -2,6 +2,92 @@
 
 ## Usage
 
+#### Phone
+
+```objectivec
+
+@interface ELNViewController () <UITextFieldDelegate>
+
+@property (weak, nonatomic) IBOutlet UITextField *phoneTextField;
+
+@property (strong, nonatomic) ELNTextFieldFormatter *phoneTextFieldFormatter;
+
+@end
+
+@implementation ELNViewController
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+
+    self.phoneTextField.delegate = self;
+    ELNPhoneNumberMask *mask = [ELNPhoneNumberMask new];
+    mask.prefix = @"+7";
+    self.phoneTextFieldFormatter = [[ELNTextFieldFormatter alloc] initWithTextField:self.phoneTextField mask:mask];
+}
+
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
+{
+    if (textField == self.phoneTextField) {
+        return [self.phoneTextFieldFormatter textField:textField shouldChangeCharactersInRange:range replacementString:string];
+    }
+
+    return YES;
+}
+
+@end
+
+
+```
+
+#### Card
+
+```objectivec
+
+@interface ELNViewController () <UITextFieldDelegate>
+
+@property (weak, nonatomic) IBOutlet UITextField *cardTextField;
+
+@property (strong, nonatomic) ELNTextFieldFormatter *cardTextFieldFormatter;
+
+@end
+
+@implementation ELNViewController
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+
+    self.cardTextField.delegate = self;
+    self.cardTextFieldFormatter = [[ELNTextFieldFormatter alloc] initWithTextField:self.cardTextField mask:[ELNCardNumberMask new]];
+}
+
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
+{
+    if (textField == self.cardTextField) {
+        return [self.cardTextFieldFormatter textField:textField shouldChangeCharactersInRange:range replacementString:string];
+    }
+
+    return YES;
+}
+
+@end
+
+
+```
+
+#### Currency
+
+Just use ELNCurrencyTextField
+
+```objectivec
+
+@property (weak, nonatomic) IBOutlet ELNCurrencyTextField *currencyTextField;
+
+```
+
+## Example
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## License
