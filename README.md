@@ -6,7 +6,7 @@
 
 ```objectivec
 
-@interface ELNViewController () <UITextFieldDelegate>
+@interface ViewController () <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *phoneTextField;
 
@@ -14,7 +14,7 @@
 
 @end
 
-@implementation ELNViewController
+@implementation ViewController
 
 - (void)viewDidLoad
 {
@@ -43,7 +43,7 @@
 
 ```objectivec
 
-@interface ELNViewController () <UITextFieldDelegate>
+@interface ViewController () <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *cardTextField;
 
@@ -51,7 +51,7 @@
 
 @end
 
-@implementation ELNViewController
+@implementation ViewController
 
 - (void)viewDidLoad
 {
@@ -78,13 +78,13 @@
 
 ```objectivec
 
-@interface ELNViewController ()
+@interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet ELNCurrencyTextField *moneyTextField;
 
 @end
 
-@implementation ELNViewController
+@implementation ViewController
 
 - (void)viewDidLoad
 {
