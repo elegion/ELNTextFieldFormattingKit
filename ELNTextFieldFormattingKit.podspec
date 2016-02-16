@@ -5,7 +5,9 @@ Pod::Spec.new do |s|
 
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.source           = { :git => "https://github.com/elegion/ios-pods-ELNTextFieldFormattingKit", :tag => "v#{s.version}" }
+  s.authors          = '.'
+  s.homepage         = '.'
+  s.source           = { :git => "https://github.com/elegion/ios-pods-ELNTextFieldFormattingKit.git", :tag => "v#{s.version}" }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
