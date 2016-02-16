@@ -1,5 +1,16 @@
 # ELNTextFieldFormattingKit
 
+### Installation
+
+#### Installation with CocoaPods
+
+```
+source 'https://github.com/elegion/ios-podspecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+pod 'ELNTextFieldFormattingKit'
+```
+
 ## Usage
 
 #### Phone
