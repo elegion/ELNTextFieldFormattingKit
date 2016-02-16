@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = "ELNTextFieldFormattingKit"
-  s.version          = "0.1.0"
+  s.version          = "0.0.0"
   s.summary          = "Collection of text field formatters for phone number, card and currency inputs"
 
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.source           = { :git => "https://github.com/elegion/ios-pods-ELNTextFieldFormattingKit", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/elegion/ios-pods-ELNTextFieldFormattingKit", :tag => "v#{s.version}" }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
