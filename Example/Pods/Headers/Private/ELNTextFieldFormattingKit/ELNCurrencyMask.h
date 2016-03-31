@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/ELNCurrencyMask.h
+../../../../../Pod/ELNCurrencyMask.h

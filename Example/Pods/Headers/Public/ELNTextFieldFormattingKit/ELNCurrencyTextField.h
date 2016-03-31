@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/ELNCurrencyTextField.h
+../../../../../Pod/ELNCurrencyTextField.h

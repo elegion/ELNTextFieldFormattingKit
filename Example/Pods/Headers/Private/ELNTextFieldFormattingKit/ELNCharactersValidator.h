@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/ELNCharactersValidator.h
+../../../../../Pod/ELNCharactersValidator.h

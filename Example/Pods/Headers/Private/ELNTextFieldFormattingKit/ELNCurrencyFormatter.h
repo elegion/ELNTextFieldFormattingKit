@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/ELNCurrencyFormatter.h
+../../../../../Pod/ELNCurrencyFormatter.h

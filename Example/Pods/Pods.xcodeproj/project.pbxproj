@@ -7,229 +7,230 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0238345617E743C2DAE74FD1AB41D082 /* ELNTextMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E451ACC7023D8AFA282901BE7B7B287 /* ELNTextMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04EAC1A4F76BAD4F1178E0128CA0AF1A /* ELNCurrencyFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6BD3C9B2DE8C2A7DF7A27EFB217FC6 /* ELNCurrencyFormatter.m */; };
-		07B105F1DD44C6EFAA820B8BFE36DEF7 /* NSNumber+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7383706CBE8C21E97A0555C5479F7 /* NSNumber+ELNUtils.m */; };
-		0AC303737E914E3A01A552A0E0A47D94 /* ELNCommonUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C2D67C06CE5ABA3189F0184B338D03 /* ELNCommonUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B001DD2763F039709841CBBD8869EAF /* NSFileManager+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 808591BEC21BB141680545885259F845 /* NSFileManager+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B2E044EF1030730184BAF7AF30AB78E /* ELNCharactersValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 69AF137AAA7B8BF88F696DA8A6DF575F /* ELNCharactersValidator.m */; };
-		1284BD7F0B3C4CC1FE7E2CAF667D5B97 /* UICollectionView+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 645BC30A40A70F0E340898115A52530A /* UICollectionView+ELNUtils.m */; };
-		17A089584636487786AB903171CD444B /* NSString+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9339ADF3B25A384C5427DCBAD1A5A4BD /* NSString+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18B19EB3F49C9535E0198A2ACC46538B /* UITableView+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C00E91E8A5A5D66B21992CDDA00C833 /* UITableView+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B1EAE33DBD4403B3ACB580F29C3161A /* UIView+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C3DB4EF1FDBB30A1DCCCD15E949D28C /* UIView+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0108E10E9A4FDACA36E139D856A30D83 /* UITableViewCell+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2766796B65E583B0A5B0461501DCAB82 /* UITableViewCell+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BECC43394F335163EB70D8953614592 /* ELNCharactersValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA5A885785AAD5C5F8FE672BE4B50B4 /* ELNCharactersValidator.m */; };
+		0CC06B83465A93C550C046189F7FD97C /* UIView+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CF4018F7DDBA236899CDA6C5E8040F4 /* UIView+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1156BBBE3696B4DD597110AE476C8AC6 /* ELNCharactersValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 908E8FCEEE285A6E8C57B7DC4F3D01A4 /* ELNCharactersValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		147125C9A5BBA157AF54B1DF40CE5B6B /* ELNPhoneNumberMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D379E112E922A4CFE3039B118BE8EE3 /* ELNPhoneNumberMask.m */; };
+		1561DE57CC4F62BFCD65936E42347891 /* ELNMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A5FD01971DDAD6DD3B786CDF9FA337 /* ELNMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1CAA995AA8087EA967EA5B50EEC5229B /* Pods-ELNTextFieldFormattingKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A11EA7C67670A9327993A12D2B09C /* Pods-ELNTextFieldFormattingKit_Tests-dummy.m */; };
+		1D3A077F3943E3C1C595557BFAFB897B /* UIResponder+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 80234C50D3AE4F196D0FB1F73B86F5BF /* UIResponder+ELNUtils.m */; };
 		1EF4C3FA828B13111968D83E1AA889A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		20B4B319F40187A78C54A84E1447F8A4 /* UILabel+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B0F4AF83B2B6DEB56F55EB02460981 /* UILabel+ELNUtils.m */; };
-		295515541CC90D03AEC448985E0DA458 /* UIColor+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F126C88253158F879BE1FA73A71642 /* UIColor+ELNUtils.m */; };
-		29A3ED97022CF6946E2A6AE676FF3B20 /* ELNCurrencyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B2094057A227690E1853A0D9B98379 /* ELNCurrencyTextField.m */; };
-		2ACDE05B10B77474044F93EBE296E7FD /* ELNValidatorType.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A92E15D480859D5352586D958B75AA6 /* ELNValidatorType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48B95CCA2E0A3ED8F97DF31489A0BFE4 /* NSSortDescriptor+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A66CD78B42EAE629980DEFCD7B513146 /* NSSortDescriptor+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B0D36E41972FAFB8E931DF0CDE117DA /* ELNCurrencyMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 289892F5F66DBF6CA67853961F51D693 /* ELNCurrencyMask.m */; };
-		52F61033AD3EAD3C9BED8D393D88645E /* NSLocale+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = ADAF1ED170907442CBF9267F2CD230C7 /* NSLocale+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53EC7FDB16F37516B49915B3781F9AA2 /* ELNUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 976190CC2C6E141A536591FFE2EF5877 /* ELNUtils-dummy.m */; };
-		5679F4287CC6F47FEF24FD58B4191507 /* UIWindow+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 25ABF81EA8E81E2C7CB1BAB209421AF2 /* UIWindow+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FB8B5EDFCB96066F3663AD05E4E751D /* ELNLayoutUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 10617DFC589CE8A9BDA29AE5BD0DBAA1 /* ELNLayoutUtils.m */; };
+		200DC3136EEEA606F1208D174E359116 /* ELNAmountValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B75B67834F409F6CC838143648C2360F /* ELNAmountValidator.m */; };
+		20299A51DC299A4EC61EA825A5EA1E97 /* UICollectionView+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD41146E0BE277677ABC1CF9D476555 /* UICollectionView+ELNUtils.m */; };
+		244ED14377FB95FDDC37245392258A59 /* ELNTextFieldFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 856A1B40B6359E429D849BDB67338AA6 /* ELNTextFieldFormatter.m */; };
+		24E80C846DA33C46356E629678A27B0F /* ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D24D352E4A4C8024E77DEBF45DDB6AF /* ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		264DE22B7864D8DF632DAC1F50E58DEA /* NSError+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4520DA79B2C36161645F6E738CF7A63A /* NSError+ELNUtils.m */; };
+		2880ECA959A2C755A396E88ABE1651C1 /* UIWindow+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D3001F749F2AAE1D025017432D9DA4 /* UIWindow+ELNUtils.m */; };
+		29056994922FE443B2D29A734A9974EF /* NSArray+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1B80936C7BF1894EF222CAA59CF43 /* NSArray+ELNUtils.m */; };
+		2D6D853B0D3AC3880AD40BE3D5DC031D /* NSBundle+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D84E52CB5D9DC2C8DA1EE3C3529B29 /* NSBundle+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D81A8CB68BAADEE3A50038135855B52 /* UIColor+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4058331691ECF2F38224A531DB6EB85C /* UIColor+ELNUtils.m */; };
+		30B7DC664AB0EE74E7E28A7A335F05DB /* UIViewController+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = FF6D3CD6409FDD6B862E10195D97E40E /* UIViewController+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348D1BD38A9630BFB86C61615D8C4B8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		3C3C8A7A16453898191B4A048608025A /* ELNCurrencyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C4DAA013E35B7944BCAA6510604327 /* ELNCurrencyTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42076D891ADACD26CE67F4FD0F7EF3E3 /* NSString+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EEAC8B6D3496138E8AB5D5F743E2415A /* NSString+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4304F1A2D508516D94F1F0CDFBF673AA /* ELNUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 899344C7681424797F2FFEB6E3245D52 /* ELNUtils-dummy.m */; };
+		441087368ECEFE1306F5B99D8FF4B72E /* NSArray+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 65087D9A3239911060A6157A790A585F /* NSArray+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44A760F8157C52DAAAF27D1261C323D2 /* UIFont+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 60900D092100AE3C813AC877126505DD /* UIFont+ELNUtils.m */; };
+		44CEDE73C78C886375C86CB49D25112E /* ELNLayoutUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C9C5292BC01C2B0A3F832DCF2AF229 /* ELNLayoutUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49FBA7F42E758C905E847EC62967C3DD /* ELNTextFieldFormattingKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0E520272231CA43C2E44DF723EC098 /* ELNTextFieldFormattingKit-dummy.m */; };
+		4CD471427F7F40AB432F2A66AC0609DB /* ELNCardNumberMask.h in Headers */ = {isa = PBXBuildFile; fileRef = FB899A79B4BD45981B4DB2F142ECB993 /* ELNCardNumberMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51635306F35264C6F9145A259484C2FA /* ELNCurrencyMask.h in Headers */ = {isa = PBXBuildFile; fileRef = EF1CB6B2A406FC1FB0FDE2E24D9CDE76 /* ELNCurrencyMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		553481BE955B5E279FB9A5D21C4C76B6 /* NSNumber+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D313EB2F24A4792928DED67EE5CDF59 /* NSNumber+ELNUtils.m */; };
 		5773C817DA1F0CD44BBED5C653BB09FA /* Pods-ELNTextFieldFormattingKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F37346647C8F6EDC07F21A5553A001A /* Pods-ELNTextFieldFormattingKit_Example-dummy.m */; };
-		5921C24E1B8D349747FC086EBFF1A53F /* ELNTextFieldFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = C83E0052CD40229D3CE313CE857231F9 /* ELNTextFieldFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59A24B7B60F9221001E5B6F7CE5A3CC2 /* NSArray+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 480061199F5F9A497E5AC02EBF5F3C84 /* NSArray+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C582DA012C0FF0F4B3B04FB53F4B352 /* NSData+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D61B05B5B8E0714B3C4FA9D93B53D09 /* NSData+ELNUtils.m */; };
-		5C8725F6E35D719681CB760A2FDAF5B1 /* NSError+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B871151F4ED440B4AB73D4CA44863A /* NSError+ELNUtils.m */; };
-		5CE4F907E27AC4040D95EF2F6D81A7B3 /* UIWindow+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 95579786217BC94F29DE535D91076787 /* UIWindow+ELNUtils.m */; };
-		5EC4AACFFB0D058F20F3CAE5BC534F4A /* ELNPhoneNumberMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 624B86C632ECDC1171FDD6EF883B68E7 /* ELNPhoneNumberMask.m */; };
-		6292E7BB2E9FE88D798C380215490DC6 /* UIColor+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2F92AB9FF07BFA8447D6A6A4C32432 /* UIColor+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63742DDDC077D1C5EA91B4CBEBC60A02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		678FA6460149C5D82EEC71CC1D2708F5 /* UIImage+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 40117DE42709CDB4296510661A12933D /* UIImage+ELNUtils.m */; };
-		6C2FC890778BA3A1936E3229598E8D67 /* NSLocale+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 38182000904FE31410DF95740F150B86 /* NSLocale+ELNUtils.m */; };
-		753B6CFD5E7D1B5337B781A4B6CC5296 /* ELNCurrencyMask.h in Headers */ = {isa = PBXBuildFile; fileRef = E6C6F7EA7013D9A554C7BEF044520E04 /* ELNCurrencyMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7BCBCE3F5028BCE45E7B8DC1EBF80848 /* ELNLayoutUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 29295D9EE4FE3CFC7AEEA2A0AE10FF1D /* ELNLayoutUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		815D56BB6C8DDAE6709954294910AF17 /* NSNumber+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D3BFB2BCFB2D6D626C2AABB9E9DDB28 /* NSNumber+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D2FEEA26B94533501834D9C7F018BFD /* NSData+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D934E691628DA423224F735FF6C5BC8A /* NSData+ELNUtils.m */; };
+		5ED35A72542F4EB4FB6610CDFC49C88A /* ELNCurrencyMask.m in Sources */ = {isa = PBXBuildFile; fileRef = A28685A32D3FF1DCB36B580DD8419AC6 /* ELNCurrencyMask.m */; };
+		6007061CD6679E5D1C01E460DCE32241 /* NSError+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B704A1D914FE2D74F28CBD7ABE9F745 /* NSError+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		605AC5BEC33D90907944A5C34B9DE9D7 /* NSString+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA433F76F0DB28D328BB894A645D1CE /* NSString+ELNUtils.m */; };
+		635DED8948C43E8127DDABD4626E8951 /* NSURLRequest+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1907BA4AD60D6B1778ADA1FEE0E69777 /* NSURLRequest+ELNUtils.m */; };
+		63D772C912C4A6B67768DAAEC1BD9BCC /* UILabel+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BA2A2CFD5921C67BEB260E5543C5446 /* UILabel+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6500CE154B72596DA77E2302E4C6B460 /* UIColor+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F86651030F3D5C43E5CA430D78524288 /* UIColor+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66F1EC33741E75A022220C49D1F625A7 /* NSLocale+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A89E509658485425CE61BDADDE07F4 /* NSLocale+ELNUtils.m */; };
+		712113B42BAECED178E853DDD873DB60 /* ELNAmountValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = A65E10E27D915B7A422FA816084F034B /* ELNAmountValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71CEF7D259A7F4F979680FD13A81F5D2 /* ELNValidatorType.h in Headers */ = {isa = PBXBuildFile; fileRef = 6009D946733954F2D0F4B896F4DD3830 /* ELNValidatorType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		740D9982A3A721E11A6E6327B5685B71 /* NSBundle+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C12D0E3EE66AB5241980C6745761F26C /* NSBundle+ELNUtils.m */; };
+		79A5F875202152F1A08F441132D253AF /* NSFileManager+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E173E31341866C63404A54C567044FA3 /* NSFileManager+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D09ED12AD45C06BAC3107C6BD2C0A11 /* UITableView+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D364B0C79EBAF40AC71D4D0C79B394 /* UITableView+ELNUtils.m */; };
+		7D5A6A213D7274DCDA809AEFEDD8B2D3 /* ELNCardNumberMask.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9B5C2B2AD507C6F81332A6659B12D7 /* ELNCardNumberMask.m */; };
+		7FBF9FA96097981081441ED9B3D2F177 /* NSFileManager+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4157696B45035BC47ED64E434E53B143 /* NSFileManager+ELNUtils.m */; };
+		7FEB8A5CA8D6BEC3D549AE723EB1CBE2 /* UITableView+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A6DA2452CB7793FCC997F117DA07F794 /* UITableView+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		824EFB42BC82286772103D0DD7D3BE9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		872C79F29D6821C9F56DB8D77C6F5007 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		8D49032948B365C733DD37697DC78133 /* UIFont+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 752C68017A97C00D4D04BB6A67742973 /* UIFont+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DED932CD113D2FE6B3AD87657C9B198 /* NSString+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E5436404CB76839651BF7C8B5518728E /* NSString+ELNUtils.m */; };
-		902FB9755072C736562FC871A6CE19D1 /* NSFileManager+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EED741289D5E1E751EBF708A68C30A /* NSFileManager+ELNUtils.m */; };
-		9063F33EC207C548876EEC3E8F02EF80 /* UIResponder+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B5E531ADC458C274B95D5664807A76B /* UIResponder+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		967C6E309CBB52D2A6E8BED5D5AC2B54 /* ELNTextFieldFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE1BB769E5EF9674D793300A1F79D5 /* ELNTextFieldFormatter.m */; };
-		96E3AA166C228F9417C552F7E1C6B020 /* UIViewController+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D608E4F7CBFD3EB2F89DC9DD8680A62 /* UIViewController+ELNUtils.m */; };
-		9A2A658610C8E93C5EDD62C4E85BA117 /* UIView+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A563816A3302C7E785E08676CEA5065 /* UIView+ELNUtils.m */; };
-		9A90762CC51741CEC3CBDCA5BB55381C /* UITableView+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4766ADD2679B00794ED16700DEA6F711 /* UITableView+ELNUtils.m */; };
-		A2453F23DA769EF70EDC8A268F80CE25 /* NSURLRequest+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A89F9F9A19D0C2AE6A223FA2E158374 /* NSURLRequest+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6FCC7C829B00FB4E0B21F19EB8BF7E3 /* NSURLRequest+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CEA73F78C1991EF8996B53139FC58D /* NSURLRequest+ELNUtils.m */; };
-		AB8A5F8BA3C42230FE1CE8C4CB801427 /* UICollectionView+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D38253036A9FD50BDA8F9741CAC7AE /* UICollectionView+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ACD422CC9D7B2238596EA7CDB85FD476 /* UIImage+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 72B0F649658C551D1E82E8DEDBF5438A /* UIImage+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF8183DD35D99149634CF360F0A57B6A /* UIViewController+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D612C29B160E85B0C7E57759FB194910 /* UIViewController+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B477FE66ADD19D96F005DF98C10A4064 /* UITableViewCell+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E45E23970CAC0C80B19A0496B6B5A9 /* UITableViewCell+ELNUtils.m */; };
-		BA5EA3D40547E0DB26141262E7614BA6 /* UIResponder+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CD13854B0D3FE8E5CFB7CD67A2E626 /* UIResponder+ELNUtils.m */; };
-		BDE273F4E2A961DE5C46E03ABE1AEC00 /* ELNCardNumberMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 927443B07A88483BB252A9366C45592F /* ELNCardNumberMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFBBEE716FA33EF9D4D857B2194331A6 /* ELNCurrencyFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 031A47AB54E0B2B58B305FFE3E1BBD76 /* ELNCurrencyFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2CE975B2F39D7ECF27F3248FB8754C2 /* ELNAmountValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 47510975D7A8DD945DC1BD0FD66B469E /* ELNAmountValidator.m */; };
-		CDE4EB8B1A27D0182E091A5B8A8CE90E /* NSError+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA66BF5559DEF54D39B468F402571BD /* NSError+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D62597126F675D39FFC568B248B09888 /* NSArray+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A05E2798F8D95AF63CBF97D0788E0A38 /* NSArray+ELNUtils.m */; };
-		DEB44084E043B4828A46FD881ED28F8A /* NSData+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E0971123CA509732F0438C613C9CF1 /* NSData+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0E6FDC2EEFCCFA32909DD913711F791 /* UILabel+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B679DD6162A19C818958CEAA41DC50F /* UILabel+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2BEC116129C5AEA231E679DACA23C35 /* UITableViewCell+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E16DB4B8637577822082EC202B3C139A /* UITableViewCell+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E40141DC3D726474AC60058AE8C3DF3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
-		E869375CB3DBD2FC6098140A20CFCF1F /* UIFont+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3640C0DA885FACDE4E0A3F7ADCE87251 /* UIFont+ELNUtils.m */; };
-		ED45137C8DCE57CBEF865B681222756C /* NSSortDescriptor+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE9995E5620B5DD4DBA314F58E8511B /* NSSortDescriptor+ELNUtils.m */; };
-		EE668215C6369800D80EEFF66CFCB86D /* ELNAmountValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 333A9E02968E7E68DDA5912FF5BCD23E /* ELNAmountValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6042415F800A30739815BC3D0477969 /* ELNCharactersValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF3C6D44906A5D9EA95BE8077E951F2 /* ELNCharactersValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F612BC9B88105171BA09346716FCC57D /* ELNCurrencyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 640FB68A22B2CB9F418238BBDEEDC499 /* ELNCurrencyTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBDF03A57744F8EF89BDFF871437FCAA /* ELNTextFieldFormattingKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB05D8EFAB5E4195CCED65BD16122FF /* ELNTextFieldFormattingKit-dummy.m */; };
-		FCDD147ED0A3F786CBFBB747BA0FFDB3 /* ELNLayoutUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333F8FBF70A29FB71D6AA5DDD9E3E11 /* ELNLayoutUtils.m */; };
-		FD00F1285C9C14A57FE32A18ACBA8827 /* ELNCardNumberMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F324EDE115D5961719AF8773D0B00D /* ELNCardNumberMask.m */; };
-		FD73A9D8FCF94155263784ED6FFDB2F6 /* ELNPhoneNumberMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 44F89285DE389393D620060857F48EE8 /* ELNPhoneNumberMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		854AB22EF7B5FF2641BD4761C3413109 /* NSLocale+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA128974407457ACCA8977512DCEBF6 /* NSLocale+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		864EEBF809F8AFE03D37DDC1E0FFAE2F /* ELNCurrencyFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6B8DCFC2106299F4748CA41D0C974F /* ELNCurrencyFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B9F61D5D0A79D18C2FC73FB43E57ED2 /* UILabel+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F16249B9A66C23C3ED3080C77EC3C592 /* UILabel+ELNUtils.m */; };
+		8F2D6E8098C9B9BD8EA4ECC97AEE8D3D /* NSSortDescriptor+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CC6092F94B3FC822CDE7AB61E26CDA9 /* NSSortDescriptor+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99F9DE8ED0E2BF61A09E15565F70BBA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		9AECF6D7520393A3109831DF7C8FA6BF /* ELNRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 1120BF0A8086921AE7135FA6B30DE44E /* ELNRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F28DFA565C6B7254A16BD961ED729E4 /* UIFont+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CDFD36A98F28DFE17363EA5475A2D15 /* UIFont+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA46D439EF603A2B362B415685F7384C /* ELNCurrencyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E76969BE16B57BFB85789A8CB4E739B8 /* ELNCurrencyTextField.m */; };
+		AC398A54FCD42A138325EE064B55EC52 /* NSSortDescriptor+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A33EF6E4763B48EE875AFF282BE49987 /* NSSortDescriptor+ELNUtils.m */; };
+		ADF8656D312947886712A7B4628F2C57 /* UIImage+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A67B4EAFD31537A40371B7F712ADC /* UIImage+ELNUtils.m */; };
+		B03A51F601966F3810EDBD6D865BC8F7 /* NSNumber+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 17ECA5ACF89ED35791CE4362C592ECCC /* NSNumber+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B05F32D2B75B16114888F40AD13B1943 /* ELNCurrencyFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0EF7FC836F9087A15D80F3907EB9B3 /* ELNCurrencyFormatter.m */; };
+		B70D59EFCE6E25B66B2C1241B5A3F4E8 /* ELNTextFieldFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = F6CD255816B19A622D2C96041C7D64EB /* ELNTextFieldFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB8BEFBB4F28FC619A09E3B1EAF908CE /* UIResponder+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BC65E4E8A3BB74158C785FB59A1262BE /* UIResponder+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE7B9A5DA3AEE051CFC79628F0B87011 /* ELNTextMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 71F6568A565DC14E293D87B00830BB14 /* ELNTextMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE80840F3EFEA734043F85B99487E002 /* NSURLRequest+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D7694FD31B49AA2A42CCFE2CD0B1A351 /* NSURLRequest+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF81D78A1957449A92D90E5A5232D019 /* NSData+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC37B4A55E33D9F607FC291E4563A84 /* NSData+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0DC4833D0E6552BDA7F0C710DF25D57 /* UIWindow+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 767567A4CB12E663B8A0F1ED94B0A83B /* UIWindow+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3E1DF7612171C3139A97AC1BB49E508 /* UICollectionView+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6358B8CEC31CCE0820FF06E49B20F992 /* UICollectionView+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D514399920F96A94E5F1D0860860F8DD /* ELNPhoneNumberMask.h in Headers */ = {isa = PBXBuildFile; fileRef = B23E21D5DF2B9031C0CC992DB0C1D6A5 /* ELNPhoneNumberMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9E0D6D0F272C353BD5E38DB82107DE7 /* UIView+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4446A69B5CA7A630946A6CE54D87ED88 /* UIView+ELNUtils.m */; };
+		EB8CC8DEEA26635BEF763FD841FE4DD3 /* UIImage+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B9FC076DCDD3A90CE098CD3B5B2EB336 /* UIImage+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF942434A66DF6A8B2F3C80B8B6776F4 /* UIViewController+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A404B8B3FBA26E6232716FB823B93F21 /* UIViewController+ELNUtils.m */; };
+		F0B6AFD0E69213E47616EDA7A237C9F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		F84E11C4D4D3E151891CD84A923BB9FD /* UITableViewCell+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EA702A92BCCC6D2C65F07834910D23 /* UITableViewCell+ELNUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0C06B5D1B10A4A765C0220C00AE3582E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBA08A8CA1ADEB5A9E6B92CF57413E3E;
+			remoteInfo = ELNUtils;
+		};
 		30F981DD72F7E3C014074B11E3A4B499 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4EA828F41AEF5A88AEA9EB5987AB56B0;
+			remoteGlobalIDString = DBA08A8CA1ADEB5A9E6B92CF57413E3E;
 			remoteInfo = ELNUtils;
 		};
 		40448430570FD4FBC66B64D38A71DC92 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7CBE9D0AD3728A172C2D459692F1489A;
+			remoteGlobalIDString = 241DD2CBD7C279450E9E1E268AFC3B44;
 			remoteInfo = ELNTextFieldFormattingKit;
-		};
-		7D27242C14C17FF31AAF65C1818C7434 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E2579DD8D444C11183B0BC03865498BF;
-			remoteInfo = "ELNTextFieldFormattingKit-ELNTextFieldFormattingKit";
-		};
-		819745B01F4165377C5D6B1C1010ECCA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4EA828F41AEF5A88AEA9EB5987AB56B0;
-			remoteInfo = ELNUtils;
 		};
 		E1457F51B237323D88913F4D1156C177 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7CBE9D0AD3728A172C2D459692F1489A;
+			remoteGlobalIDString = 241DD2CBD7C279450E9E1E268AFC3B44;
 			remoteInfo = ELNTextFieldFormattingKit;
 		};
 		F144CC8B930CF906866710FBEA073C86 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4EA828F41AEF5A88AEA9EB5987AB56B0;
+			remoteGlobalIDString = DBA08A8CA1ADEB5A9E6B92CF57413E3E;
 			remoteInfo = ELNUtils;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		031A47AB54E0B2B58B305FFE3E1BBD76 /* ELNCurrencyFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNCurrencyFormatter.h; sourceTree = "<group>"; };
-		04E45E23970CAC0C80B19A0496B6B5A9 /* UITableViewCell+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+ELNUtils.m"; path = "lib/UITableViewCell+ELNUtils.m"; sourceTree = "<group>"; };
-		04FC4A031FB50923C37584C6F9751F69 /* libPods-ELNTextFieldFormattingKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELNTextFieldFormattingKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BE9995E5620B5DD4DBA314F58E8511B /* NSSortDescriptor+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSortDescriptor+ELNUtils.m"; path = "lib/NSSortDescriptor+ELNUtils.m"; sourceTree = "<group>"; };
-		0C3DB4EF1FDBB30A1DCCCD15E949D28C /* UIView+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ELNUtils.h"; path = "lib/UIView+ELNUtils.h"; sourceTree = "<group>"; };
+		0BD108F4E9A35403C7915E74D1D18A7C /* ELNUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ELNUtils.xcconfig; sourceTree = "<group>"; };
+		0F0E520272231CA43C2E44DF723EC098 /* ELNTextFieldFormattingKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ELNTextFieldFormattingKit-dummy.m"; sourceTree = "<group>"; };
+		10617DFC589CE8A9BDA29AE5BD0DBAA1 /* ELNLayoutUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ELNLayoutUtils.m; path = Source/ELNLayoutUtils.m; sourceTree = "<group>"; };
+		1120BF0A8086921AE7135FA6B30DE44E /* ELNRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELNRuntime.h; path = Source/ELNRuntime.h; sourceTree = "<group>"; };
 		1580297F739CDA86A109A77CEB81A454 /* Pods-ELNTextFieldFormattingKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ELNTextFieldFormattingKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		18CEA73F78C1991EF8996B53139FC58D /* NSURLRequest+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+ELNUtils.m"; path = "lib/NSURLRequest+ELNUtils.m"; sourceTree = "<group>"; };
-		1F78F2A96F96A00ADAD133CF8FC26227 /* ELNUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ELNUtils.xcconfig; sourceTree = "<group>"; };
-		25ABF81EA8E81E2C7CB1BAB209421AF2 /* UIWindow+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+ELNUtils.h"; path = "lib/UIWindow+ELNUtils.h"; sourceTree = "<group>"; };
-		289892F5F66DBF6CA67853961F51D693 /* ELNCurrencyMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNCurrencyMask.m; sourceTree = "<group>"; };
-		29295D9EE4FE3CFC7AEEA2A0AE10FF1D /* ELNLayoutUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELNLayoutUtils.h; path = lib/ELNLayoutUtils.h; sourceTree = "<group>"; };
-		2A92E15D480859D5352586D958B75AA6 /* ELNValidatorType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNValidatorType.h; sourceTree = "<group>"; };
-		2B679DD6162A19C818958CEAA41DC50F /* UILabel+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+ELNUtils.h"; path = "lib/UILabel+ELNUtils.h"; sourceTree = "<group>"; };
-		2E451ACC7023D8AFA282901BE7B7B287 /* ELNTextMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNTextMask.h; sourceTree = "<group>"; };
+		17ECA5ACF89ED35791CE4362C592ECCC /* NSNumber+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+ELNUtils.h"; path = "Source/NSNumber+ELNUtils.h"; sourceTree = "<group>"; };
+		18F1B80936C7BF1894EF222CAA59CF43 /* NSArray+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+ELNUtils.m"; path = "Source/NSArray+ELNUtils.m"; sourceTree = "<group>"; };
+		1907BA4AD60D6B1778ADA1FEE0E69777 /* NSURLRequest+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+ELNUtils.m"; path = "Source/NSURLRequest+ELNUtils.m"; sourceTree = "<group>"; };
+		1F40189FE49C1C1C4DDBB135B4B2C22B /* libELNTextFieldFormattingKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libELNTextFieldFormattingKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2766796B65E583B0A5B0461501DCAB82 /* UITableViewCell+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+ELNUtils.h"; path = "Source/UITableViewCell+ELNUtils.h"; sourceTree = "<group>"; };
+		29C9C5292BC01C2B0A3F832DCF2AF229 /* ELNLayoutUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELNLayoutUtils.h; path = Source/ELNLayoutUtils.h; sourceTree = "<group>"; };
+		2B6B8DCFC2106299F4748CA41D0C974F /* ELNCurrencyFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNCurrencyFormatter.h; sourceTree = "<group>"; };
+		2CF4018F7DDBA236899CDA6C5E8040F4 /* UIView+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ELNUtils.h"; path = "Source/UIView+ELNUtils.h"; sourceTree = "<group>"; };
+		2FD41146E0BE277677ABC1CF9D476555 /* UICollectionView+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+ELNUtils.m"; path = "Source/UICollectionView+ELNUtils.m"; sourceTree = "<group>"; };
+		30A89E509658485425CE61BDADDE07F4 /* NSLocale+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLocale+ELNUtils.m"; path = "Source/NSLocale+ELNUtils.m"; sourceTree = "<group>"; };
 		32F825CAC4E426F0445D28491A194F40 /* Pods-ELNTextFieldFormattingKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ELNTextFieldFormattingKit_Example-resources.sh"; sourceTree = "<group>"; };
-		333A9E02968E7E68DDA5912FF5BCD23E /* ELNAmountValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNAmountValidator.h; sourceTree = "<group>"; };
-		3640C0DA885FACDE4E0A3F7ADCE87251 /* UIFont+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+ELNUtils.m"; path = "lib/UIFont+ELNUtils.m"; sourceTree = "<group>"; };
-		38182000904FE31410DF95740F150B86 /* NSLocale+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLocale+ELNUtils.m"; path = "lib/NSLocale+ELNUtils.m"; sourceTree = "<group>"; };
-		39CD13854B0D3FE8E5CFB7CD67A2E626 /* UIResponder+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+ELNUtils.m"; path = "lib/UIResponder+ELNUtils.m"; sourceTree = "<group>"; };
-		3A6BD3C9B2DE8C2A7DF7A27EFB217FC6 /* ELNCurrencyFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNCurrencyFormatter.m; sourceTree = "<group>"; };
-		3B5E531ADC458C274B95D5664807A76B /* UIResponder+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+ELNUtils.h"; path = "lib/UIResponder+ELNUtils.h"; sourceTree = "<group>"; };
-		3D608E4F7CBFD3EB2F89DC9DD8680A62 /* UIViewController+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ELNUtils.m"; path = "lib/UIViewController+ELNUtils.m"; sourceTree = "<group>"; };
-		3D61B05B5B8E0714B3C4FA9D93B53D09 /* NSData+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ELNUtils.m"; path = "lib/NSData+ELNUtils.m"; sourceTree = "<group>"; };
-		40117DE42709CDB4296510661A12933D /* UIImage+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ELNUtils.m"; path = "lib/UIImage+ELNUtils.m"; sourceTree = "<group>"; };
-		40F324EDE115D5961719AF8773D0B00D /* ELNCardNumberMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNCardNumberMask.m; sourceTree = "<group>"; };
-		44F89285DE389393D620060857F48EE8 /* ELNPhoneNumberMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNPhoneNumberMask.h; sourceTree = "<group>"; };
-		47510975D7A8DD945DC1BD0FD66B469E /* ELNAmountValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNAmountValidator.m; sourceTree = "<group>"; };
-		4766ADD2679B00794ED16700DEA6F711 /* UITableView+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+ELNUtils.m"; path = "lib/UITableView+ELNUtils.m"; sourceTree = "<group>"; };
-		480061199F5F9A497E5AC02EBF5F3C84 /* NSArray+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+ELNUtils.h"; path = "lib/NSArray+ELNUtils.h"; sourceTree = "<group>"; };
+		4058331691ECF2F38224A531DB6EB85C /* UIColor+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ELNUtils.m"; path = "Source/UIColor+ELNUtils.m"; sourceTree = "<group>"; };
+		4157696B45035BC47ED64E434E53B143 /* NSFileManager+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+ELNUtils.m"; path = "Source/NSFileManager+ELNUtils.m"; sourceTree = "<group>"; };
+		4446A69B5CA7A630946A6CE54D87ED88 /* UIView+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ELNUtils.m"; path = "Source/UIView+ELNUtils.m"; sourceTree = "<group>"; };
+		4520DA79B2C36161645F6E738CF7A63A /* NSError+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+ELNUtils.m"; path = "Source/NSError+ELNUtils.m"; sourceTree = "<group>"; };
 		4B84839A0DB1E5D77CAADF06902B5617 /* Pods-ELNTextFieldFormattingKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ELNTextFieldFormattingKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4C00E91E8A5A5D66B21992CDDA00C833 /* UITableView+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+ELNUtils.h"; path = "lib/UITableView+ELNUtils.h"; sourceTree = "<group>"; };
+		4BA2A2CFD5921C67BEB260E5543C5446 /* UILabel+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+ELNUtils.h"; path = "Source/UILabel+ELNUtils.h"; sourceTree = "<group>"; };
+		4D24D352E4A4C8024E77DEBF45DDB6AF /* ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELNUtils.h; path = Source/ELNUtils.h; sourceTree = "<group>"; };
+		4D313EB2F24A4792928DED67EE5CDF59 /* NSNumber+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+ELNUtils.m"; path = "Source/NSNumber+ELNUtils.m"; sourceTree = "<group>"; };
 		51446C22581CB858A63D0C4EAB6607C7 /* Pods-ELNTextFieldFormattingKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ELNTextFieldFormattingKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		578201E8FCC7813A4557E6242C495A29 /* ELNTextFieldFormattingKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ELNTextFieldFormattingKit.xcconfig; sourceTree = "<group>"; };
+		54D84E52CB5D9DC2C8DA1EE3C3529B29 /* NSBundle+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+ELNUtils.h"; path = "Source/NSBundle+ELNUtils.h"; sourceTree = "<group>"; };
+		56EA702A92BCCC6D2C65F07834910D23 /* UITableViewCell+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+ELNUtils.m"; path = "Source/UITableViewCell+ELNUtils.m"; sourceTree = "<group>"; };
 		596AFC283922DC623253D46BFD3D4A88 /* Pods-ELNTextFieldFormattingKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ELNTextFieldFormattingKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5A563816A3302C7E785E08676CEA5065 /* UIView+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ELNUtils.m"; path = "lib/UIView+ELNUtils.m"; sourceTree = "<group>"; };
-		5A89F9F9A19D0C2AE6A223FA2E158374 /* NSURLRequest+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+ELNUtils.h"; path = "lib/NSURLRequest+ELNUtils.h"; sourceTree = "<group>"; };
-		5BC7383706CBE8C21E97A0555C5479F7 /* NSNumber+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+ELNUtils.m"; path = "lib/NSNumber+ELNUtils.m"; sourceTree = "<group>"; };
+		5B704A1D914FE2D74F28CBD7ABE9F745 /* NSError+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+ELNUtils.h"; path = "Source/NSError+ELNUtils.h"; sourceTree = "<group>"; };
+		6009D946733954F2D0F4B896F4DD3830 /* ELNValidatorType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNValidatorType.h; sourceTree = "<group>"; };
 		60378277B7F4900EB9EFD06CFE9376D8 /* Pods-ELNTextFieldFormattingKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ELNTextFieldFormattingKit_Tests-resources.sh"; sourceTree = "<group>"; };
-		624B86C632ECDC1171FDD6EF883B68E7 /* ELNPhoneNumberMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNPhoneNumberMask.m; sourceTree = "<group>"; };
-		6333F8FBF70A29FB71D6AA5DDD9E3E11 /* ELNLayoutUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ELNLayoutUtils.m; path = lib/ELNLayoutUtils.m; sourceTree = "<group>"; };
-		640FB68A22B2CB9F418238BBDEEDC499 /* ELNCurrencyTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNCurrencyTextField.h; sourceTree = "<group>"; };
-		645BC30A40A70F0E340898115A52530A /* UICollectionView+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+ELNUtils.m"; path = "lib/UICollectionView+ELNUtils.m"; sourceTree = "<group>"; };
-		69AF137AAA7B8BF88F696DA8A6DF575F /* ELNCharactersValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNCharactersValidator.m; sourceTree = "<group>"; };
+		60900D092100AE3C813AC877126505DD /* UIFont+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+ELNUtils.m"; path = "Source/UIFont+ELNUtils.m"; sourceTree = "<group>"; };
+		6358B8CEC31CCE0820FF06E49B20F992 /* UICollectionView+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+ELNUtils.h"; path = "Source/UICollectionView+ELNUtils.h"; sourceTree = "<group>"; };
+		64C4DAA013E35B7944BCAA6510604327 /* ELNCurrencyTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNCurrencyTextField.h; sourceTree = "<group>"; };
+		65087D9A3239911060A6157A790A585F /* NSArray+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+ELNUtils.h"; path = "Source/NSArray+ELNUtils.h"; sourceTree = "<group>"; };
+		655B4D79B728562B982DE7FB402565D4 /* ELNTextFieldFormattingKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ELNTextFieldFormattingKit.xcconfig; sourceTree = "<group>"; };
+		6CC6092F94B3FC822CDE7AB61E26CDA9 /* NSSortDescriptor+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSortDescriptor+ELNUtils.h"; path = "Source/NSSortDescriptor+ELNUtils.h"; sourceTree = "<group>"; };
 		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6EA433F76F0DB28D328BB894A645D1CE /* NSString+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ELNUtils.m"; path = "Source/NSString+ELNUtils.m"; sourceTree = "<group>"; };
 		6F37346647C8F6EDC07F21A5553A001A /* Pods-ELNTextFieldFormattingKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ELNTextFieldFormattingKit_Example-dummy.m"; sourceTree = "<group>"; };
-		72B0F649658C551D1E82E8DEDBF5438A /* UIImage+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ELNUtils.h"; path = "lib/UIImage+ELNUtils.h"; sourceTree = "<group>"; };
-		74D38253036A9FD50BDA8F9741CAC7AE /* UICollectionView+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+ELNUtils.h"; path = "lib/UICollectionView+ELNUtils.h"; sourceTree = "<group>"; };
-		752C68017A97C00D4D04BB6A67742973 /* UIFont+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+ELNUtils.h"; path = "lib/UIFont+ELNUtils.h"; sourceTree = "<group>"; };
-		76E0971123CA509732F0438C613C9CF1 /* NSData+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ELNUtils.h"; path = "lib/NSData+ELNUtils.h"; sourceTree = "<group>"; };
+		71F6568A565DC14E293D87B00830BB14 /* ELNTextMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNTextMask.h; sourceTree = "<group>"; };
+		75A5FD01971DDAD6DD3B786CDF9FA337 /* ELNMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELNMath.h; path = Source/ELNMath.h; sourceTree = "<group>"; };
+		767567A4CB12E663B8A0F1ED94B0A83B /* UIWindow+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+ELNUtils.h"; path = "Source/UIWindow+ELNUtils.h"; sourceTree = "<group>"; };
 		7BAA51ADB26ECBE2F92D01A3E183FC79 /* Pods-ELNTextFieldFormattingKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ELNTextFieldFormattingKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7D3BFB2BCFB2D6D626C2AABB9E9DDB28 /* NSNumber+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+ELNUtils.h"; path = "lib/NSNumber+ELNUtils.h"; sourceTree = "<group>"; };
-		7DFE1BB769E5EF9674D793300A1F79D5 /* ELNTextFieldFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNTextFieldFormatter.m; sourceTree = "<group>"; };
-		808591BEC21BB141680545885259F845 /* NSFileManager+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+ELNUtils.h"; path = "lib/NSFileManager+ELNUtils.h"; sourceTree = "<group>"; };
+		7CDFD36A98F28DFE17363EA5475A2D15 /* UIFont+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+ELNUtils.h"; path = "Source/UIFont+ELNUtils.h"; sourceTree = "<group>"; };
+		7D379E112E922A4CFE3039B118BE8EE3 /* ELNPhoneNumberMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNPhoneNumberMask.m; sourceTree = "<group>"; };
+		80234C50D3AE4F196D0FB1F73B86F5BF /* UIResponder+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+ELNUtils.m"; path = "Source/UIResponder+ELNUtils.m"; sourceTree = "<group>"; };
 		816E4170F70EBA4DF7ADE74AFA73992B /* Pods-ELNTextFieldFormattingKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ELNTextFieldFormattingKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		81B0F4AF83B2B6DEB56F55EB02460981 /* UILabel+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+ELNUtils.m"; path = "lib/UILabel+ELNUtils.m"; sourceTree = "<group>"; };
-		85D74B9DEC6784D657576A3079B943D9 /* libPods-ELNTextFieldFormattingKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELNTextFieldFormattingKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8693FE6888F9A52BA54657FFADCF8B62 /* libELNUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libELNUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		856A1B40B6359E429D849BDB67338AA6 /* ELNTextFieldFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNTextFieldFormatter.m; sourceTree = "<group>"; };
+		86BC8546E6D441A0AE795E9CC8D1FC49 /* ELNTextFieldFormattingKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ELNTextFieldFormattingKit-prefix.pch"; sourceTree = "<group>"; };
+		899344C7681424797F2FFEB6E3245D52 /* ELNUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ELNUtils-dummy.m"; sourceTree = "<group>"; };
 		8A2A11EA7C67670A9327993A12D2B09C /* Pods-ELNTextFieldFormattingKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ELNTextFieldFormattingKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		927443B07A88483BB252A9366C45592F /* ELNCardNumberMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNCardNumberMask.h; sourceTree = "<group>"; };
-		9339ADF3B25A384C5427DCBAD1A5A4BD /* NSString+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ELNUtils.h"; path = "lib/NSString+ELNUtils.h"; sourceTree = "<group>"; };
-		95579786217BC94F29DE535D91076787 /* UIWindow+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+ELNUtils.m"; path = "lib/UIWindow+ELNUtils.m"; sourceTree = "<group>"; };
-		96B871151F4ED440B4AB73D4CA44863A /* NSError+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+ELNUtils.m"; path = "lib/NSError+ELNUtils.m"; sourceTree = "<group>"; };
-		976190CC2C6E141A536591FFE2EF5877 /* ELNUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ELNUtils-dummy.m"; sourceTree = "<group>"; };
-		9782588658A08736208649CDE69632FB /* ELNUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ELNUtils-prefix.pch"; sourceTree = "<group>"; };
+		8CC37B4A55E33D9F607FC291E4563A84 /* NSData+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ELNUtils.h"; path = "Source/NSData+ELNUtils.h"; sourceTree = "<group>"; };
+		8FA128974407457ACCA8977512DCEBF6 /* NSLocale+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLocale+ELNUtils.h"; path = "Source/NSLocale+ELNUtils.h"; sourceTree = "<group>"; };
+		908E8FCEEE285A6E8C57B7DC4F3D01A4 /* ELNCharactersValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNCharactersValidator.h; sourceTree = "<group>"; };
+		916DF96A522944DB6ACE40D96AA52D46 /* ELNUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ELNUtils-prefix.pch"; sourceTree = "<group>"; };
+		92D3001F749F2AAE1D025017432D9DA4 /* UIWindow+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+ELNUtils.m"; path = "Source/UIWindow+ELNUtils.m"; sourceTree = "<group>"; };
+		9A7A67B4EAFD31537A40371B7F712ADC /* UIImage+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ELNUtils.m"; path = "Source/UIImage+ELNUtils.m"; sourceTree = "<group>"; };
 		9DAD432A03234ED51B9888428B556879 /* Pods-ELNTextFieldFormattingKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ELNTextFieldFormattingKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A05E2798F8D95AF63CBF97D0788E0A38 /* NSArray+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+ELNUtils.m"; path = "lib/NSArray+ELNUtils.m"; sourceTree = "<group>"; };
 		A083F3A6FA9BF42E1A67A5209FDC6C4E /* Pods-ELNTextFieldFormattingKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ELNTextFieldFormattingKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A66CD78B42EAE629980DEFCD7B513146 /* NSSortDescriptor+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSortDescriptor+ELNUtils.h"; path = "lib/NSSortDescriptor+ELNUtils.h"; sourceTree = "<group>"; };
-		A7C2D67C06CE5ABA3189F0184B338D03 /* ELNCommonUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELNCommonUtils.h; path = lib/ELNCommonUtils.h; sourceTree = "<group>"; };
-		A7C83AF2EB020055AF1F3FA3A0EBDA04 /* libELNTextFieldFormattingKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libELNTextFieldFormattingKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28685A32D3FF1DCB36B580DD8419AC6 /* ELNCurrencyMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNCurrencyMask.m; sourceTree = "<group>"; };
+		A33EF6E4763B48EE875AFF282BE49987 /* NSSortDescriptor+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSortDescriptor+ELNUtils.m"; path = "Source/NSSortDescriptor+ELNUtils.m"; sourceTree = "<group>"; };
+		A404B8B3FBA26E6232716FB823B93F21 /* UIViewController+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ELNUtils.m"; path = "Source/UIViewController+ELNUtils.m"; sourceTree = "<group>"; };
+		A65E10E27D915B7A422FA816084F034B /* ELNAmountValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNAmountValidator.h; sourceTree = "<group>"; };
+		A6DA2452CB7793FCC997F117DA07F794 /* UITableView+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+ELNUtils.h"; path = "Source/UITableView+ELNUtils.h"; sourceTree = "<group>"; };
 		AB61A1FCFDF7CBB65B71194DBEFC7FBC /* Pods-ELNTextFieldFormattingKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ELNTextFieldFormattingKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		ABB05D8EFAB5E4195CCED65BD16122FF /* ELNTextFieldFormattingKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ELNTextFieldFormattingKit-dummy.m"; sourceTree = "<group>"; };
-		ADAF1ED170907442CBF9267F2CD230C7 /* NSLocale+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLocale+ELNUtils.h"; path = "lib/NSLocale+ELNUtils.h"; sourceTree = "<group>"; };
-		B64B8F490D4FA2A0747FE926452C500B /* ELNTextFieldFormattingKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELNTextFieldFormattingKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23E21D5DF2B9031C0CC992DB0C1D6A5 /* ELNPhoneNumberMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNPhoneNumberMask.h; sourceTree = "<group>"; };
+		B75B67834F409F6CC838143648C2360F /* ELNAmountValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNAmountValidator.m; sourceTree = "<group>"; };
+		B9FC076DCDD3A90CE098CD3B5B2EB336 /* UIImage+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ELNUtils.h"; path = "Source/UIImage+ELNUtils.h"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BFF3C6D44906A5D9EA95BE8077E951F2 /* ELNCharactersValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNCharactersValidator.h; sourceTree = "<group>"; };
-		C1EED741289D5E1E751EBF708A68C30A /* NSFileManager+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+ELNUtils.m"; path = "lib/NSFileManager+ELNUtils.m"; sourceTree = "<group>"; };
+		BC65E4E8A3BB74158C785FB59A1262BE /* UIResponder+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+ELNUtils.h"; path = "Source/UIResponder+ELNUtils.h"; sourceTree = "<group>"; };
+		C014D00B5CCAC06024B122164201B0B0 /* libPods-ELNTextFieldFormattingKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELNTextFieldFormattingKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12D0E3EE66AB5241980C6745761F26C /* NSBundle+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+ELNUtils.m"; path = "Source/NSBundle+ELNUtils.m"; sourceTree = "<group>"; };
 		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C5F126C88253158F879BE1FA73A71642 /* UIColor+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ELNUtils.m"; path = "lib/UIColor+ELNUtils.m"; sourceTree = "<group>"; };
-		C83E0052CD40229D3CE313CE857231F9 /* ELNTextFieldFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNTextFieldFormatter.h; sourceTree = "<group>"; };
-		D612C29B160E85B0C7E57759FB194910 /* UIViewController+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ELNUtils.h"; path = "lib/UIViewController+ELNUtils.h"; sourceTree = "<group>"; };
+		CD9B5C2B2AD507C6F81332A6659B12D7 /* ELNCardNumberMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNCardNumberMask.m; sourceTree = "<group>"; };
+		D7694FD31B49AA2A42CCFE2CD0B1A351 /* NSURLRequest+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+ELNUtils.h"; path = "Source/NSURLRequest+ELNUtils.h"; sourceTree = "<group>"; };
 		D7EB79F37AC2BCAE728D10809407786C /* Pods-ELNTextFieldFormattingKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ELNTextFieldFormattingKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DD2F92AB9FF07BFA8447D6A6A4C32432 /* UIColor+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ELNUtils.h"; path = "lib/UIColor+ELNUtils.h"; sourceTree = "<group>"; };
-		E16DB4B8637577822082EC202B3C139A /* UITableViewCell+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+ELNUtils.h"; path = "lib/UITableViewCell+ELNUtils.h"; sourceTree = "<group>"; };
-		E5436404CB76839651BF7C8B5518728E /* NSString+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ELNUtils.m"; path = "lib/NSString+ELNUtils.m"; sourceTree = "<group>"; };
-		E6C6F7EA7013D9A554C7BEF044520E04 /* ELNCurrencyMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNCurrencyMask.h; sourceTree = "<group>"; };
-		F4B2094057A227690E1853A0D9B98379 /* ELNCurrencyTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNCurrencyTextField.m; sourceTree = "<group>"; };
-		FB5997F63769E011769586FF41976C70 /* ELNTextFieldFormattingKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ELNTextFieldFormattingKit-prefix.pch"; sourceTree = "<group>"; };
-		FFA66BF5559DEF54D39B468F402571BD /* NSError+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+ELNUtils.h"; path = "lib/NSError+ELNUtils.h"; sourceTree = "<group>"; };
+		D934E691628DA423224F735FF6C5BC8A /* NSData+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ELNUtils.m"; path = "Source/NSData+ELNUtils.m"; sourceTree = "<group>"; };
+		E173E31341866C63404A54C567044FA3 /* NSFileManager+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+ELNUtils.h"; path = "Source/NSFileManager+ELNUtils.h"; sourceTree = "<group>"; };
+		E76969BE16B57BFB85789A8CB4E739B8 /* ELNCurrencyTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNCurrencyTextField.m; sourceTree = "<group>"; };
+		EC0EF7FC836F9087A15D80F3907EB9B3 /* ELNCurrencyFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNCurrencyFormatter.m; sourceTree = "<group>"; };
+		ED4918382961B6CCCD183187E01A7DB7 /* libELNUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libELNUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEAC8B6D3496138E8AB5D5F743E2415A /* NSString+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ELNUtils.h"; path = "Source/NSString+ELNUtils.h"; sourceTree = "<group>"; };
+		EF1CB6B2A406FC1FB0FDE2E24D9CDE76 /* ELNCurrencyMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNCurrencyMask.h; sourceTree = "<group>"; };
+		F16249B9A66C23C3ED3080C77EC3C592 /* UILabel+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+ELNUtils.m"; path = "Source/UILabel+ELNUtils.m"; sourceTree = "<group>"; };
+		F6CD255816B19A622D2C96041C7D64EB /* ELNTextFieldFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNTextFieldFormatter.h; sourceTree = "<group>"; };
+		F7D364B0C79EBAF40AC71D4D0C79B394 /* UITableView+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+ELNUtils.m"; path = "Source/UITableView+ELNUtils.m"; sourceTree = "<group>"; };
+		F86651030F3D5C43E5CA430D78524288 /* UIColor+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ELNUtils.h"; path = "Source/UIColor+ELNUtils.h"; sourceTree = "<group>"; };
+		FAA5A885785AAD5C5F8FE672BE4B50B4 /* ELNCharactersValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNCharactersValidator.m; sourceTree = "<group>"; };
+		FAB7F008127617FE766CBBECFB9DF161 /* libPods-ELNTextFieldFormattingKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELNTextFieldFormattingKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB899A79B4BD45981B4DB2F142ECB993 /* ELNCardNumberMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNCardNumberMask.h; sourceTree = "<group>"; };
+		FF6D3CD6409FDD6B862E10195D97E40E /* UIViewController+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ELNUtils.h"; path = "Source/UIViewController+ELNUtils.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		89A0BF680383DA32FED3C01955BC58B9 /* Frameworks */ = {
+		0AA929FAD84F1B9DF79E68C44ADA13F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				348D1BD38A9630BFB86C61615D8C4B8C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F00C15C07C9E6AE0EB18692EC03353A /* Frameworks */ = {
+		5D5198356103FDEF572654F824E69F58 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				872C79F29D6821C9F56DB8D77C6F5007 /* Foundation.framework in Frameworks */,
-				E40141DC3D726474AC60058AE8C3DF3E /* UIKit.framework in Frameworks */,
+				99F9DE8ED0E2BF61A09E15565F70BBA8 /* Foundation.framework in Frameworks */,
+				F0B6AFD0E69213E47616EDA7A237C9F8 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,14 +239,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EF4C3FA828B13111968D83E1AA889A7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD6C5CC2031BAA557D253E8D306D9552 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				63742DDDC077D1C5EA91B4CBEBC60A02 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +262,28 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		19FD814CC13B419CCCB33D5CA426E915 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				655B4D79B728562B982DE7FB402565D4 /* ELNTextFieldFormattingKit.xcconfig */,
+				0F0E520272231CA43C2E44DF723EC098 /* ELNTextFieldFormattingKit-dummy.m */,
+				86BC8546E6D441A0AE795E9CC8D1FC49 /* ELNTextFieldFormattingKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ELNTextFieldFormattingKit";
+			sourceTree = "<group>";
+		};
+		1A98BC950059587A2E00A37C0774C58C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BD108F4E9A35403C7915E74D1D18A7C /* ELNUtils.xcconfig */,
+				899344C7681424797F2FFEB6E3245D52 /* ELNUtils-dummy.m */,
+				916DF96A522944DB6ACE40D96AA52D46 /* ELNUtils-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ELNUtils";
+			sourceTree = "<group>";
+		};
 		2784BD4D3C357CDA29A67AEAAB37AF1D /* Pods-ELNTextFieldFormattingKit_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,6 +299,16 @@
 			path = "Target Support Files/Pods-ELNTextFieldFormattingKit_Tests";
 			sourceTree = "<group>";
 		};
+		29997C5CC571BDC3085D0EFD480049AB /* ELNTextFieldFormattingKit */ = {
+			isa = PBXGroup;
+			children = (
+				8893CE680B48EB32AB54FE2B9EA8D645 /* Pod */,
+				19FD814CC13B419CCCB33D5CA426E915 /* Support Files */,
+			);
+			name = ELNTextFieldFormattingKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -292,41 +317,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		45711E06F39B04BA033DB2A868076551 /* Pod */ = {
+		507CA230F72031F0C36AB52571FCA151 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				84FA54E116DD0A15FAFFCBD5BD2BA520 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		58CA329DB6BA177FCBAD49A48230B436 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B64B8F490D4FA2A0747FE926452C500B /* ELNTextFieldFormattingKit.bundle */,
-				A7C83AF2EB020055AF1F3FA3A0EBDA04 /* libELNTextFieldFormattingKit.a */,
-				8693FE6888F9A52BA54657FFADCF8B62 /* libELNUtils.a */,
-				04FC4A031FB50923C37584C6F9751F69 /* libPods-ELNTextFieldFormattingKit_Example.a */,
-				85D74B9DEC6784D657576A3079B943D9 /* libPods-ELNTextFieldFormattingKit_Tests.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5B34FBF8EC342434066F647E58027372 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1F78F2A96F96A00ADAD133CF8FC26227 /* ELNUtils.xcconfig */,
-				976190CC2C6E141A536591FFE2EF5877 /* ELNUtils-dummy.m */,
-				9782588658A08736208649CDE69632FB /* ELNUtils-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ELNUtils";
-			sourceTree = "<group>";
-		};
-		725530923FBA6ECFDED1E2BA07FA0CC8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8AE08B6F4623B574B0CA5545B34D7AA7 /* ELNUtils */,
+				9F91A691CFE219EF53711D2195C6D3ED /* ELNUtils */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -361,169 +355,184 @@
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				8923530FD7A2D1C294A4147227F7D2C5 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				725530923FBA6ECFDED1E2BA07FA0CC8 /* Pods */,
-				58CA329DB6BA177FCBAD49A48230B436 /* Products */,
+				507CA230F72031F0C36AB52571FCA151 /* Pods */,
+				EDC7BBE29BB0EB5C8527D99D5AF47D28 /* Products */,
 				7C4DAC28D17E1E1C041FC91DFE5A0020 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		84FA54E116DD0A15FAFFCBD5BD2BA520 /* Classes */ = {
+		8893CE680B48EB32AB54FE2B9EA8D645 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				333A9E02968E7E68DDA5912FF5BCD23E /* ELNAmountValidator.h */,
-				47510975D7A8DD945DC1BD0FD66B469E /* ELNAmountValidator.m */,
-				927443B07A88483BB252A9366C45592F /* ELNCardNumberMask.h */,
-				40F324EDE115D5961719AF8773D0B00D /* ELNCardNumberMask.m */,
-				BFF3C6D44906A5D9EA95BE8077E951F2 /* ELNCharactersValidator.h */,
-				69AF137AAA7B8BF88F696DA8A6DF575F /* ELNCharactersValidator.m */,
-				031A47AB54E0B2B58B305FFE3E1BBD76 /* ELNCurrencyFormatter.h */,
-				3A6BD3C9B2DE8C2A7DF7A27EFB217FC6 /* ELNCurrencyFormatter.m */,
-				E6C6F7EA7013D9A554C7BEF044520E04 /* ELNCurrencyMask.h */,
-				289892F5F66DBF6CA67853961F51D693 /* ELNCurrencyMask.m */,
-				640FB68A22B2CB9F418238BBDEEDC499 /* ELNCurrencyTextField.h */,
-				F4B2094057A227690E1853A0D9B98379 /* ELNCurrencyTextField.m */,
-				44F89285DE389393D620060857F48EE8 /* ELNPhoneNumberMask.h */,
-				624B86C632ECDC1171FDD6EF883B68E7 /* ELNPhoneNumberMask.m */,
-				C83E0052CD40229D3CE313CE857231F9 /* ELNTextFieldFormatter.h */,
-				7DFE1BB769E5EF9674D793300A1F79D5 /* ELNTextFieldFormatter.m */,
-				2E451ACC7023D8AFA282901BE7B7B287 /* ELNTextMask.h */,
-				2A92E15D480859D5352586D958B75AA6 /* ELNValidatorType.h */,
+				A65E10E27D915B7A422FA816084F034B /* ELNAmountValidator.h */,
+				B75B67834F409F6CC838143648C2360F /* ELNAmountValidator.m */,
+				FB899A79B4BD45981B4DB2F142ECB993 /* ELNCardNumberMask.h */,
+				CD9B5C2B2AD507C6F81332A6659B12D7 /* ELNCardNumberMask.m */,
+				908E8FCEEE285A6E8C57B7DC4F3D01A4 /* ELNCharactersValidator.h */,
+				FAA5A885785AAD5C5F8FE672BE4B50B4 /* ELNCharactersValidator.m */,
+				2B6B8DCFC2106299F4748CA41D0C974F /* ELNCurrencyFormatter.h */,
+				EC0EF7FC836F9087A15D80F3907EB9B3 /* ELNCurrencyFormatter.m */,
+				EF1CB6B2A406FC1FB0FDE2E24D9CDE76 /* ELNCurrencyMask.h */,
+				A28685A32D3FF1DCB36B580DD8419AC6 /* ELNCurrencyMask.m */,
+				64C4DAA013E35B7944BCAA6510604327 /* ELNCurrencyTextField.h */,
+				E76969BE16B57BFB85789A8CB4E739B8 /* ELNCurrencyTextField.m */,
+				B23E21D5DF2B9031C0CC992DB0C1D6A5 /* ELNPhoneNumberMask.h */,
+				7D379E112E922A4CFE3039B118BE8EE3 /* ELNPhoneNumberMask.m */,
+				F6CD255816B19A622D2C96041C7D64EB /* ELNTextFieldFormatter.h */,
+				856A1B40B6359E429D849BDB67338AA6 /* ELNTextFieldFormatter.m */,
+				71F6568A565DC14E293D87B00830BB14 /* ELNTextMask.h */,
+				6009D946733954F2D0F4B896F4DD3830 /* ELNValidatorType.h */,
 			);
-			path = Classes;
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		8923530FD7A2D1C294A4147227F7D2C5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CDEB712F1A4C24A697CE21A41FC22368 /* ELNTextFieldFormattingKit */,
+				29997C5CC571BDC3085D0EFD480049AB /* ELNTextFieldFormattingKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		8AE08B6F4623B574B0CA5545B34D7AA7 /* ELNUtils */ = {
+		9F91A691CFE219EF53711D2195C6D3ED /* ELNUtils */ = {
 			isa = PBXGroup;
 			children = (
-				A7C2D67C06CE5ABA3189F0184B338D03 /* ELNCommonUtils.h */,
-				29295D9EE4FE3CFC7AEEA2A0AE10FF1D /* ELNLayoutUtils.h */,
-				6333F8FBF70A29FB71D6AA5DDD9E3E11 /* ELNLayoutUtils.m */,
-				480061199F5F9A497E5AC02EBF5F3C84 /* NSArray+ELNUtils.h */,
-				A05E2798F8D95AF63CBF97D0788E0A38 /* NSArray+ELNUtils.m */,
-				76E0971123CA509732F0438C613C9CF1 /* NSData+ELNUtils.h */,
-				3D61B05B5B8E0714B3C4FA9D93B53D09 /* NSData+ELNUtils.m */,
-				FFA66BF5559DEF54D39B468F402571BD /* NSError+ELNUtils.h */,
-				96B871151F4ED440B4AB73D4CA44863A /* NSError+ELNUtils.m */,
-				808591BEC21BB141680545885259F845 /* NSFileManager+ELNUtils.h */,
-				C1EED741289D5E1E751EBF708A68C30A /* NSFileManager+ELNUtils.m */,
-				ADAF1ED170907442CBF9267F2CD230C7 /* NSLocale+ELNUtils.h */,
-				38182000904FE31410DF95740F150B86 /* NSLocale+ELNUtils.m */,
-				7D3BFB2BCFB2D6D626C2AABB9E9DDB28 /* NSNumber+ELNUtils.h */,
-				5BC7383706CBE8C21E97A0555C5479F7 /* NSNumber+ELNUtils.m */,
-				A66CD78B42EAE629980DEFCD7B513146 /* NSSortDescriptor+ELNUtils.h */,
-				0BE9995E5620B5DD4DBA314F58E8511B /* NSSortDescriptor+ELNUtils.m */,
-				9339ADF3B25A384C5427DCBAD1A5A4BD /* NSString+ELNUtils.h */,
-				E5436404CB76839651BF7C8B5518728E /* NSString+ELNUtils.m */,
-				5A89F9F9A19D0C2AE6A223FA2E158374 /* NSURLRequest+ELNUtils.h */,
-				18CEA73F78C1991EF8996B53139FC58D /* NSURLRequest+ELNUtils.m */,
-				74D38253036A9FD50BDA8F9741CAC7AE /* UICollectionView+ELNUtils.h */,
-				645BC30A40A70F0E340898115A52530A /* UICollectionView+ELNUtils.m */,
-				DD2F92AB9FF07BFA8447D6A6A4C32432 /* UIColor+ELNUtils.h */,
-				C5F126C88253158F879BE1FA73A71642 /* UIColor+ELNUtils.m */,
-				752C68017A97C00D4D04BB6A67742973 /* UIFont+ELNUtils.h */,
-				3640C0DA885FACDE4E0A3F7ADCE87251 /* UIFont+ELNUtils.m */,
-				72B0F649658C551D1E82E8DEDBF5438A /* UIImage+ELNUtils.h */,
-				40117DE42709CDB4296510661A12933D /* UIImage+ELNUtils.m */,
-				2B679DD6162A19C818958CEAA41DC50F /* UILabel+ELNUtils.h */,
-				81B0F4AF83B2B6DEB56F55EB02460981 /* UILabel+ELNUtils.m */,
-				3B5E531ADC458C274B95D5664807A76B /* UIResponder+ELNUtils.h */,
-				39CD13854B0D3FE8E5CFB7CD67A2E626 /* UIResponder+ELNUtils.m */,
-				4C00E91E8A5A5D66B21992CDDA00C833 /* UITableView+ELNUtils.h */,
-				4766ADD2679B00794ED16700DEA6F711 /* UITableView+ELNUtils.m */,
-				E16DB4B8637577822082EC202B3C139A /* UITableViewCell+ELNUtils.h */,
-				04E45E23970CAC0C80B19A0496B6B5A9 /* UITableViewCell+ELNUtils.m */,
-				0C3DB4EF1FDBB30A1DCCCD15E949D28C /* UIView+ELNUtils.h */,
-				5A563816A3302C7E785E08676CEA5065 /* UIView+ELNUtils.m */,
-				D612C29B160E85B0C7E57759FB194910 /* UIViewController+ELNUtils.h */,
-				3D608E4F7CBFD3EB2F89DC9DD8680A62 /* UIViewController+ELNUtils.m */,
-				25ABF81EA8E81E2C7CB1BAB209421AF2 /* UIWindow+ELNUtils.h */,
-				95579786217BC94F29DE535D91076787 /* UIWindow+ELNUtils.m */,
-				5B34FBF8EC342434066F647E58027372 /* Support Files */,
+				29C9C5292BC01C2B0A3F832DCF2AF229 /* ELNLayoutUtils.h */,
+				10617DFC589CE8A9BDA29AE5BD0DBAA1 /* ELNLayoutUtils.m */,
+				75A5FD01971DDAD6DD3B786CDF9FA337 /* ELNMath.h */,
+				1120BF0A8086921AE7135FA6B30DE44E /* ELNRuntime.h */,
+				4D24D352E4A4C8024E77DEBF45DDB6AF /* ELNUtils.h */,
+				65087D9A3239911060A6157A790A585F /* NSArray+ELNUtils.h */,
+				18F1B80936C7BF1894EF222CAA59CF43 /* NSArray+ELNUtils.m */,
+				54D84E52CB5D9DC2C8DA1EE3C3529B29 /* NSBundle+ELNUtils.h */,
+				C12D0E3EE66AB5241980C6745761F26C /* NSBundle+ELNUtils.m */,
+				8CC37B4A55E33D9F607FC291E4563A84 /* NSData+ELNUtils.h */,
+				D934E691628DA423224F735FF6C5BC8A /* NSData+ELNUtils.m */,
+				5B704A1D914FE2D74F28CBD7ABE9F745 /* NSError+ELNUtils.h */,
+				4520DA79B2C36161645F6E738CF7A63A /* NSError+ELNUtils.m */,
+				E173E31341866C63404A54C567044FA3 /* NSFileManager+ELNUtils.h */,
+				4157696B45035BC47ED64E434E53B143 /* NSFileManager+ELNUtils.m */,
+				8FA128974407457ACCA8977512DCEBF6 /* NSLocale+ELNUtils.h */,
+				30A89E509658485425CE61BDADDE07F4 /* NSLocale+ELNUtils.m */,
+				17ECA5ACF89ED35791CE4362C592ECCC /* NSNumber+ELNUtils.h */,
+				4D313EB2F24A4792928DED67EE5CDF59 /* NSNumber+ELNUtils.m */,
+				6CC6092F94B3FC822CDE7AB61E26CDA9 /* NSSortDescriptor+ELNUtils.h */,
+				A33EF6E4763B48EE875AFF282BE49987 /* NSSortDescriptor+ELNUtils.m */,
+				EEAC8B6D3496138E8AB5D5F743E2415A /* NSString+ELNUtils.h */,
+				6EA433F76F0DB28D328BB894A645D1CE /* NSString+ELNUtils.m */,
+				D7694FD31B49AA2A42CCFE2CD0B1A351 /* NSURLRequest+ELNUtils.h */,
+				1907BA4AD60D6B1778ADA1FEE0E69777 /* NSURLRequest+ELNUtils.m */,
+				6358B8CEC31CCE0820FF06E49B20F992 /* UICollectionView+ELNUtils.h */,
+				2FD41146E0BE277677ABC1CF9D476555 /* UICollectionView+ELNUtils.m */,
+				F86651030F3D5C43E5CA430D78524288 /* UIColor+ELNUtils.h */,
+				4058331691ECF2F38224A531DB6EB85C /* UIColor+ELNUtils.m */,
+				7CDFD36A98F28DFE17363EA5475A2D15 /* UIFont+ELNUtils.h */,
+				60900D092100AE3C813AC877126505DD /* UIFont+ELNUtils.m */,
+				B9FC076DCDD3A90CE098CD3B5B2EB336 /* UIImage+ELNUtils.h */,
+				9A7A67B4EAFD31537A40371B7F712ADC /* UIImage+ELNUtils.m */,
+				4BA2A2CFD5921C67BEB260E5543C5446 /* UILabel+ELNUtils.h */,
+				F16249B9A66C23C3ED3080C77EC3C592 /* UILabel+ELNUtils.m */,
+				BC65E4E8A3BB74158C785FB59A1262BE /* UIResponder+ELNUtils.h */,
+				80234C50D3AE4F196D0FB1F73B86F5BF /* UIResponder+ELNUtils.m */,
+				A6DA2452CB7793FCC997F117DA07F794 /* UITableView+ELNUtils.h */,
+				F7D364B0C79EBAF40AC71D4D0C79B394 /* UITableView+ELNUtils.m */,
+				2766796B65E583B0A5B0461501DCAB82 /* UITableViewCell+ELNUtils.h */,
+				56EA702A92BCCC6D2C65F07834910D23 /* UITableViewCell+ELNUtils.m */,
+				2CF4018F7DDBA236899CDA6C5E8040F4 /* UIView+ELNUtils.h */,
+				4446A69B5CA7A630946A6CE54D87ED88 /* UIView+ELNUtils.m */,
+				FF6D3CD6409FDD6B862E10195D97E40E /* UIViewController+ELNUtils.h */,
+				A404B8B3FBA26E6232716FB823B93F21 /* UIViewController+ELNUtils.m */,
+				767567A4CB12E663B8A0F1ED94B0A83B /* UIWindow+ELNUtils.h */,
+				92D3001F749F2AAE1D025017432D9DA4 /* UIWindow+ELNUtils.m */,
+				1A98BC950059587A2E00A37C0774C58C /* Support Files */,
 			);
 			path = ELNUtils;
 			sourceTree = "<group>";
 		};
-		CDEB712F1A4C24A697CE21A41FC22368 /* ELNTextFieldFormattingKit */ = {
+		EDC7BBE29BB0EB5C8527D99D5AF47D28 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				45711E06F39B04BA033DB2A868076551 /* Pod */,
-				F4A4D84C6E636DDE4EA5E3CCB0CC88A6 /* Support Files */,
+				1F40189FE49C1C1C4DDBB135B4B2C22B /* libELNTextFieldFormattingKit.a */,
+				ED4918382961B6CCCD183187E01A7DB7 /* libELNUtils.a */,
+				C014D00B5CCAC06024B122164201B0B0 /* libPods-ELNTextFieldFormattingKit_Example.a */,
+				FAB7F008127617FE766CBBECFB9DF161 /* libPods-ELNTextFieldFormattingKit_Tests.a */,
 			);
-			name = ELNTextFieldFormattingKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		F4A4D84C6E636DDE4EA5E3CCB0CC88A6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				578201E8FCC7813A4557E6242C495A29 /* ELNTextFieldFormattingKit.xcconfig */,
-				ABB05D8EFAB5E4195CCED65BD16122FF /* ELNTextFieldFormattingKit-dummy.m */,
-				FB5997F63769E011769586FF41976C70 /* ELNTextFieldFormattingKit-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ELNTextFieldFormattingKit";
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7C5A14DB872DC6569DA618DC12771B0C /* Headers */ = {
+		290BF0915614DB2C74625FA0E978636B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AC303737E914E3A01A552A0E0A47D94 /* ELNCommonUtils.h in Headers */,
-				7BCBCE3F5028BCE45E7B8DC1EBF80848 /* ELNLayoutUtils.h in Headers */,
-				59A24B7B60F9221001E5B6F7CE5A3CC2 /* NSArray+ELNUtils.h in Headers */,
-				DEB44084E043B4828A46FD881ED28F8A /* NSData+ELNUtils.h in Headers */,
-				CDE4EB8B1A27D0182E091A5B8A8CE90E /* NSError+ELNUtils.h in Headers */,
-				0B001DD2763F039709841CBBD8869EAF /* NSFileManager+ELNUtils.h in Headers */,
-				52F61033AD3EAD3C9BED8D393D88645E /* NSLocale+ELNUtils.h in Headers */,
-				815D56BB6C8DDAE6709954294910AF17 /* NSNumber+ELNUtils.h in Headers */,
-				48B95CCA2E0A3ED8F97DF31489A0BFE4 /* NSSortDescriptor+ELNUtils.h in Headers */,
-				17A089584636487786AB903171CD444B /* NSString+ELNUtils.h in Headers */,
-				A2453F23DA769EF70EDC8A268F80CE25 /* NSURLRequest+ELNUtils.h in Headers */,
-				AB8A5F8BA3C42230FE1CE8C4CB801427 /* UICollectionView+ELNUtils.h in Headers */,
-				6292E7BB2E9FE88D798C380215490DC6 /* UIColor+ELNUtils.h in Headers */,
-				8D49032948B365C733DD37697DC78133 /* UIFont+ELNUtils.h in Headers */,
-				ACD422CC9D7B2238596EA7CDB85FD476 /* UIImage+ELNUtils.h in Headers */,
-				E0E6FDC2EEFCCFA32909DD913711F791 /* UILabel+ELNUtils.h in Headers */,
-				9063F33EC207C548876EEC3E8F02EF80 /* UIResponder+ELNUtils.h in Headers */,
-				18B19EB3F49C9535E0198A2ACC46538B /* UITableView+ELNUtils.h in Headers */,
-				E2BEC116129C5AEA231E679DACA23C35 /* UITableViewCell+ELNUtils.h in Headers */,
-				1B1EAE33DBD4403B3ACB580F29C3161A /* UIView+ELNUtils.h in Headers */,
-				AF8183DD35D99149634CF360F0A57B6A /* UIViewController+ELNUtils.h in Headers */,
-				5679F4287CC6F47FEF24FD58B4191507 /* UIWindow+ELNUtils.h in Headers */,
+				712113B42BAECED178E853DDD873DB60 /* ELNAmountValidator.h in Headers */,
+				4CD471427F7F40AB432F2A66AC0609DB /* ELNCardNumberMask.h in Headers */,
+				1156BBBE3696B4DD597110AE476C8AC6 /* ELNCharactersValidator.h in Headers */,
+				864EEBF809F8AFE03D37DDC1E0FFAE2F /* ELNCurrencyFormatter.h in Headers */,
+				51635306F35264C6F9145A259484C2FA /* ELNCurrencyMask.h in Headers */,
+				3C3C8A7A16453898191B4A048608025A /* ELNCurrencyTextField.h in Headers */,
+				D514399920F96A94E5F1D0860860F8DD /* ELNPhoneNumberMask.h in Headers */,
+				B70D59EFCE6E25B66B2C1241B5A3F4E8 /* ELNTextFieldFormatter.h in Headers */,
+				BE7B9A5DA3AEE051CFC79628F0B87011 /* ELNTextMask.h in Headers */,
+				71CEF7D259A7F4F979680FD13A81F5D2 /* ELNValidatorType.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA6E20301DCC48D6BD9E61DAAAA799D0 /* Headers */ = {
+		E6B0E78850AA6A635787E3C1DA93D8F9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE668215C6369800D80EEFF66CFCB86D /* ELNAmountValidator.h in Headers */,
-				BDE273F4E2A961DE5C46E03ABE1AEC00 /* ELNCardNumberMask.h in Headers */,
-				F6042415F800A30739815BC3D0477969 /* ELNCharactersValidator.h in Headers */,
-				BFBBEE716FA33EF9D4D857B2194331A6 /* ELNCurrencyFormatter.h in Headers */,
-				753B6CFD5E7D1B5337B781A4B6CC5296 /* ELNCurrencyMask.h in Headers */,
-				F612BC9B88105171BA09346716FCC57D /* ELNCurrencyTextField.h in Headers */,
-				FD73A9D8FCF94155263784ED6FFDB2F6 /* ELNPhoneNumberMask.h in Headers */,
-				5921C24E1B8D349747FC086EBFF1A53F /* ELNTextFieldFormatter.h in Headers */,
-				0238345617E743C2DAE74FD1AB41D082 /* ELNTextMask.h in Headers */,
-				2ACDE05B10B77474044F93EBE296E7FD /* ELNValidatorType.h in Headers */,
+				44CEDE73C78C886375C86CB49D25112E /* ELNLayoutUtils.h in Headers */,
+				1561DE57CC4F62BFCD65936E42347891 /* ELNMath.h in Headers */,
+				9AECF6D7520393A3109831DF7C8FA6BF /* ELNRuntime.h in Headers */,
+				24E80C846DA33C46356E629678A27B0F /* ELNUtils.h in Headers */,
+				441087368ECEFE1306F5B99D8FF4B72E /* NSArray+ELNUtils.h in Headers */,
+				2D6D853B0D3AC3880AD40BE3D5DC031D /* NSBundle+ELNUtils.h in Headers */,
+				CF81D78A1957449A92D90E5A5232D019 /* NSData+ELNUtils.h in Headers */,
+				6007061CD6679E5D1C01E460DCE32241 /* NSError+ELNUtils.h in Headers */,
+				79A5F875202152F1A08F441132D253AF /* NSFileManager+ELNUtils.h in Headers */,
+				854AB22EF7B5FF2641BD4761C3413109 /* NSLocale+ELNUtils.h in Headers */,
+				B03A51F601966F3810EDBD6D865BC8F7 /* NSNumber+ELNUtils.h in Headers */,
+				8F2D6E8098C9B9BD8EA4ECC97AEE8D3D /* NSSortDescriptor+ELNUtils.h in Headers */,
+				42076D891ADACD26CE67F4FD0F7EF3E3 /* NSString+ELNUtils.h in Headers */,
+				CE80840F3EFEA734043F85B99487E002 /* NSURLRequest+ELNUtils.h in Headers */,
+				D3E1DF7612171C3139A97AC1BB49E508 /* UICollectionView+ELNUtils.h in Headers */,
+				6500CE154B72596DA77E2302E4C6B460 /* UIColor+ELNUtils.h in Headers */,
+				9F28DFA565C6B7254A16BD961ED729E4 /* UIFont+ELNUtils.h in Headers */,
+				EB8CC8DEEA26635BEF763FD841FE4DD3 /* UIImage+ELNUtils.h in Headers */,
+				63D772C912C4A6B67768DAAEC1BD9BCC /* UILabel+ELNUtils.h in Headers */,
+				BB8BEFBB4F28FC619A09E3B1EAF908CE /* UIResponder+ELNUtils.h in Headers */,
+				7FEB8A5CA8D6BEC3D549AE723EB1CBE2 /* UITableView+ELNUtils.h in Headers */,
+				0108E10E9A4FDACA36E139D856A30D83 /* UITableViewCell+ELNUtils.h in Headers */,
+				0CC06B83465A93C550C046189F7FD97C /* UIView+ELNUtils.h in Headers */,
+				30B7DC664AB0EE74E7E28A7A335F05DB /* UIViewController+ELNUtils.h in Headers */,
+				D0DC4833D0E6552BDA7F0C710DF25D57 /* UIWindow+ELNUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		241DD2CBD7C279450E9E1E268AFC3B44 /* ELNTextFieldFormattingKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D44F34FA2CD545492783186C9622755A /* Build configuration list for PBXNativeTarget "ELNTextFieldFormattingKit" */;
+			buildPhases = (
+				968516E5648FC51E5813ED49302FBBAD /* Sources */,
+				5D5198356103FDEF572654F824E69F58 /* Frameworks */,
+				290BF0915614DB2C74625FA0E978636B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC95CD45E3965A6F50995B2E32E458D8 /* PBXTargetDependency */,
+			);
+			name = ELNTextFieldFormattingKit;
+			productName = ELNTextFieldFormattingKit;
+			productReference = 1F40189FE49C1C1C4DDBB135B4B2C22B /* libELNTextFieldFormattingKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		4397C4D76DB24A30ABBB296422DE1EB3 /* Pods-ELNTextFieldFormattingKit_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E5D7DD7273F0202D56A09F1BFA27ADB /* Build configuration list for PBXNativeTarget "Pods-ELNTextFieldFormattingKit_Example" */;
@@ -539,43 +548,7 @@
 			);
 			name = "Pods-ELNTextFieldFormattingKit_Example";
 			productName = "Pods-ELNTextFieldFormattingKit_Example";
-			productReference = 04FC4A031FB50923C37584C6F9751F69 /* libPods-ELNTextFieldFormattingKit_Example.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		4EA828F41AEF5A88AEA9EB5987AB56B0 /* ELNUtils */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FE2B7EA053C18AFE11F022763146C049 /* Build configuration list for PBXNativeTarget "ELNUtils" */;
-			buildPhases = (
-				A3DE439F83404EF39AD9867C66E6A764 /* Sources */,
-				CD6C5CC2031BAA557D253E8D306D9552 /* Frameworks */,
-				7C5A14DB872DC6569DA618DC12771B0C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ELNUtils;
-			productName = ELNUtils;
-			productReference = 8693FE6888F9A52BA54657FFADCF8B62 /* libELNUtils.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		7CBE9D0AD3728A172C2D459692F1489A /* ELNTextFieldFormattingKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BCED6FF45BA67272B7C8E40DBAA292E4 /* Build configuration list for PBXNativeTarget "ELNTextFieldFormattingKit" */;
-			buildPhases = (
-				9A2925E2F81DBE7B78A460EC8D514CBF /* Sources */,
-				8F00C15C07C9E6AE0EB18692EC03353A /* Frameworks */,
-				CA6E20301DCC48D6BD9E61DAAAA799D0 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				37FC4D48E1D91060533CB25D85B2ABBE /* PBXTargetDependency */,
-				57C80BB2298F7ECD8CC49E61516696CA /* PBXTargetDependency */,
-			);
-			name = ELNTextFieldFormattingKit;
-			productName = ELNTextFieldFormattingKit;
-			productReference = A7C83AF2EB020055AF1F3FA3A0EBDA04 /* libELNTextFieldFormattingKit.a */;
+			productReference = C014D00B5CCAC06024B122164201B0B0 /* libPods-ELNTextFieldFormattingKit_Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		98C7C99E5124ACC8AD53EDC856C36020 /* Pods-ELNTextFieldFormattingKit_Tests */ = {
@@ -593,25 +566,25 @@
 			);
 			name = "Pods-ELNTextFieldFormattingKit_Tests";
 			productName = "Pods-ELNTextFieldFormattingKit_Tests";
-			productReference = 85D74B9DEC6784D657576A3079B943D9 /* libPods-ELNTextFieldFormattingKit_Tests.a */;
+			productReference = FAB7F008127617FE766CBBECFB9DF161 /* libPods-ELNTextFieldFormattingKit_Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		E2579DD8D444C11183B0BC03865498BF /* ELNTextFieldFormattingKit-ELNTextFieldFormattingKit */ = {
+		DBA08A8CA1ADEB5A9E6B92CF57413E3E /* ELNUtils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C02E2464C302868E79981E52A2B93FCC /* Build configuration list for PBXNativeTarget "ELNTextFieldFormattingKit-ELNTextFieldFormattingKit" */;
+			buildConfigurationList = 629DF46A314E4B7BF66F6F941C381C7B /* Build configuration list for PBXNativeTarget "ELNUtils" */;
 			buildPhases = (
-				288D524FA8448BF0E8E21E5702D3B9D8 /* Sources */,
-				89A0BF680383DA32FED3C01955BC58B9 /* Frameworks */,
-				9F050174CA8A449C68ACCE93AD7EAFDA /* Resources */,
+				FC180176D7270D10BD3BDC30447C1052 /* Sources */,
+				0AA929FAD84F1B9DF79E68C44ADA13F3 /* Frameworks */,
+				E6B0E78850AA6A635787E3C1DA93D8F9 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "ELNTextFieldFormattingKit-ELNTextFieldFormattingKit";
-			productName = "ELNTextFieldFormattingKit-ELNTextFieldFormattingKit";
-			productReference = B64B8F490D4FA2A0747FE926452C500B /* ELNTextFieldFormattingKit.bundle */;
-			productType = "com.apple.product-type.bundle";
+			name = ELNUtils;
+			productName = ELNUtils;
+			productReference = ED4918382961B6CCCD183187E01A7DB7 /* libELNUtils.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -630,79 +603,32 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 58CA329DB6BA177FCBAD49A48230B436 /* Products */;
+			productRefGroup = EDC7BBE29BB0EB5C8527D99D5AF47D28 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7CBE9D0AD3728A172C2D459692F1489A /* ELNTextFieldFormattingKit */,
-				E2579DD8D444C11183B0BC03865498BF /* ELNTextFieldFormattingKit-ELNTextFieldFormattingKit */,
-				4EA828F41AEF5A88AEA9EB5987AB56B0 /* ELNUtils */,
+				241DD2CBD7C279450E9E1E268AFC3B44 /* ELNTextFieldFormattingKit */,
+				DBA08A8CA1ADEB5A9E6B92CF57413E3E /* ELNUtils */,
 				4397C4D76DB24A30ABBB296422DE1EB3 /* Pods-ELNTextFieldFormattingKit_Example */,
 				98C7C99E5124ACC8AD53EDC856C36020 /* Pods-ELNTextFieldFormattingKit_Tests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		9F050174CA8A449C68ACCE93AD7EAFDA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		288D524FA8448BF0E8E21E5702D3B9D8 /* Sources */ = {
+		968516E5648FC51E5813ED49302FBBAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9A2925E2F81DBE7B78A460EC8D514CBF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C2CE975B2F39D7ECF27F3248FB8754C2 /* ELNAmountValidator.m in Sources */,
-				FD00F1285C9C14A57FE32A18ACBA8827 /* ELNCardNumberMask.m in Sources */,
-				0B2E044EF1030730184BAF7AF30AB78E /* ELNCharactersValidator.m in Sources */,
-				04EAC1A4F76BAD4F1178E0128CA0AF1A /* ELNCurrencyFormatter.m in Sources */,
-				4B0D36E41972FAFB8E931DF0CDE117DA /* ELNCurrencyMask.m in Sources */,
-				29A3ED97022CF6946E2A6AE676FF3B20 /* ELNCurrencyTextField.m in Sources */,
-				5EC4AACFFB0D058F20F3CAE5BC534F4A /* ELNPhoneNumberMask.m in Sources */,
-				967C6E309CBB52D2A6E8BED5D5AC2B54 /* ELNTextFieldFormatter.m in Sources */,
-				FBDF03A57744F8EF89BDFF871437FCAA /* ELNTextFieldFormattingKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A3DE439F83404EF39AD9867C66E6A764 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FCDD147ED0A3F786CBFBB747BA0FFDB3 /* ELNLayoutUtils.m in Sources */,
-				53EC7FDB16F37516B49915B3781F9AA2 /* ELNUtils-dummy.m in Sources */,
-				D62597126F675D39FFC568B248B09888 /* NSArray+ELNUtils.m in Sources */,
-				5C582DA012C0FF0F4B3B04FB53F4B352 /* NSData+ELNUtils.m in Sources */,
-				5C8725F6E35D719681CB760A2FDAF5B1 /* NSError+ELNUtils.m in Sources */,
-				902FB9755072C736562FC871A6CE19D1 /* NSFileManager+ELNUtils.m in Sources */,
-				6C2FC890778BA3A1936E3229598E8D67 /* NSLocale+ELNUtils.m in Sources */,
-				07B105F1DD44C6EFAA820B8BFE36DEF7 /* NSNumber+ELNUtils.m in Sources */,
-				ED45137C8DCE57CBEF865B681222756C /* NSSortDescriptor+ELNUtils.m in Sources */,
-				8DED932CD113D2FE6B3AD87657C9B198 /* NSString+ELNUtils.m in Sources */,
-				A6FCC7C829B00FB4E0B21F19EB8BF7E3 /* NSURLRequest+ELNUtils.m in Sources */,
-				1284BD7F0B3C4CC1FE7E2CAF667D5B97 /* UICollectionView+ELNUtils.m in Sources */,
-				295515541CC90D03AEC448985E0DA458 /* UIColor+ELNUtils.m in Sources */,
-				E869375CB3DBD2FC6098140A20CFCF1F /* UIFont+ELNUtils.m in Sources */,
-				678FA6460149C5D82EEC71CC1D2708F5 /* UIImage+ELNUtils.m in Sources */,
-				20B4B319F40187A78C54A84E1447F8A4 /* UILabel+ELNUtils.m in Sources */,
-				BA5EA3D40547E0DB26141262E7614BA6 /* UIResponder+ELNUtils.m in Sources */,
-				9A90762CC51741CEC3CBDCA5BB55381C /* UITableView+ELNUtils.m in Sources */,
-				B477FE66ADD19D96F005DF98C10A4064 /* UITableViewCell+ELNUtils.m in Sources */,
-				9A2A658610C8E93C5EDD62C4E85BA117 /* UIView+ELNUtils.m in Sources */,
-				96E3AA166C228F9417C552F7E1C6B020 /* UIViewController+ELNUtils.m in Sources */,
-				5CE4F907E27AC4040D95EF2F6D81A7B3 /* UIWindow+ELNUtils.m in Sources */,
+				200DC3136EEEA606F1208D174E359116 /* ELNAmountValidator.m in Sources */,
+				7D5A6A213D7274DCDA809AEFEDD8B2D3 /* ELNCardNumberMask.m in Sources */,
+				0BECC43394F335163EB70D8953614592 /* ELNCharactersValidator.m in Sources */,
+				B05F32D2B75B16114888F40AD13B1943 /* ELNCurrencyFormatter.m in Sources */,
+				5ED35A72542F4EB4FB6610CDFC49C88A /* ELNCurrencyMask.m in Sources */,
+				AA46D439EF603A2B362B415685F7384C /* ELNCurrencyTextField.m in Sources */,
+				147125C9A5BBA157AF54B1DF40CE5B6B /* ELNPhoneNumberMask.m in Sources */,
+				244ED14377FB95FDDC37245392258A59 /* ELNTextFieldFormatter.m in Sources */,
+				49FBA7F42E758C905E847EC62967C3DD /* ELNTextFieldFormattingKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -711,6 +637,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CAA995AA8087EA967EA5B50EEC5229B /* Pods-ELNTextFieldFormattingKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC180176D7270D10BD3BDC30447C1052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB8B5EDFCB96066F3663AD05E4E751D /* ELNLayoutUtils.m in Sources */,
+				4304F1A2D508516D94F1F0CDFBF673AA /* ELNUtils-dummy.m in Sources */,
+				29056994922FE443B2D29A734A9974EF /* NSArray+ELNUtils.m in Sources */,
+				740D9982A3A721E11A6E6327B5685B71 /* NSBundle+ELNUtils.m in Sources */,
+				5D2FEEA26B94533501834D9C7F018BFD /* NSData+ELNUtils.m in Sources */,
+				264DE22B7864D8DF632DAC1F50E58DEA /* NSError+ELNUtils.m in Sources */,
+				7FBF9FA96097981081441ED9B3D2F177 /* NSFileManager+ELNUtils.m in Sources */,
+				66F1EC33741E75A022220C49D1F625A7 /* NSLocale+ELNUtils.m in Sources */,
+				553481BE955B5E279FB9A5D21C4C76B6 /* NSNumber+ELNUtils.m in Sources */,
+				AC398A54FCD42A138325EE064B55EC52 /* NSSortDescriptor+ELNUtils.m in Sources */,
+				605AC5BEC33D90907944A5C34B9DE9D7 /* NSString+ELNUtils.m in Sources */,
+				635DED8948C43E8127DDABD4626E8951 /* NSURLRequest+ELNUtils.m in Sources */,
+				20299A51DC299A4EC61EA825A5EA1E97 /* UICollectionView+ELNUtils.m in Sources */,
+				2D81A8CB68BAADEE3A50038135855B52 /* UIColor+ELNUtils.m in Sources */,
+				44A760F8157C52DAAAF27D1261C323D2 /* UIFont+ELNUtils.m in Sources */,
+				ADF8656D312947886712A7B4628F2C57 /* UIImage+ELNUtils.m in Sources */,
+				8B9F61D5D0A79D18C2FC73FB43E57ED2 /* UILabel+ELNUtils.m in Sources */,
+				1D3A077F3943E3C1C595557BFAFB897B /* UIResponder+ELNUtils.m in Sources */,
+				7D09ED12AD45C06BAC3107C6BD2C0A11 /* UITableView+ELNUtils.m in Sources */,
+				F84E11C4D4D3E151891CD84A923BB9FD /* UITableViewCell+ELNUtils.m in Sources */,
+				D9E0D6D0F272C353BD5E38DB82107DE7 /* UIView+ELNUtils.m in Sources */,
+				EF942434A66DF6A8B2F3C80B8B6776F4 /* UIViewController+ELNUtils.m in Sources */,
+				2880ECA959A2C755A396E88ABE1651C1 /* UIWindow+ELNUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -728,38 +684,32 @@
 		2BB6B2F8FD21BDB20D8BE96965020174 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ELNTextFieldFormattingKit;
-			target = 7CBE9D0AD3728A172C2D459692F1489A /* ELNTextFieldFormattingKit */;
+			target = 241DD2CBD7C279450E9E1E268AFC3B44 /* ELNTextFieldFormattingKit */;
 			targetProxy = E1457F51B237323D88913F4D1156C177 /* PBXContainerItemProxy */;
 		};
 		37DC14914C6C7E5F8902F64E5B354959 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ELNTextFieldFormattingKit;
-			target = 7CBE9D0AD3728A172C2D459692F1489A /* ELNTextFieldFormattingKit */;
+			target = 241DD2CBD7C279450E9E1E268AFC3B44 /* ELNTextFieldFormattingKit */;
 			targetProxy = 40448430570FD4FBC66B64D38A71DC92 /* PBXContainerItemProxy */;
-		};
-		37FC4D48E1D91060533CB25D85B2ABBE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ELNTextFieldFormattingKit-ELNTextFieldFormattingKit";
-			target = E2579DD8D444C11183B0BC03865498BF /* ELNTextFieldFormattingKit-ELNTextFieldFormattingKit */;
-			targetProxy = 7D27242C14C17FF31AAF65C1818C7434 /* PBXContainerItemProxy */;
-		};
-		57C80BB2298F7ECD8CC49E61516696CA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ELNUtils;
-			target = 4EA828F41AEF5A88AEA9EB5987AB56B0 /* ELNUtils */;
-			targetProxy = 819745B01F4165377C5D6B1C1010ECCA /* PBXContainerItemProxy */;
 		};
 		80059A389AE6C82926A296FE22019DF9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ELNUtils;
-			target = 4EA828F41AEF5A88AEA9EB5987AB56B0 /* ELNUtils */;
+			target = DBA08A8CA1ADEB5A9E6B92CF57413E3E /* ELNUtils */;
 			targetProxy = 30F981DD72F7E3C014074B11E3A4B499 /* PBXContainerItemProxy */;
 		};
 		85BCA6DAEABD25E410C0E177FE7931A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ELNUtils;
-			target = 4EA828F41AEF5A88AEA9EB5987AB56B0 /* ELNUtils */;
+			target = DBA08A8CA1ADEB5A9E6B92CF57413E3E /* ELNUtils */;
 			targetProxy = F144CC8B930CF906866710FBEA073C86 /* PBXContainerItemProxy */;
+		};
+		AC95CD45E3965A6F50995B2E32E458D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ELNUtils;
+			target = DBA08A8CA1ADEB5A9E6B92CF57413E3E /* ELNUtils */;
+			targetProxy = 0C06B5D1B10A4A765C0220C00AE3582E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -837,9 +787,45 @@
 			};
 			name = Debug;
 		};
-		1F86308B99B0761C478A84980FC3C716 /* Debug */ = {
+		18F61E2A1BBABAD165CDD7A8BC99A110 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F78F2A96F96A00ADAD133CF8FC26227 /* ELNUtils.xcconfig */;
+			baseConfigurationReference = 0BD108F4E9A35403C7915E74D1D18A7C /* ELNUtils.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ELNUtils/ELNUtils-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1A12C3879DA8D86879DDC65434D0A767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 655B4D79B728562B982DE7FB402565D4 /* ELNTextFieldFormattingKit.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ELNTextFieldFormattingKit/ELNTextFieldFormattingKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		298F5790FC9BA3B4AEE64C97F8DBDDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD108F4E9A35403C7915E74D1D18A7C /* ELNUtils.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/ELNUtils/ELNUtils-prefix.pch";
@@ -889,18 +875,6 @@
 			};
 			name = Release;
 		};
-		585F0A49BF20D768BFB598605C08A074 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 578201E8FCC7813A4557E6242C495A29 /* ELNTextFieldFormattingKit.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = ELNTextFieldFormattingKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		6AF1FEE97DCE5155EC387E7FDBA67256 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4B84839A0DB1E5D77CAADF06902B5617 /* Pods-ELNTextFieldFormattingKit_Example.debug.xcconfig */;
@@ -918,6 +892,24 @@
 			};
 			name = Debug;
 		};
+		973C44F0FB115205463A28741184619E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 655B4D79B728562B982DE7FB402565D4 /* ELNTextFieldFormattingKit.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ELNTextFieldFormattingKit/ELNTextFieldFormattingKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		A4ECDD0A5A76B2FE4089B537CA72A0D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 816E4170F70EBA4DF7ADE74AFA73992B /* Pods-ELNTextFieldFormattingKit_Tests.release.xcconfig */;
@@ -934,72 +926,6 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
-		};
-		A70813B336B127E1A903A84934CE0419 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 578201E8FCC7813A4557E6242C495A29 /* ELNTextFieldFormattingKit.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = ELNTextFieldFormattingKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		B6DDF4BBB004385806FF93933CE8C8B3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 578201E8FCC7813A4557E6242C495A29 /* ELNTextFieldFormattingKit.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ELNTextFieldFormattingKit/ELNTextFieldFormattingKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		C8563BF5303D412C1CF901D53F5A7F71 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F78F2A96F96A00ADAD133CF8FC26227 /* ELNUtils.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ELNUtils/ELNUtils-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		EE1F7CA1C5E970133BB184195D3EF41A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 578201E8FCC7813A4557E6242C495A29 /* ELNTextFieldFormattingKit.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ELNTextFieldFormattingKit/ELNTextFieldFormattingKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1022,6 +948,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		629DF46A314E4B7BF66F6F941C381C7B /* Build configuration list for PBXNativeTarget "ELNUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298F5790FC9BA3B4AEE64C97F8DBDDA3 /* Debug */,
+				18F61E2A1BBABAD165CDD7A8BC99A110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8E5D7DD7273F0202D56A09F1BFA27ADB /* Build configuration list for PBXNativeTarget "Pods-ELNTextFieldFormattingKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1031,29 +966,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BCED6FF45BA67272B7C8E40DBAA292E4 /* Build configuration list for PBXNativeTarget "ELNTextFieldFormattingKit" */ = {
+		D44F34FA2CD545492783186C9622755A /* Build configuration list for PBXNativeTarget "ELNTextFieldFormattingKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE1F7CA1C5E970133BB184195D3EF41A /* Debug */,
-				B6DDF4BBB004385806FF93933CE8C8B3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C02E2464C302868E79981E52A2B93FCC /* Build configuration list for PBXNativeTarget "ELNTextFieldFormattingKit-ELNTextFieldFormattingKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				585F0A49BF20D768BFB598605C08A074 /* Debug */,
-				A70813B336B127E1A903A84934CE0419 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FE2B7EA053C18AFE11F022763146C049 /* Build configuration list for PBXNativeTarget "ELNUtils" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F86308B99B0761C478A84980FC3C716 /* Debug */,
-				C8563BF5303D412C1CF901D53F5A7F71 /* Release */,
+				1A12C3879DA8D86879DDC65434D0A767 /* Debug */,
+				973C44F0FB115205463A28741184619E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

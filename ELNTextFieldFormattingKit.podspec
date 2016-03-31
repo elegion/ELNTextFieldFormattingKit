@@ -3,21 +3,16 @@ Pod::Spec.new do |s|
   s.version          = "0.0.0"
   s.summary          = "Collection of text field formatters for phone number, card and currency inputs"
 
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.authors          = '.'
-  s.homepage         = '.'
+  s.homepage         = 'https://github.com/elegion/ios-ELNTextFieldFormattingKit'
   s.source           = { :git => "https://github.com/elegion/ios-ELNTextFieldFormattingKit.git", :tag => "v#{s.version}" }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'ELNTextFieldFormattingKit' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.source_files = 'Pod'
+  
   s.frameworks = 'UIKit'
-  s.dependency 'ELNUtils'
+  s.dependency 'ELNUtils', '~> 0.3.0'
 end

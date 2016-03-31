@@ -1,1 +1,1 @@
-../../../ELNUtils/lib/NSString+ELNUtils.h
+../../../ELNUtils/Source/NSString+ELNUtils.h

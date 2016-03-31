@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/ELNAmountValidator.h
+../../../../../Pod/ELNAmountValidator.h
