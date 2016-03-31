@@ -3,7 +3,6 @@ source 'https://github.com/elegion/ios-podspecs.git'
 
 target 'ELNTextFieldFormattingKit_Example', :exclusive => true do
     pod 'ELNTextFieldFormattingKit', :path => '../'
-    pod 'ELNUtils', '~>0.3.0'
 end
 
 target 'ELNTextFieldFormattingKit_Tests', :exclusive => true do
