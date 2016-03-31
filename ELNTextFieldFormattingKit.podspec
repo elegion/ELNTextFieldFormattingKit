@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ELNTextFieldFormattingKit"
-  s.version          = "0.0.0"
+  s.version          = "0.0.1"
   s.summary          = "Collection of text field formatters for phone number, card and currency inputs"
 
   s.license          = 'MIT'
