@@ -1,19 +1,18 @@
 {
   "name": "ELNTextFieldFormattingKit",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "summary": "Collection of text field formatters for phone number, card and currency inputs",
-  "license": "MIT",
-  "authors": ".",
   "homepage": "https://github.com/elegion/ios-ELNTextFieldFormattingKit",
-  "source": {
-    "git": "https://github.com/elegion/ios-ELNTextFieldFormattingKit.git",
-    "tag": "v0.0.1"
-  },
+  "authors": ".",
+  "license": "MIT",
   "platforms": {
     "ios": "7.0"
   },
-  "requires_arc": true,
-  "source_files": "Pod",
+  "source": {
+    "git": "https://github.com/elegion/ios-ELNTextFieldFormattingKit.git",
+    "tag": "v0.0.3"
+  },
+  "source_files": "Source/**/*",
   "frameworks": "UIKit",
   "dependencies": {
     "ELNUtils": [

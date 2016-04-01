@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'C8F2B61B40F3307FFF153A3F'
+               BlueprintIdentifier = 'ADC7EE87B2846A25169FC346'
                BlueprintName = 'ELNTextFieldFormattingKit'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libELNTextFieldFormattingKit.a'>
