@@ -36,7 +36,7 @@ static NSUInteger const kMaximumIntegerDigits = 42;
 #pragma mark - NSCopying
 
 - (instancetype)copyWithZone:(NSZone *)zone {
-    typeof(self) copy = [[self.class alloc] init];
+    __typeof(self) copy = [[self.class alloc] init];
     copy.validator = self.validator;
     copy.formatter = self.formatter;
     return copy;

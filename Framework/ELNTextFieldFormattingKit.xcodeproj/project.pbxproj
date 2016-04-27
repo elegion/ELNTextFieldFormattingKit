@@ -414,6 +414,7 @@
 /* Begin XCBuildConfiguration section */
 		FE8265C91CD156AF00D1CDDC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE8265F31CD1572300D1CDDC /* Default.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -462,6 +463,7 @@
 		};
 		FE8265CA1CD156AF00D1CDDC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE8265F31CD1572300D1CDDC /* Default.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;

@@ -26,7 +26,7 @@
 #pragma mark - NSCopying
 
 - (id)copyWithZone:(NSZone *)zone {
-    typeof(self) copy = [self.class new];
+    __typeof(self) copy = [self.class new];
     copy.allowsEmpty = self.allowsEmpty;
     copy.allowedCharacterSet = self.allowedCharacterSet;
     return copy;

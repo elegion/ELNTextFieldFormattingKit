@@ -49,7 +49,7 @@
 #pragma mark - NSCopying
 
 - (id)copyWithZone:(NSZone *)zone {
-    typeof(self) copy = [self.class new];
+    __typeof(self) copy = [self.class new];
     copy.numberFormatter = self.numberFormatter;
     copy.locale = self.locale;
     copy.currencyCode = self.currencyCode;
