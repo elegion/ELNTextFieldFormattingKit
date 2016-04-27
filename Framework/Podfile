@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/elegion/ios-podspecs.git'
+
+target 'ELNTextFieldFormattingKit' do
+
+  pod 'ELNUtils', '~> 0.3.0'
+
+end
+
+target 'Tests' do
+
+  pod 'ELNTestUtils', '~> 0.0.1'
+
+end

@@ -1,981 +1,3332 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		0108E10E9A4FDACA36E139D856A30D83 /* UITableViewCell+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2766796B65E583B0A5B0461501DCAB82 /* UITableViewCell+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BECC43394F335163EB70D8953614592 /* ELNCharactersValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E13B46892480B521C2A26B025D8C9CC /* ELNCharactersValidator.m */; };
-		0CC06B83465A93C550C046189F7FD97C /* UIView+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CF4018F7DDBA236899CDA6C5E8040F4 /* UIView+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1156BBBE3696B4DD597110AE476C8AC6 /* ELNCharactersValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 25C51B8D5EFD70A1E644A50EA344072A /* ELNCharactersValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		147125C9A5BBA157AF54B1DF40CE5B6B /* ELNPhoneNumberMask.m in Sources */ = {isa = PBXBuildFile; fileRef = AD58A00F5036C914DBB496C82A865F8F /* ELNPhoneNumberMask.m */; };
-		1561DE57CC4F62BFCD65936E42347891 /* ELNMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A5FD01971DDAD6DD3B786CDF9FA337 /* ELNMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CAA995AA8087EA967EA5B50EEC5229B /* Pods-ELNTextFieldFormattingKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A11EA7C67670A9327993A12D2B09C /* Pods-ELNTextFieldFormattingKit_Tests-dummy.m */; };
-		1D3A077F3943E3C1C595557BFAFB897B /* UIResponder+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 80234C50D3AE4F196D0FB1F73B86F5BF /* UIResponder+ELNUtils.m */; };
-		1EF4C3FA828B13111968D83E1AA889A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		1FB8B5EDFCB96066F3663AD05E4E751D /* ELNLayoutUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 10617DFC589CE8A9BDA29AE5BD0DBAA1 /* ELNLayoutUtils.m */; };
-		200DC3136EEEA606F1208D174E359116 /* ELNAmountValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDBF581E471AD6EFB8BFA8F0BFAD7C4 /* ELNAmountValidator.m */; };
-		20299A51DC299A4EC61EA825A5EA1E97 /* UICollectionView+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD41146E0BE277677ABC1CF9D476555 /* UICollectionView+ELNUtils.m */; };
-		244ED14377FB95FDDC37245392258A59 /* ELNTextFieldFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB6AA2FC07B235990A953B183836004 /* ELNTextFieldFormatter.m */; };
-		24E80C846DA33C46356E629678A27B0F /* ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D24D352E4A4C8024E77DEBF45DDB6AF /* ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		264DE22B7864D8DF632DAC1F50E58DEA /* NSError+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4520DA79B2C36161645F6E738CF7A63A /* NSError+ELNUtils.m */; };
-		2880ECA959A2C755A396E88ABE1651C1 /* UIWindow+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D3001F749F2AAE1D025017432D9DA4 /* UIWindow+ELNUtils.m */; };
-		29056994922FE443B2D29A734A9974EF /* NSArray+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1B80936C7BF1894EF222CAA59CF43 /* NSArray+ELNUtils.m */; };
-		2D6D853B0D3AC3880AD40BE3D5DC031D /* NSBundle+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D84E52CB5D9DC2C8DA1EE3C3529B29 /* NSBundle+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D81A8CB68BAADEE3A50038135855B52 /* UIColor+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4058331691ECF2F38224A531DB6EB85C /* UIColor+ELNUtils.m */; };
-		30B7DC664AB0EE74E7E28A7A335F05DB /* UIViewController+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = FF6D3CD6409FDD6B862E10195D97E40E /* UIViewController+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348D1BD38A9630BFB86C61615D8C4B8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		3C3C8A7A16453898191B4A048608025A /* ELNCurrencyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 44EEE934C02886AEF01E8FABCF8C1AF3 /* ELNCurrencyTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42076D891ADACD26CE67F4FD0F7EF3E3 /* NSString+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EEAC8B6D3496138E8AB5D5F743E2415A /* NSString+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4304F1A2D508516D94F1F0CDFBF673AA /* ELNUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 899344C7681424797F2FFEB6E3245D52 /* ELNUtils-dummy.m */; };
-		441087368ECEFE1306F5B99D8FF4B72E /* NSArray+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 65087D9A3239911060A6157A790A585F /* NSArray+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44A760F8157C52DAAAF27D1261C323D2 /* UIFont+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 60900D092100AE3C813AC877126505DD /* UIFont+ELNUtils.m */; };
-		44CEDE73C78C886375C86CB49D25112E /* ELNLayoutUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C9C5292BC01C2B0A3F832DCF2AF229 /* ELNLayoutUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49FBA7F42E758C905E847EC62967C3DD /* ELNTextFieldFormattingKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEAB5482E68855302E6E54E9B46F404 /* ELNTextFieldFormattingKit-dummy.m */; };
-		4CD471427F7F40AB432F2A66AC0609DB /* ELNCardNumberMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA32FFFDF97AF05F88F3E046DDB4CA1 /* ELNCardNumberMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51635306F35264C6F9145A259484C2FA /* ELNCurrencyMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FD520C17224F2CCB5027223A73D2E6 /* ELNCurrencyMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		553481BE955B5E279FB9A5D21C4C76B6 /* NSNumber+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D313EB2F24A4792928DED67EE5CDF59 /* NSNumber+ELNUtils.m */; };
-		5773C817DA1F0CD44BBED5C653BB09FA /* Pods-ELNTextFieldFormattingKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F37346647C8F6EDC07F21A5553A001A /* Pods-ELNTextFieldFormattingKit_Example-dummy.m */; };
-		5D2FEEA26B94533501834D9C7F018BFD /* NSData+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D934E691628DA423224F735FF6C5BC8A /* NSData+ELNUtils.m */; };
-		5ED35A72542F4EB4FB6610CDFC49C88A /* ELNCurrencyMask.m in Sources */ = {isa = PBXBuildFile; fileRef = EA30E5EF0C192F0EBC90DF00F7DE32E6 /* ELNCurrencyMask.m */; };
-		6007061CD6679E5D1C01E460DCE32241 /* NSError+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B704A1D914FE2D74F28CBD7ABE9F745 /* NSError+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		605AC5BEC33D90907944A5C34B9DE9D7 /* NSString+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA433F76F0DB28D328BB894A645D1CE /* NSString+ELNUtils.m */; };
-		635DED8948C43E8127DDABD4626E8951 /* NSURLRequest+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1907BA4AD60D6B1778ADA1FEE0E69777 /* NSURLRequest+ELNUtils.m */; };
-		63D772C912C4A6B67768DAAEC1BD9BCC /* UILabel+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BA2A2CFD5921C67BEB260E5543C5446 /* UILabel+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6500CE154B72596DA77E2302E4C6B460 /* UIColor+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F86651030F3D5C43E5CA430D78524288 /* UIColor+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66F1EC33741E75A022220C49D1F625A7 /* NSLocale+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A89E509658485425CE61BDADDE07F4 /* NSLocale+ELNUtils.m */; };
-		712113B42BAECED178E853DDD873DB60 /* ELNAmountValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = C2DEB2DA395CE2D5BFD83C454F9A9B5A /* ELNAmountValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71CEF7D259A7F4F979680FD13A81F5D2 /* ELNValidatorType.h in Headers */ = {isa = PBXBuildFile; fileRef = 89B3B1399EFFB99DFEB8106A7F9A4750 /* ELNValidatorType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		740D9982A3A721E11A6E6327B5685B71 /* NSBundle+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C12D0E3EE66AB5241980C6745761F26C /* NSBundle+ELNUtils.m */; };
-		79A5F875202152F1A08F441132D253AF /* NSFileManager+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E173E31341866C63404A54C567044FA3 /* NSFileManager+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D09ED12AD45C06BAC3107C6BD2C0A11 /* UITableView+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D364B0C79EBAF40AC71D4D0C79B394 /* UITableView+ELNUtils.m */; };
-		7D5A6A213D7274DCDA809AEFEDD8B2D3 /* ELNCardNumberMask.m in Sources */ = {isa = PBXBuildFile; fileRef = A39D7F6D10FE4851AC8D2B3FFE64A157 /* ELNCardNumberMask.m */; };
-		7FBF9FA96097981081441ED9B3D2F177 /* NSFileManager+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4157696B45035BC47ED64E434E53B143 /* NSFileManager+ELNUtils.m */; };
-		7FEB8A5CA8D6BEC3D549AE723EB1CBE2 /* UITableView+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A6DA2452CB7793FCC997F117DA07F794 /* UITableView+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		824EFB42BC82286772103D0DD7D3BE9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		854AB22EF7B5FF2641BD4761C3413109 /* NSLocale+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA128974407457ACCA8977512DCEBF6 /* NSLocale+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		864EEBF809F8AFE03D37DDC1E0FFAE2F /* ELNCurrencyFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = A2EAD604BA467116268F74F6EF135266 /* ELNCurrencyFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B9F61D5D0A79D18C2FC73FB43E57ED2 /* UILabel+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F16249B9A66C23C3ED3080C77EC3C592 /* UILabel+ELNUtils.m */; };
-		8F2D6E8098C9B9BD8EA4ECC97AEE8D3D /* NSSortDescriptor+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CC6092F94B3FC822CDE7AB61E26CDA9 /* NSSortDescriptor+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99F9DE8ED0E2BF61A09E15565F70BBA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		9AECF6D7520393A3109831DF7C8FA6BF /* ELNRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 1120BF0A8086921AE7135FA6B30DE44E /* ELNRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F28DFA565C6B7254A16BD961ED729E4 /* UIFont+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CDFD36A98F28DFE17363EA5475A2D15 /* UIFont+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA46D439EF603A2B362B415685F7384C /* ELNCurrencyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C6DBCF6FBFDE9C1DE88C36291CF1B8 /* ELNCurrencyTextField.m */; };
-		AC398A54FCD42A138325EE064B55EC52 /* NSSortDescriptor+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A33EF6E4763B48EE875AFF282BE49987 /* NSSortDescriptor+ELNUtils.m */; };
-		ADF8656D312947886712A7B4628F2C57 /* UIImage+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A67B4EAFD31537A40371B7F712ADC /* UIImage+ELNUtils.m */; };
-		B03A51F601966F3810EDBD6D865BC8F7 /* NSNumber+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 17ECA5ACF89ED35791CE4362C592ECCC /* NSNumber+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B05F32D2B75B16114888F40AD13B1943 /* ELNCurrencyFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 96509A86F0BCF6CA3D22DCD9CA0485DB /* ELNCurrencyFormatter.m */; };
-		B70D59EFCE6E25B66B2C1241B5A3F4E8 /* ELNTextFieldFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = D62E04FCCB1A3781DB870A90675FDA72 /* ELNTextFieldFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB8BEFBB4F28FC619A09E3B1EAF908CE /* UIResponder+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BC65E4E8A3BB74158C785FB59A1262BE /* UIResponder+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE7B9A5DA3AEE051CFC79628F0B87011 /* ELNTextMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B72A87A97763E66DF81E0D6D97CBBF0 /* ELNTextMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE80840F3EFEA734043F85B99487E002 /* NSURLRequest+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D7694FD31B49AA2A42CCFE2CD0B1A351 /* NSURLRequest+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF81D78A1957449A92D90E5A5232D019 /* NSData+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC37B4A55E33D9F607FC291E4563A84 /* NSData+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0DC4833D0E6552BDA7F0C710DF25D57 /* UIWindow+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 767567A4CB12E663B8A0F1ED94B0A83B /* UIWindow+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3E1DF7612171C3139A97AC1BB49E508 /* UICollectionView+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6358B8CEC31CCE0820FF06E49B20F992 /* UICollectionView+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D514399920F96A94E5F1D0860860F8DD /* ELNPhoneNumberMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E0E80AD1C8A640C4B0567733A9E47EA /* ELNPhoneNumberMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9E0D6D0F272C353BD5E38DB82107DE7 /* UIView+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4446A69B5CA7A630946A6CE54D87ED88 /* UIView+ELNUtils.m */; };
-		EB8CC8DEEA26635BEF763FD841FE4DD3 /* UIImage+ELNUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B9FC076DCDD3A90CE098CD3B5B2EB336 /* UIImage+ELNUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF942434A66DF6A8B2F3C80B8B6776F4 /* UIViewController+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A404B8B3FBA26E6232716FB823B93F21 /* UIViewController+ELNUtils.m */; };
-		F0B6AFD0E69213E47616EDA7A237C9F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
-		F84E11C4D4D3E151891CD84A923BB9FD /* UITableViewCell+ELNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EA702A92BCCC6D2C65F07834910D23 /* UITableViewCell+ELNUtils.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0C06B5D1B10A4A765C0220C00AE3582E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DBA08A8CA1ADEB5A9E6B92CF57413E3E;
-			remoteInfo = ELNUtils;
-		};
-		30F981DD72F7E3C014074B11E3A4B499 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DBA08A8CA1ADEB5A9E6B92CF57413E3E;
-			remoteInfo = ELNUtils;
-		};
-		40448430570FD4FBC66B64D38A71DC92 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 241DD2CBD7C279450E9E1E268AFC3B44;
-			remoteInfo = ELNTextFieldFormattingKit;
-		};
-		E1457F51B237323D88913F4D1156C177 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 241DD2CBD7C279450E9E1E268AFC3B44;
-			remoteInfo = ELNTextFieldFormattingKit;
-		};
-		F144CC8B930CF906866710FBEA073C86 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DBA08A8CA1ADEB5A9E6B92CF57413E3E;
-			remoteInfo = ELNUtils;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		0BD108F4E9A35403C7915E74D1D18A7C /* ELNUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ELNUtils.xcconfig; sourceTree = "<group>"; };
-		0E13B46892480B521C2A26B025D8C9CC /* ELNCharactersValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNCharactersValidator.m; sourceTree = "<group>"; };
-		10617DFC589CE8A9BDA29AE5BD0DBAA1 /* ELNLayoutUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ELNLayoutUtils.m; path = Source/ELNLayoutUtils.m; sourceTree = "<group>"; };
-		1120BF0A8086921AE7135FA6B30DE44E /* ELNRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELNRuntime.h; path = Source/ELNRuntime.h; sourceTree = "<group>"; };
-		1580297F739CDA86A109A77CEB81A454 /* Pods-ELNTextFieldFormattingKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ELNTextFieldFormattingKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		17ECA5ACF89ED35791CE4362C592ECCC /* NSNumber+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+ELNUtils.h"; path = "Source/NSNumber+ELNUtils.h"; sourceTree = "<group>"; };
-		18F1B80936C7BF1894EF222CAA59CF43 /* NSArray+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+ELNUtils.m"; path = "Source/NSArray+ELNUtils.m"; sourceTree = "<group>"; };
-		1907BA4AD60D6B1778ADA1FEE0E69777 /* NSURLRequest+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+ELNUtils.m"; path = "Source/NSURLRequest+ELNUtils.m"; sourceTree = "<group>"; };
-		1AB6AA2FC07B235990A953B183836004 /* ELNTextFieldFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNTextFieldFormatter.m; sourceTree = "<group>"; };
-		1B72A87A97763E66DF81E0D6D97CBBF0 /* ELNTextMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNTextMask.h; sourceTree = "<group>"; };
-		1C1131D1BC89C42FB2E2E88F12334F36 /* ELNTextFieldFormattingKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ELNTextFieldFormattingKit.xcconfig; sourceTree = "<group>"; };
-		1F40189FE49C1C1C4DDBB135B4B2C22B /* libELNTextFieldFormattingKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libELNTextFieldFormattingKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		25C51B8D5EFD70A1E644A50EA344072A /* ELNCharactersValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNCharactersValidator.h; sourceTree = "<group>"; };
-		2766796B65E583B0A5B0461501DCAB82 /* UITableViewCell+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+ELNUtils.h"; path = "Source/UITableViewCell+ELNUtils.h"; sourceTree = "<group>"; };
-		28C6DBCF6FBFDE9C1DE88C36291CF1B8 /* ELNCurrencyTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNCurrencyTextField.m; sourceTree = "<group>"; };
-		29C9C5292BC01C2B0A3F832DCF2AF229 /* ELNLayoutUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELNLayoutUtils.h; path = Source/ELNLayoutUtils.h; sourceTree = "<group>"; };
-		2AEAB5482E68855302E6E54E9B46F404 /* ELNTextFieldFormattingKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ELNTextFieldFormattingKit-dummy.m"; sourceTree = "<group>"; };
-		2CF4018F7DDBA236899CDA6C5E8040F4 /* UIView+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ELNUtils.h"; path = "Source/UIView+ELNUtils.h"; sourceTree = "<group>"; };
-		2FD41146E0BE277677ABC1CF9D476555 /* UICollectionView+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+ELNUtils.m"; path = "Source/UICollectionView+ELNUtils.m"; sourceTree = "<group>"; };
-		30A89E509658485425CE61BDADDE07F4 /* NSLocale+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLocale+ELNUtils.m"; path = "Source/NSLocale+ELNUtils.m"; sourceTree = "<group>"; };
-		32F825CAC4E426F0445D28491A194F40 /* Pods-ELNTextFieldFormattingKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ELNTextFieldFormattingKit_Example-resources.sh"; sourceTree = "<group>"; };
-		4058331691ECF2F38224A531DB6EB85C /* UIColor+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ELNUtils.m"; path = "Source/UIColor+ELNUtils.m"; sourceTree = "<group>"; };
-		4157696B45035BC47ED64E434E53B143 /* NSFileManager+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+ELNUtils.m"; path = "Source/NSFileManager+ELNUtils.m"; sourceTree = "<group>"; };
-		4446A69B5CA7A630946A6CE54D87ED88 /* UIView+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ELNUtils.m"; path = "Source/UIView+ELNUtils.m"; sourceTree = "<group>"; };
-		44EEE934C02886AEF01E8FABCF8C1AF3 /* ELNCurrencyTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNCurrencyTextField.h; sourceTree = "<group>"; };
-		4520DA79B2C36161645F6E738CF7A63A /* NSError+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+ELNUtils.m"; path = "Source/NSError+ELNUtils.m"; sourceTree = "<group>"; };
-		4B84839A0DB1E5D77CAADF06902B5617 /* Pods-ELNTextFieldFormattingKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ELNTextFieldFormattingKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4BA2A2CFD5921C67BEB260E5543C5446 /* UILabel+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+ELNUtils.h"; path = "Source/UILabel+ELNUtils.h"; sourceTree = "<group>"; };
-		4D24D352E4A4C8024E77DEBF45DDB6AF /* ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELNUtils.h; path = Source/ELNUtils.h; sourceTree = "<group>"; };
-		4D313EB2F24A4792928DED67EE5CDF59 /* NSNumber+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+ELNUtils.m"; path = "Source/NSNumber+ELNUtils.m"; sourceTree = "<group>"; };
-		4DA32FFFDF97AF05F88F3E046DDB4CA1 /* ELNCardNumberMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNCardNumberMask.h; sourceTree = "<group>"; };
-		51446C22581CB858A63D0C4EAB6607C7 /* Pods-ELNTextFieldFormattingKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ELNTextFieldFormattingKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		54D84E52CB5D9DC2C8DA1EE3C3529B29 /* NSBundle+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+ELNUtils.h"; path = "Source/NSBundle+ELNUtils.h"; sourceTree = "<group>"; };
-		56EA702A92BCCC6D2C65F07834910D23 /* UITableViewCell+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+ELNUtils.m"; path = "Source/UITableViewCell+ELNUtils.m"; sourceTree = "<group>"; };
-		596AFC283922DC623253D46BFD3D4A88 /* Pods-ELNTextFieldFormattingKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ELNTextFieldFormattingKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5B704A1D914FE2D74F28CBD7ABE9F745 /* NSError+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+ELNUtils.h"; path = "Source/NSError+ELNUtils.h"; sourceTree = "<group>"; };
-		60378277B7F4900EB9EFD06CFE9376D8 /* Pods-ELNTextFieldFormattingKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ELNTextFieldFormattingKit_Tests-resources.sh"; sourceTree = "<group>"; };
-		60900D092100AE3C813AC877126505DD /* UIFont+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+ELNUtils.m"; path = "Source/UIFont+ELNUtils.m"; sourceTree = "<group>"; };
-		6358B8CEC31CCE0820FF06E49B20F992 /* UICollectionView+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+ELNUtils.h"; path = "Source/UICollectionView+ELNUtils.h"; sourceTree = "<group>"; };
-		65087D9A3239911060A6157A790A585F /* NSArray+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+ELNUtils.h"; path = "Source/NSArray+ELNUtils.h"; sourceTree = "<group>"; };
-		65FD520C17224F2CCB5027223A73D2E6 /* ELNCurrencyMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNCurrencyMask.h; sourceTree = "<group>"; };
-		6CC6092F94B3FC822CDE7AB61E26CDA9 /* NSSortDescriptor+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSortDescriptor+ELNUtils.h"; path = "Source/NSSortDescriptor+ELNUtils.h"; sourceTree = "<group>"; };
-		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6EA433F76F0DB28D328BB894A645D1CE /* NSString+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ELNUtils.m"; path = "Source/NSString+ELNUtils.m"; sourceTree = "<group>"; };
-		6F37346647C8F6EDC07F21A5553A001A /* Pods-ELNTextFieldFormattingKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ELNTextFieldFormattingKit_Example-dummy.m"; sourceTree = "<group>"; };
-		75A5FD01971DDAD6DD3B786CDF9FA337 /* ELNMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ELNMath.h; path = Source/ELNMath.h; sourceTree = "<group>"; };
-		767567A4CB12E663B8A0F1ED94B0A83B /* UIWindow+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+ELNUtils.h"; path = "Source/UIWindow+ELNUtils.h"; sourceTree = "<group>"; };
-		7BAA51ADB26ECBE2F92D01A3E183FC79 /* Pods-ELNTextFieldFormattingKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ELNTextFieldFormattingKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7CDFD36A98F28DFE17363EA5475A2D15 /* UIFont+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+ELNUtils.h"; path = "Source/UIFont+ELNUtils.h"; sourceTree = "<group>"; };
-		80234C50D3AE4F196D0FB1F73B86F5BF /* UIResponder+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+ELNUtils.m"; path = "Source/UIResponder+ELNUtils.m"; sourceTree = "<group>"; };
-		816E4170F70EBA4DF7ADE74AFA73992B /* Pods-ELNTextFieldFormattingKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ELNTextFieldFormattingKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		899344C7681424797F2FFEB6E3245D52 /* ELNUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ELNUtils-dummy.m"; sourceTree = "<group>"; };
-		89B3B1399EFFB99DFEB8106A7F9A4750 /* ELNValidatorType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNValidatorType.h; sourceTree = "<group>"; };
-		8A2A11EA7C67670A9327993A12D2B09C /* Pods-ELNTextFieldFormattingKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ELNTextFieldFormattingKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		8CC37B4A55E33D9F607FC291E4563A84 /* NSData+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ELNUtils.h"; path = "Source/NSData+ELNUtils.h"; sourceTree = "<group>"; };
-		8FA128974407457ACCA8977512DCEBF6 /* NSLocale+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLocale+ELNUtils.h"; path = "Source/NSLocale+ELNUtils.h"; sourceTree = "<group>"; };
-		916DF96A522944DB6ACE40D96AA52D46 /* ELNUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ELNUtils-prefix.pch"; sourceTree = "<group>"; };
-		92D3001F749F2AAE1D025017432D9DA4 /* UIWindow+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+ELNUtils.m"; path = "Source/UIWindow+ELNUtils.m"; sourceTree = "<group>"; };
-		96509A86F0BCF6CA3D22DCD9CA0485DB /* ELNCurrencyFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNCurrencyFormatter.m; sourceTree = "<group>"; };
-		9A7A67B4EAFD31537A40371B7F712ADC /* UIImage+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ELNUtils.m"; path = "Source/UIImage+ELNUtils.m"; sourceTree = "<group>"; };
-		9DAD432A03234ED51B9888428B556879 /* Pods-ELNTextFieldFormattingKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ELNTextFieldFormattingKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9E0E80AD1C8A640C4B0567733A9E47EA /* ELNPhoneNumberMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNPhoneNumberMask.h; sourceTree = "<group>"; };
-		A083F3A6FA9BF42E1A67A5209FDC6C4E /* Pods-ELNTextFieldFormattingKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ELNTextFieldFormattingKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A1BC73A7899AC01BFEB6D41C7015EF9A /* ELNTextFieldFormattingKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ELNTextFieldFormattingKit-prefix.pch"; sourceTree = "<group>"; };
-		A2EAD604BA467116268F74F6EF135266 /* ELNCurrencyFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNCurrencyFormatter.h; sourceTree = "<group>"; };
-		A33EF6E4763B48EE875AFF282BE49987 /* NSSortDescriptor+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSortDescriptor+ELNUtils.m"; path = "Source/NSSortDescriptor+ELNUtils.m"; sourceTree = "<group>"; };
-		A39D7F6D10FE4851AC8D2B3FFE64A157 /* ELNCardNumberMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNCardNumberMask.m; sourceTree = "<group>"; };
-		A404B8B3FBA26E6232716FB823B93F21 /* UIViewController+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ELNUtils.m"; path = "Source/UIViewController+ELNUtils.m"; sourceTree = "<group>"; };
-		A6DA2452CB7793FCC997F117DA07F794 /* UITableView+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+ELNUtils.h"; path = "Source/UITableView+ELNUtils.h"; sourceTree = "<group>"; };
-		AB61A1FCFDF7CBB65B71194DBEFC7FBC /* Pods-ELNTextFieldFormattingKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ELNTextFieldFormattingKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		AD58A00F5036C914DBB496C82A865F8F /* ELNPhoneNumberMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNPhoneNumberMask.m; sourceTree = "<group>"; };
-		B9FC076DCDD3A90CE098CD3B5B2EB336 /* UIImage+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ELNUtils.h"; path = "Source/UIImage+ELNUtils.h"; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BC65E4E8A3BB74158C785FB59A1262BE /* UIResponder+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+ELNUtils.h"; path = "Source/UIResponder+ELNUtils.h"; sourceTree = "<group>"; };
-		C014D00B5CCAC06024B122164201B0B0 /* libPods-ELNTextFieldFormattingKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELNTextFieldFormattingKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C12D0E3EE66AB5241980C6745761F26C /* NSBundle+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+ELNUtils.m"; path = "Source/NSBundle+ELNUtils.m"; sourceTree = "<group>"; };
-		C2DEB2DA395CE2D5BFD83C454F9A9B5A /* ELNAmountValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNAmountValidator.h; sourceTree = "<group>"; };
-		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		CBDBF581E471AD6EFB8BFA8F0BFAD7C4 /* ELNAmountValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNAmountValidator.m; sourceTree = "<group>"; };
-		D62E04FCCB1A3781DB870A90675FDA72 /* ELNTextFieldFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ELNTextFieldFormatter.h; sourceTree = "<group>"; };
-		D7694FD31B49AA2A42CCFE2CD0B1A351 /* NSURLRequest+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+ELNUtils.h"; path = "Source/NSURLRequest+ELNUtils.h"; sourceTree = "<group>"; };
-		D7EB79F37AC2BCAE728D10809407786C /* Pods-ELNTextFieldFormattingKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ELNTextFieldFormattingKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D934E691628DA423224F735FF6C5BC8A /* NSData+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ELNUtils.m"; path = "Source/NSData+ELNUtils.m"; sourceTree = "<group>"; };
-		E173E31341866C63404A54C567044FA3 /* NSFileManager+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+ELNUtils.h"; path = "Source/NSFileManager+ELNUtils.h"; sourceTree = "<group>"; };
-		EA30E5EF0C192F0EBC90DF00F7DE32E6 /* ELNCurrencyMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ELNCurrencyMask.m; sourceTree = "<group>"; };
-		ED4918382961B6CCCD183187E01A7DB7 /* libELNUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libELNUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEAC8B6D3496138E8AB5D5F743E2415A /* NSString+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ELNUtils.h"; path = "Source/NSString+ELNUtils.h"; sourceTree = "<group>"; };
-		F16249B9A66C23C3ED3080C77EC3C592 /* UILabel+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+ELNUtils.m"; path = "Source/UILabel+ELNUtils.m"; sourceTree = "<group>"; };
-		F7D364B0C79EBAF40AC71D4D0C79B394 /* UITableView+ELNUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+ELNUtils.m"; path = "Source/UITableView+ELNUtils.m"; sourceTree = "<group>"; };
-		F86651030F3D5C43E5CA430D78524288 /* UIColor+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ELNUtils.h"; path = "Source/UIColor+ELNUtils.h"; sourceTree = "<group>"; };
-		FAB7F008127617FE766CBBECFB9DF161 /* libPods-ELNTextFieldFormattingKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELNTextFieldFormattingKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF6D3CD6409FDD6B862E10195D97E40E /* UIViewController+ELNUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ELNUtils.h"; path = "Source/UIViewController+ELNUtils.h"; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		0AA929FAD84F1B9DF79E68C44ADA13F3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				348D1BD38A9630BFB86C61615D8C4B8C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D5198356103FDEF572654F824E69F58 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				99F9DE8ED0E2BF61A09E15565F70BBA8 /* Foundation.framework in Frameworks */,
-				F0B6AFD0E69213E47616EDA7A237C9F8 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB6F4CF4F34A1702B40C9C7C603F5522 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1EF4C3FA828B13111968D83E1AA889A7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3A0F352BC3D6375EB771FE81D2BBA71 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				824EFB42BC82286772103D0DD7D3BE9F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
-				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		1A98BC950059587A2E00A37C0774C58C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0BD108F4E9A35403C7915E74D1D18A7C /* ELNUtils.xcconfig */,
-				899344C7681424797F2FFEB6E3245D52 /* ELNUtils-dummy.m */,
-				916DF96A522944DB6ACE40D96AA52D46 /* ELNUtils-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ELNUtils";
-			sourceTree = "<group>";
-		};
-		2784BD4D3C357CDA29A67AEAAB37AF1D /* Pods-ELNTextFieldFormattingKit_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				9DAD432A03234ED51B9888428B556879 /* Pods-ELNTextFieldFormattingKit_Tests-acknowledgements.markdown */,
-				7BAA51ADB26ECBE2F92D01A3E183FC79 /* Pods-ELNTextFieldFormattingKit_Tests-acknowledgements.plist */,
-				8A2A11EA7C67670A9327993A12D2B09C /* Pods-ELNTextFieldFormattingKit_Tests-dummy.m */,
-				AB61A1FCFDF7CBB65B71194DBEFC7FBC /* Pods-ELNTextFieldFormattingKit_Tests-frameworks.sh */,
-				60378277B7F4900EB9EFD06CFE9376D8 /* Pods-ELNTextFieldFormattingKit_Tests-resources.sh */,
-				596AFC283922DC623253D46BFD3D4A88 /* Pods-ELNTextFieldFormattingKit_Tests.debug.xcconfig */,
-				816E4170F70EBA4DF7ADE74AFA73992B /* Pods-ELNTextFieldFormattingKit_Tests.release.xcconfig */,
-			);
-			name = "Pods-ELNTextFieldFormattingKit_Tests";
-			path = "Target Support Files/Pods-ELNTextFieldFormattingKit_Tests";
-			sourceTree = "<group>";
-		};
-		3B7F76E0D9104EA497B6BB10FA595B70 /* ELNTextFieldFormattingKit */ = {
-			isa = PBXGroup;
-			children = (
-				97943ECA741EE05D1A45DC6AEC1052C0 /* Source */,
-				76898FD6A79A6AA3E3451D32DDB0FD1D /* Support Files */,
-			);
-			name = ELNTextFieldFormattingKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				18340F12838DEE43507667CC74401EB1 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		507CA230F72031F0C36AB52571FCA151 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9F91A691CFE219EF53711D2195C6D3ED /* ELNUtils */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		7593CDB36621A5ABF5C46F0C27A5BBD3 /* Pods-ELNTextFieldFormattingKit_Example */ = {
-			isa = PBXGroup;
-			children = (
-				51446C22581CB858A63D0C4EAB6607C7 /* Pods-ELNTextFieldFormattingKit_Example-acknowledgements.markdown */,
-				A083F3A6FA9BF42E1A67A5209FDC6C4E /* Pods-ELNTextFieldFormattingKit_Example-acknowledgements.plist */,
-				6F37346647C8F6EDC07F21A5553A001A /* Pods-ELNTextFieldFormattingKit_Example-dummy.m */,
-				D7EB79F37AC2BCAE728D10809407786C /* Pods-ELNTextFieldFormattingKit_Example-frameworks.sh */,
-				32F825CAC4E426F0445D28491A194F40 /* Pods-ELNTextFieldFormattingKit_Example-resources.sh */,
-				4B84839A0DB1E5D77CAADF06902B5617 /* Pods-ELNTextFieldFormattingKit_Example.debug.xcconfig */,
-				1580297F739CDA86A109A77CEB81A454 /* Pods-ELNTextFieldFormattingKit_Example.release.xcconfig */,
-			);
-			name = "Pods-ELNTextFieldFormattingKit_Example";
-			path = "Target Support Files/Pods-ELNTextFieldFormattingKit_Example";
-			sourceTree = "<group>";
-		};
-		76898FD6A79A6AA3E3451D32DDB0FD1D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1C1131D1BC89C42FB2E2E88F12334F36 /* ELNTextFieldFormattingKit.xcconfig */,
-				2AEAB5482E68855302E6E54E9B46F404 /* ELNTextFieldFormattingKit-dummy.m */,
-				A1BC73A7899AC01BFEB6D41C7015EF9A /* ELNTextFieldFormattingKit-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ELNTextFieldFormattingKit";
-			sourceTree = "<group>";
-		};
-		7C4DAC28D17E1E1C041FC91DFE5A0020 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7593CDB36621A5ABF5C46F0C27A5BBD3 /* Pods-ELNTextFieldFormattingKit_Example */,
-				2784BD4D3C357CDA29A67AEAAB37AF1D /* Pods-ELNTextFieldFormattingKit_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				8923530FD7A2D1C294A4147227F7D2C5 /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				507CA230F72031F0C36AB52571FCA151 /* Pods */,
-				EDC7BBE29BB0EB5C8527D99D5AF47D28 /* Products */,
-				7C4DAC28D17E1E1C041FC91DFE5A0020 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		8923530FD7A2D1C294A4147227F7D2C5 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3B7F76E0D9104EA497B6BB10FA595B70 /* ELNTextFieldFormattingKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		97943ECA741EE05D1A45DC6AEC1052C0 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				C2DEB2DA395CE2D5BFD83C454F9A9B5A /* ELNAmountValidator.h */,
-				CBDBF581E471AD6EFB8BFA8F0BFAD7C4 /* ELNAmountValidator.m */,
-				4DA32FFFDF97AF05F88F3E046DDB4CA1 /* ELNCardNumberMask.h */,
-				A39D7F6D10FE4851AC8D2B3FFE64A157 /* ELNCardNumberMask.m */,
-				25C51B8D5EFD70A1E644A50EA344072A /* ELNCharactersValidator.h */,
-				0E13B46892480B521C2A26B025D8C9CC /* ELNCharactersValidator.m */,
-				A2EAD604BA467116268F74F6EF135266 /* ELNCurrencyFormatter.h */,
-				96509A86F0BCF6CA3D22DCD9CA0485DB /* ELNCurrencyFormatter.m */,
-				65FD520C17224F2CCB5027223A73D2E6 /* ELNCurrencyMask.h */,
-				EA30E5EF0C192F0EBC90DF00F7DE32E6 /* ELNCurrencyMask.m */,
-				44EEE934C02886AEF01E8FABCF8C1AF3 /* ELNCurrencyTextField.h */,
-				28C6DBCF6FBFDE9C1DE88C36291CF1B8 /* ELNCurrencyTextField.m */,
-				9E0E80AD1C8A640C4B0567733A9E47EA /* ELNPhoneNumberMask.h */,
-				AD58A00F5036C914DBB496C82A865F8F /* ELNPhoneNumberMask.m */,
-				D62E04FCCB1A3781DB870A90675FDA72 /* ELNTextFieldFormatter.h */,
-				1AB6AA2FC07B235990A953B183836004 /* ELNTextFieldFormatter.m */,
-				1B72A87A97763E66DF81E0D6D97CBBF0 /* ELNTextMask.h */,
-				89B3B1399EFFB99DFEB8106A7F9A4750 /* ELNValidatorType.h */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		9F91A691CFE219EF53711D2195C6D3ED /* ELNUtils */ = {
-			isa = PBXGroup;
-			children = (
-				29C9C5292BC01C2B0A3F832DCF2AF229 /* ELNLayoutUtils.h */,
-				10617DFC589CE8A9BDA29AE5BD0DBAA1 /* ELNLayoutUtils.m */,
-				75A5FD01971DDAD6DD3B786CDF9FA337 /* ELNMath.h */,
-				1120BF0A8086921AE7135FA6B30DE44E /* ELNRuntime.h */,
-				4D24D352E4A4C8024E77DEBF45DDB6AF /* ELNUtils.h */,
-				65087D9A3239911060A6157A790A585F /* NSArray+ELNUtils.h */,
-				18F1B80936C7BF1894EF222CAA59CF43 /* NSArray+ELNUtils.m */,
-				54D84E52CB5D9DC2C8DA1EE3C3529B29 /* NSBundle+ELNUtils.h */,
-				C12D0E3EE66AB5241980C6745761F26C /* NSBundle+ELNUtils.m */,
-				8CC37B4A55E33D9F607FC291E4563A84 /* NSData+ELNUtils.h */,
-				D934E691628DA423224F735FF6C5BC8A /* NSData+ELNUtils.m */,
-				5B704A1D914FE2D74F28CBD7ABE9F745 /* NSError+ELNUtils.h */,
-				4520DA79B2C36161645F6E738CF7A63A /* NSError+ELNUtils.m */,
-				E173E31341866C63404A54C567044FA3 /* NSFileManager+ELNUtils.h */,
-				4157696B45035BC47ED64E434E53B143 /* NSFileManager+ELNUtils.m */,
-				8FA128974407457ACCA8977512DCEBF6 /* NSLocale+ELNUtils.h */,
-				30A89E509658485425CE61BDADDE07F4 /* NSLocale+ELNUtils.m */,
-				17ECA5ACF89ED35791CE4362C592ECCC /* NSNumber+ELNUtils.h */,
-				4D313EB2F24A4792928DED67EE5CDF59 /* NSNumber+ELNUtils.m */,
-				6CC6092F94B3FC822CDE7AB61E26CDA9 /* NSSortDescriptor+ELNUtils.h */,
-				A33EF6E4763B48EE875AFF282BE49987 /* NSSortDescriptor+ELNUtils.m */,
-				EEAC8B6D3496138E8AB5D5F743E2415A /* NSString+ELNUtils.h */,
-				6EA433F76F0DB28D328BB894A645D1CE /* NSString+ELNUtils.m */,
-				D7694FD31B49AA2A42CCFE2CD0B1A351 /* NSURLRequest+ELNUtils.h */,
-				1907BA4AD60D6B1778ADA1FEE0E69777 /* NSURLRequest+ELNUtils.m */,
-				6358B8CEC31CCE0820FF06E49B20F992 /* UICollectionView+ELNUtils.h */,
-				2FD41146E0BE277677ABC1CF9D476555 /* UICollectionView+ELNUtils.m */,
-				F86651030F3D5C43E5CA430D78524288 /* UIColor+ELNUtils.h */,
-				4058331691ECF2F38224A531DB6EB85C /* UIColor+ELNUtils.m */,
-				7CDFD36A98F28DFE17363EA5475A2D15 /* UIFont+ELNUtils.h */,
-				60900D092100AE3C813AC877126505DD /* UIFont+ELNUtils.m */,
-				B9FC076DCDD3A90CE098CD3B5B2EB336 /* UIImage+ELNUtils.h */,
-				9A7A67B4EAFD31537A40371B7F712ADC /* UIImage+ELNUtils.m */,
-				4BA2A2CFD5921C67BEB260E5543C5446 /* UILabel+ELNUtils.h */,
-				F16249B9A66C23C3ED3080C77EC3C592 /* UILabel+ELNUtils.m */,
-				BC65E4E8A3BB74158C785FB59A1262BE /* UIResponder+ELNUtils.h */,
-				80234C50D3AE4F196D0FB1F73B86F5BF /* UIResponder+ELNUtils.m */,
-				A6DA2452CB7793FCC997F117DA07F794 /* UITableView+ELNUtils.h */,
-				F7D364B0C79EBAF40AC71D4D0C79B394 /* UITableView+ELNUtils.m */,
-				2766796B65E583B0A5B0461501DCAB82 /* UITableViewCell+ELNUtils.h */,
-				56EA702A92BCCC6D2C65F07834910D23 /* UITableViewCell+ELNUtils.m */,
-				2CF4018F7DDBA236899CDA6C5E8040F4 /* UIView+ELNUtils.h */,
-				4446A69B5CA7A630946A6CE54D87ED88 /* UIView+ELNUtils.m */,
-				FF6D3CD6409FDD6B862E10195D97E40E /* UIViewController+ELNUtils.h */,
-				A404B8B3FBA26E6232716FB823B93F21 /* UIViewController+ELNUtils.m */,
-				767567A4CB12E663B8A0F1ED94B0A83B /* UIWindow+ELNUtils.h */,
-				92D3001F749F2AAE1D025017432D9DA4 /* UIWindow+ELNUtils.m */,
-				1A98BC950059587A2E00A37C0774C58C /* Support Files */,
-			);
-			path = ELNUtils;
-			sourceTree = "<group>";
-		};
-		EDC7BBE29BB0EB5C8527D99D5AF47D28 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1F40189FE49C1C1C4DDBB135B4B2C22B /* libELNTextFieldFormattingKit.a */,
-				ED4918382961B6CCCD183187E01A7DB7 /* libELNUtils.a */,
-				C014D00B5CCAC06024B122164201B0B0 /* libPods-ELNTextFieldFormattingKit_Example.a */,
-				FAB7F008127617FE766CBBECFB9DF161 /* libPods-ELNTextFieldFormattingKit_Tests.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		290BF0915614DB2C74625FA0E978636B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				712113B42BAECED178E853DDD873DB60 /* ELNAmountValidator.h in Headers */,
-				4CD471427F7F40AB432F2A66AC0609DB /* ELNCardNumberMask.h in Headers */,
-				1156BBBE3696B4DD597110AE476C8AC6 /* ELNCharactersValidator.h in Headers */,
-				864EEBF809F8AFE03D37DDC1E0FFAE2F /* ELNCurrencyFormatter.h in Headers */,
-				51635306F35264C6F9145A259484C2FA /* ELNCurrencyMask.h in Headers */,
-				3C3C8A7A16453898191B4A048608025A /* ELNCurrencyTextField.h in Headers */,
-				D514399920F96A94E5F1D0860860F8DD /* ELNPhoneNumberMask.h in Headers */,
-				B70D59EFCE6E25B66B2C1241B5A3F4E8 /* ELNTextFieldFormatter.h in Headers */,
-				BE7B9A5DA3AEE051CFC79628F0B87011 /* ELNTextMask.h in Headers */,
-				71CEF7D259A7F4F979680FD13A81F5D2 /* ELNValidatorType.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E6B0E78850AA6A635787E3C1DA93D8F9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				44CEDE73C78C886375C86CB49D25112E /* ELNLayoutUtils.h in Headers */,
-				1561DE57CC4F62BFCD65936E42347891 /* ELNMath.h in Headers */,
-				9AECF6D7520393A3109831DF7C8FA6BF /* ELNRuntime.h in Headers */,
-				24E80C846DA33C46356E629678A27B0F /* ELNUtils.h in Headers */,
-				441087368ECEFE1306F5B99D8FF4B72E /* NSArray+ELNUtils.h in Headers */,
-				2D6D853B0D3AC3880AD40BE3D5DC031D /* NSBundle+ELNUtils.h in Headers */,
-				CF81D78A1957449A92D90E5A5232D019 /* NSData+ELNUtils.h in Headers */,
-				6007061CD6679E5D1C01E460DCE32241 /* NSError+ELNUtils.h in Headers */,
-				79A5F875202152F1A08F441132D253AF /* NSFileManager+ELNUtils.h in Headers */,
-				854AB22EF7B5FF2641BD4761C3413109 /* NSLocale+ELNUtils.h in Headers */,
-				B03A51F601966F3810EDBD6D865BC8F7 /* NSNumber+ELNUtils.h in Headers */,
-				8F2D6E8098C9B9BD8EA4ECC97AEE8D3D /* NSSortDescriptor+ELNUtils.h in Headers */,
-				42076D891ADACD26CE67F4FD0F7EF3E3 /* NSString+ELNUtils.h in Headers */,
-				CE80840F3EFEA734043F85B99487E002 /* NSURLRequest+ELNUtils.h in Headers */,
-				D3E1DF7612171C3139A97AC1BB49E508 /* UICollectionView+ELNUtils.h in Headers */,
-				6500CE154B72596DA77E2302E4C6B460 /* UIColor+ELNUtils.h in Headers */,
-				9F28DFA565C6B7254A16BD961ED729E4 /* UIFont+ELNUtils.h in Headers */,
-				EB8CC8DEEA26635BEF763FD841FE4DD3 /* UIImage+ELNUtils.h in Headers */,
-				63D772C912C4A6B67768DAAEC1BD9BCC /* UILabel+ELNUtils.h in Headers */,
-				BB8BEFBB4F28FC619A09E3B1EAF908CE /* UIResponder+ELNUtils.h in Headers */,
-				7FEB8A5CA8D6BEC3D549AE723EB1CBE2 /* UITableView+ELNUtils.h in Headers */,
-				0108E10E9A4FDACA36E139D856A30D83 /* UITableViewCell+ELNUtils.h in Headers */,
-				0CC06B83465A93C550C046189F7FD97C /* UIView+ELNUtils.h in Headers */,
-				30B7DC664AB0EE74E7E28A7A335F05DB /* UIViewController+ELNUtils.h in Headers */,
-				D0DC4833D0E6552BDA7F0C710DF25D57 /* UIWindow+ELNUtils.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
-/* Begin PBXNativeTarget section */
-		241DD2CBD7C279450E9E1E268AFC3B44 /* ELNTextFieldFormattingKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D44F34FA2CD545492783186C9622755A /* Build configuration list for PBXNativeTarget "ELNTextFieldFormattingKit" */;
-			buildPhases = (
-				968516E5648FC51E5813ED49302FBBAD /* Sources */,
-				5D5198356103FDEF572654F824E69F58 /* Frameworks */,
-				290BF0915614DB2C74625FA0E978636B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AC95CD45E3965A6F50995B2E32E458D8 /* PBXTargetDependency */,
-			);
-			name = ELNTextFieldFormattingKit;
-			productName = ELNTextFieldFormattingKit;
-			productReference = 1F40189FE49C1C1C4DDBB135B4B2C22B /* libELNTextFieldFormattingKit.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		4397C4D76DB24A30ABBB296422DE1EB3 /* Pods-ELNTextFieldFormattingKit_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8E5D7DD7273F0202D56A09F1BFA27ADB /* Build configuration list for PBXNativeTarget "Pods-ELNTextFieldFormattingKit_Example" */;
-			buildPhases = (
-				FC1F4137B8207DBB6CCEBE0E87DC2521 /* Sources */,
-				CB6F4CF4F34A1702B40C9C7C603F5522 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2BB6B2F8FD21BDB20D8BE96965020174 /* PBXTargetDependency */,
-				80059A389AE6C82926A296FE22019DF9 /* PBXTargetDependency */,
-			);
-			name = "Pods-ELNTextFieldFormattingKit_Example";
-			productName = "Pods-ELNTextFieldFormattingKit_Example";
-			productReference = C014D00B5CCAC06024B122164201B0B0 /* libPods-ELNTextFieldFormattingKit_Example.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		98C7C99E5124ACC8AD53EDC856C36020 /* Pods-ELNTextFieldFormattingKit_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4E4EFB74C641AE1A67FD07FEB3DBA70A /* Build configuration list for PBXNativeTarget "Pods-ELNTextFieldFormattingKit_Tests" */;
-			buildPhases = (
-				C4CDF928D1071AAAC797F752A03A0F12 /* Sources */,
-				F3A0F352BC3D6375EB771FE81D2BBA71 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				37DC14914C6C7E5F8902F64E5B354959 /* PBXTargetDependency */,
-				85BCA6DAEABD25E410C0E177FE7931A7 /* PBXTargetDependency */,
-			);
-			name = "Pods-ELNTextFieldFormattingKit_Tests";
-			productName = "Pods-ELNTextFieldFormattingKit_Tests";
-			productReference = FAB7F008127617FE766CBBECFB9DF161 /* libPods-ELNTextFieldFormattingKit_Tests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		DBA08A8CA1ADEB5A9E6B92CF57413E3E /* ELNUtils */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 629DF46A314E4B7BF66F6F941C381C7B /* Build configuration list for PBXNativeTarget "ELNUtils" */;
-			buildPhases = (
-				FC180176D7270D10BD3BDC30447C1052 /* Sources */,
-				0AA929FAD84F1B9DF79E68C44ADA13F3 /* Frameworks */,
-				E6B0E78850AA6A635787E3C1DA93D8F9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ELNUtils;
-			productName = ELNUtils;
-			productReference = ED4918382961B6CCCD183187E01A7DB7 /* libELNUtils.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
-			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = EDC7BBE29BB0EB5C8527D99D5AF47D28 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				241DD2CBD7C279450E9E1E268AFC3B44 /* ELNTextFieldFormattingKit */,
-				DBA08A8CA1ADEB5A9E6B92CF57413E3E /* ELNUtils */,
-				4397C4D76DB24A30ABBB296422DE1EB3 /* Pods-ELNTextFieldFormattingKit_Example */,
-				98C7C99E5124ACC8AD53EDC856C36020 /* Pods-ELNTextFieldFormattingKit_Tests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		968516E5648FC51E5813ED49302FBBAD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				200DC3136EEEA606F1208D174E359116 /* ELNAmountValidator.m in Sources */,
-				7D5A6A213D7274DCDA809AEFEDD8B2D3 /* ELNCardNumberMask.m in Sources */,
-				0BECC43394F335163EB70D8953614592 /* ELNCharactersValidator.m in Sources */,
-				B05F32D2B75B16114888F40AD13B1943 /* ELNCurrencyFormatter.m in Sources */,
-				5ED35A72542F4EB4FB6610CDFC49C88A /* ELNCurrencyMask.m in Sources */,
-				AA46D439EF603A2B362B415685F7384C /* ELNCurrencyTextField.m in Sources */,
-				147125C9A5BBA157AF54B1DF40CE5B6B /* ELNPhoneNumberMask.m in Sources */,
-				244ED14377FB95FDDC37245392258A59 /* ELNTextFieldFormatter.m in Sources */,
-				49FBA7F42E758C905E847EC62967C3DD /* ELNTextFieldFormattingKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C4CDF928D1071AAAC797F752A03A0F12 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1CAA995AA8087EA967EA5B50EEC5229B /* Pods-ELNTextFieldFormattingKit_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC180176D7270D10BD3BDC30447C1052 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1FB8B5EDFCB96066F3663AD05E4E751D /* ELNLayoutUtils.m in Sources */,
-				4304F1A2D508516D94F1F0CDFBF673AA /* ELNUtils-dummy.m in Sources */,
-				29056994922FE443B2D29A734A9974EF /* NSArray+ELNUtils.m in Sources */,
-				740D9982A3A721E11A6E6327B5685B71 /* NSBundle+ELNUtils.m in Sources */,
-				5D2FEEA26B94533501834D9C7F018BFD /* NSData+ELNUtils.m in Sources */,
-				264DE22B7864D8DF632DAC1F50E58DEA /* NSError+ELNUtils.m in Sources */,
-				7FBF9FA96097981081441ED9B3D2F177 /* NSFileManager+ELNUtils.m in Sources */,
-				66F1EC33741E75A022220C49D1F625A7 /* NSLocale+ELNUtils.m in Sources */,
-				553481BE955B5E279FB9A5D21C4C76B6 /* NSNumber+ELNUtils.m in Sources */,
-				AC398A54FCD42A138325EE064B55EC52 /* NSSortDescriptor+ELNUtils.m in Sources */,
-				605AC5BEC33D90907944A5C34B9DE9D7 /* NSString+ELNUtils.m in Sources */,
-				635DED8948C43E8127DDABD4626E8951 /* NSURLRequest+ELNUtils.m in Sources */,
-				20299A51DC299A4EC61EA825A5EA1E97 /* UICollectionView+ELNUtils.m in Sources */,
-				2D81A8CB68BAADEE3A50038135855B52 /* UIColor+ELNUtils.m in Sources */,
-				44A760F8157C52DAAAF27D1261C323D2 /* UIFont+ELNUtils.m in Sources */,
-				ADF8656D312947886712A7B4628F2C57 /* UIImage+ELNUtils.m in Sources */,
-				8B9F61D5D0A79D18C2FC73FB43E57ED2 /* UILabel+ELNUtils.m in Sources */,
-				1D3A077F3943E3C1C595557BFAFB897B /* UIResponder+ELNUtils.m in Sources */,
-				7D09ED12AD45C06BAC3107C6BD2C0A11 /* UITableView+ELNUtils.m in Sources */,
-				F84E11C4D4D3E151891CD84A923BB9FD /* UITableViewCell+ELNUtils.m in Sources */,
-				D9E0D6D0F272C353BD5E38DB82107DE7 /* UIView+ELNUtils.m in Sources */,
-				EF942434A66DF6A8B2F3C80B8B6776F4 /* UIViewController+ELNUtils.m in Sources */,
-				2880ECA959A2C755A396E88ABE1651C1 /* UIWindow+ELNUtils.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC1F4137B8207DBB6CCEBE0E87DC2521 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5773C817DA1F0CD44BBED5C653BB09FA /* Pods-ELNTextFieldFormattingKit_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2BB6B2F8FD21BDB20D8BE96965020174 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ELNTextFieldFormattingKit;
-			target = 241DD2CBD7C279450E9E1E268AFC3B44 /* ELNTextFieldFormattingKit */;
-			targetProxy = E1457F51B237323D88913F4D1156C177 /* PBXContainerItemProxy */;
-		};
-		37DC14914C6C7E5F8902F64E5B354959 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ELNTextFieldFormattingKit;
-			target = 241DD2CBD7C279450E9E1E268AFC3B44 /* ELNTextFieldFormattingKit */;
-			targetProxy = 40448430570FD4FBC66B64D38A71DC92 /* PBXContainerItemProxy */;
-		};
-		80059A389AE6C82926A296FE22019DF9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ELNUtils;
-			target = DBA08A8CA1ADEB5A9E6B92CF57413E3E /* ELNUtils */;
-			targetProxy = 30F981DD72F7E3C014074B11E3A4B499 /* PBXContainerItemProxy */;
-		};
-		85BCA6DAEABD25E410C0E177FE7931A7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ELNUtils;
-			target = DBA08A8CA1ADEB5A9E6B92CF57413E3E /* ELNUtils */;
-			targetProxy = F144CC8B930CF906866710FBEA073C86 /* PBXContainerItemProxy */;
-		};
-		AC95CD45E3965A6F50995B2E32E458D8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ELNUtils;
-			target = DBA08A8CA1ADEB5A9E6B92CF57413E3E /* ELNUtils */;
-			targetProxy = 0C06B5D1B10A4A765C0220C00AE3582E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin XCBuildConfiguration section */
-		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		18F61E2A1BBABAD165CDD7A8BC99A110 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0BD108F4E9A35403C7915E74D1D18A7C /* ELNUtils.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ELNUtils/ELNUtils-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		1A12C3879DA8D86879DDC65434D0A767 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C1131D1BC89C42FB2E2E88F12334F36 /* ELNTextFieldFormattingKit.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ELNTextFieldFormattingKit/ELNTextFieldFormattingKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		298F5790FC9BA3B4AEE64C97F8DBDDA3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0BD108F4E9A35403C7915E74D1D18A7C /* ELNUtils.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ELNUtils/ELNUtils-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		4777F958AB214D9F4B196ED51AD82225 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 596AFC283922DC623253D46BFD3D4A88 /* Pods-ELNTextFieldFormattingKit_Tests.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		4A25402D2B53D92DB4A82D43A83427D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1580297F739CDA86A109A77CEB81A454 /* Pods-ELNTextFieldFormattingKit_Example.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		6AF1FEE97DCE5155EC387E7FDBA67256 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B84839A0DB1E5D77CAADF06902B5617 /* Pods-ELNTextFieldFormattingKit_Example.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		973C44F0FB115205463A28741184619E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C1131D1BC89C42FB2E2E88F12334F36 /* ELNTextFieldFormattingKit.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ELNTextFieldFormattingKit/ELNTextFieldFormattingKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		A4ECDD0A5A76B2FE4089B537CA72A0D4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 816E4170F70EBA4DF7ADE74AFA73992B /* Pods-ELNTextFieldFormattingKit_Tests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
-				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4E4EFB74C641AE1A67FD07FEB3DBA70A /* Build configuration list for PBXNativeTarget "Pods-ELNTextFieldFormattingKit_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4777F958AB214D9F4B196ED51AD82225 /* Debug */,
-				A4ECDD0A5A76B2FE4089B537CA72A0D4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		629DF46A314E4B7BF66F6F941C381C7B /* Build configuration list for PBXNativeTarget "ELNUtils" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				298F5790FC9BA3B4AEE64C97F8DBDDA3 /* Debug */,
-				18F61E2A1BBABAD165CDD7A8BC99A110 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8E5D7DD7273F0202D56A09F1BFA27ADB /* Build configuration list for PBXNativeTarget "Pods-ELNTextFieldFormattingKit_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6AF1FEE97DCE5155EC387E7FDBA67256 /* Debug */,
-				4A25402D2B53D92DB4A82D43A83427D6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D44F34FA2CD545492783186C9622755A /* Build configuration list for PBXNativeTarget "ELNTextFieldFormattingKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1A12C3879DA8D86879DDC65434D0A767 /* Debug */,
-				973C44F0FB115205463A28741184619E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>0067F73003C03800520D92942B46A3C9</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>0BD108F4E9A35403C7915E74D1D18A7C</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/ELNUtils/ELNUtils-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>00B4667CB025E7BF8179E4F597A1D88A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>10617DFC589CE8A9BDA29AE5BD0DBAA1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>00E5C619E55518D7091A0769722F43E7</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>2927ED6A442E62F6BCD42C279869ABA7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>01E4592377D6B9CA67836139163D902D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E1C5463B24A63D93569B1E2088B5855C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>0270B0B54CDA80BD97D543DF0F342966</key>
+		<dict>
+			<key>fileRef</key>
+			<string>87CEDA89B0C2575E5AE1F9866AD827C4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>03CA91998D6773EC5D02B3DB87B8353E</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>RELEASE=1</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>05317DE6680AA01924EBE2457483E165</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F7D364B0C79EBAF40AC71D4D0C79B394</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0596CBC75EE118ACF4743A9BF023114B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ELNCardNumberMask.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05A02B523CC6CFA123B6C5D3C16E88EA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8FA128974407457ACCA8977512DCEBF6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>05CE48E8E77EA53E07C6C59ECC84570A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>17ECA5ACF89ED35791CE4362C592ECCC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>08E0228FBC00519D77B7FD5E04176620</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ELNTextFieldFormattingKit-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0AB7CCBCFD5FBBAE21F195E97E334A8F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BE1834467FE529685681A2391CA85E88</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0B57334D6C23DADAA4F7D802A5760EB2</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>0BD108F4E9A35403C7915E74D1D18A7C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>ELNUtils.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>10617DFC589CE8A9BDA29AE5BD0DBAA1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>ELNLayoutUtils.m</string>
+			<key>path</key>
+			<string>Source/ELNLayoutUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1120BF0A8086921AE7135FA6B30DE44E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ELNRuntime.h</string>
+			<key>path</key>
+			<string>Source/ELNRuntime.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>125B66DF945768A249460FD416442D4C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2FD41146E0BE277677ABC1CF9D476555</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1580297F739CDA86A109A77CEB81A454</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-ELNTextFieldFormattingKit_Example.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>17ECA5ACF89ED35791CE4362C592ECCC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSNumber+ELNUtils.h</string>
+			<key>path</key>
+			<string>Source/NSNumber+ELNUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>18340F12838DEE43507667CC74401EB1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6E7E5AF37923BFA48D6994B9BFC6535F</string>
+				<string>C3B7BDF5CE5CB8F095FE12DA55D9A9BB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>18B18E6217689AE21A70CEE09F52BAFD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ELNCharactersValidator.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>18F1B80936C7BF1894EF222CAA59CF43</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSArray+ELNUtils.m</string>
+			<key>path</key>
+			<string>Source/NSArray+ELNUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1907BA4AD60D6B1778ADA1FEE0E69777</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSURLRequest+ELNUtils.m</string>
+			<key>path</key>
+			<string>Source/NSURLRequest+ELNUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>19410B63985355F43645DF0AED6441DC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D23857C2DE2C9A4C14BDF63752811986</string>
+				<string>78D6DC412E99356660C1BC692FBC8577</string>
+				<string>3B46A1A99FC312C01B16C71239E90DCA</string>
+				<string>A52482EC643DDEB34870F0DD62833CDB</string>
+				<string>60468B699F2795BA86C05964FC0621B5</string>
+				<string>22590E0637EEEC60F6FD9C4D66CB1F95</string>
+				<string>5C152A32D33879523991A49A9404EB9D</string>
+				<string>7FB0A1D51BA47032639ACCBFF16AE9EB</string>
+				<string>62D86C7685D0CB3B436B0A7988B7D8BD</string>
+				<string>05A02B523CC6CFA123B6C5D3C16E88EA</string>
+				<string>05CE48E8E77EA53E07C6C59ECC84570A</string>
+				<string>F7C0D17EE9B97079CF8D172F0D32E2E6</string>
+				<string>539144DCEBCAF324D78523C754C57705</string>
+				<string>A09D5C9E085E9377672378BD25D413F0</string>
+				<string>ED827A46EF4ABDFCB9A4DA85D7D29D1F</string>
+				<string>5D2A18368487B76B3C065A3D8CF714B4</string>
+				<string>2C4EE6DE6E6ED96CED6A6E32E793AC93</string>
+				<string>47B397CF295E21F5F929CD4050AED188</string>
+				<string>A40BFA61F142B70985F8ACDE3D1636B5</string>
+				<string>AF950437FB24BE9FA76988D29519E6B6</string>
+				<string>8FDA3981660499E6082AE4AFD3AB9D58</string>
+				<string>DE86909BF2BB5201C909DF1A6D4912C0</string>
+				<string>5B1C7D1031E243809407DB727A0D266C</string>
+				<string>89A7A2FA6BB11156C6660B5C363A15C5</string>
+				<string>2D6DECA531B4B6BDCEB6EF7D1567E723</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>1967C7C32C01E6E756ABABC66DF8CB4B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4520DA79B2C36161645F6E738CF7A63A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1A98BC950059587A2E00A37C0774C58C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0BD108F4E9A35403C7915E74D1D18A7C</string>
+				<string>899344C7681424797F2FFEB6E3245D52</string>
+				<string>916DF96A522944DB6ACE40D96AA52D46</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/ELNUtils</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1B36BD658C0461CFC589D5504FE780FB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ELNCurrencyMask.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1CAA995AA8087EA967EA5B50EEC5229B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8A2A11EA7C67670A9327993A12D2B09C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1EF4C3FA828B13111968D83E1AA889A7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6E7E5AF37923BFA48D6994B9BFC6535F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1F40189FE49C1C1C4DDBB135B4B2C22B</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libELNTextFieldFormattingKit.a</string>
+			<key>path</key>
+			<string>libELNTextFieldFormattingKit.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>223757536ABDE2C3A4016F31F2FDE64E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C12D0E3EE66AB5241980C6745761F26C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>22590E0637EEEC60F6FD9C4D66CB1F95</key>
+		<dict>
+			<key>fileRef</key>
+			<string>54D84E52CB5D9DC2C8DA1EE3C3529B29</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>241CAB2F12F688F16488346628CD05D1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F74F462457A14B85059747755B1B8F0E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>2496C36DB5A6F9660E23DC9D48F3788F</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>34DE097C15F096DD73E7C5543F3982E8</string>
+			<key>buildPhases</key>
+			<array>
+				<string>2FBD2741FC56B5D03AE3F9FE0E2159F4</string>
+				<string>72C2065B676FAD00D299580B77BBFF16</string>
+				<string>46E522268DCD72E0FEC592A5FD0C6277</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>F77736897BA205C0F0C0DAC809DE8B55</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>ELNTextFieldFormattingKit</string>
+			<key>productName</key>
+			<string>ELNTextFieldFormattingKit</string>
+			<key>productReference</key>
+			<string>1F40189FE49C1C1C4DDBB135B4B2C22B</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>2766796B65E583B0A5B0461501DCAB82</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UITableViewCell+ELNUtils.h</string>
+			<key>path</key>
+			<string>Source/UITableViewCell+ELNUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2784BD4D3C357CDA29A67AEAAB37AF1D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9DAD432A03234ED51B9888428B556879</string>
+				<string>7BAA51ADB26ECBE2F92D01A3E183FC79</string>
+				<string>8A2A11EA7C67670A9327993A12D2B09C</string>
+				<string>AB61A1FCFDF7CBB65B71194DBEFC7FBC</string>
+				<string>60378277B7F4900EB9EFD06CFE9376D8</string>
+				<string>596AFC283922DC623253D46BFD3D4A88</string>
+				<string>816E4170F70EBA4DF7ADE74AFA73992B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-ELNTextFieldFormattingKit_Tests</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-ELNTextFieldFormattingKit_Tests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2927ED6A442E62F6BCD42C279869ABA7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6E7E5AF37923BFA48D6994B9BFC6535F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>29C9C5292BC01C2B0A3F832DCF2AF229</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ELNLayoutUtils.h</string>
+			<key>path</key>
+			<string>Source/ELNLayoutUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2A974AAA368042230195C625F01F015C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>18B18E6217689AE21A70CEE09F52BAFD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>2BB6B2F8FD21BDB20D8BE96965020174</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>ELNTextFieldFormattingKit</string>
+			<key>target</key>
+			<string>2496C36DB5A6F9660E23DC9D48F3788F</string>
+			<key>targetProxy</key>
+			<string>E1457F51B237323D88913F4D1156C177</string>
+		</dict>
+		<key>2C4EE6DE6E6ED96CED6A6E32E793AC93</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7CDFD36A98F28DFE17363EA5475A2D15</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>2CF4018F7DDBA236899CDA6C5E8040F4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIView+ELNUtils.h</string>
+			<key>path</key>
+			<string>Source/UIView+ELNUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2D2F844E7AF29062EC0CBF1FE2A7F528</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>D19542438B4EFA6CA8C5D1F1944775F8</string>
+			<key>buildPhases</key>
+			<array>
+				<string>A634022078A15F03B5B561783BEA72A4</string>
+				<string>00E5C619E55518D7091A0769722F43E7</string>
+				<string>19410B63985355F43645DF0AED6441DC</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>ELNUtils</string>
+			<key>productName</key>
+			<string>ELNUtils</string>
+			<key>productReference</key>
+			<string>ED4918382961B6CCCD183187E01A7DB7</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>2D6DECA531B4B6BDCEB6EF7D1567E723</key>
+		<dict>
+			<key>fileRef</key>
+			<string>767567A4CB12E663B8A0F1ED94B0A83B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>0B57334D6C23DADAA4F7D802A5760EB2</string>
+				<string>03CA91998D6773EC5D02B3DB87B8353E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>2F1971A407F78990DF34DA15EFA239BF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0596CBC75EE118ACF4743A9BF023114B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2FBD2741FC56B5D03AE3F9FE0E2159F4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>76847AA004C881A726750910BC866DEC</string>
+				<string>2F1971A407F78990DF34DA15EFA239BF</string>
+				<string>0AB7CCBCFD5FBBAE21F195E97E334A8F</string>
+				<string>C2113069ED0A0CA0484C01F5C8905865</string>
+				<string>B4DA598CE3048E1FA5417BF169B9765F</string>
+				<string>512EE3078A7467322DCFB68E770C2023</string>
+				<string>68BB315039E67265FC731EB6C503AD54</string>
+				<string>8C5203E60C1B425498314A5969AF7D47</string>
+				<string>36EEFC48DF3BB0495847727BF5A67B85</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2FD41146E0BE277677ABC1CF9D476555</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UICollectionView+ELNUtils.m</string>
+			<key>path</key>
+			<string>Source/UICollectionView+ELNUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>30A89E509658485425CE61BDADDE07F4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSLocale+ELNUtils.m</string>
+			<key>path</key>
+			<string>Source/NSLocale+ELNUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>30F981DD72F7E3C014074B11E3A4B499</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>2D2F844E7AF29062EC0CBF1FE2A7F528</string>
+			<key>remoteInfo</key>
+			<string>ELNUtils</string>
+		</dict>
+		<key>32F825CAC4E426F0445D28491A194F40</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-ELNTextFieldFormattingKit_Example-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>331FBF5A6474BD3D281F73C4C079814A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A404B8B3FBA26E6232716FB823B93F21</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3410D1F86BFC645C5B8CA032708AC943</key>
+		<dict>
+			<key>fileRef</key>
+			<string>56193BB068572F7165171AE4D0E009D7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>34DE097C15F096DD73E7C5543F3982E8</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>ADB337DADBE47FE76A29BBBBD3A65BFF</string>
+				<string>FE34497AA0541198CC972BA68E3D0A3D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>366110A9A1B4AFF5BFD60AFECBF26057</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1907BA4AD60D6B1778ADA1FEE0E69777</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>36EEFC48DF3BB0495847727BF5A67B85</key>
+		<dict>
+			<key>fileRef</key>
+			<string>08E0228FBC00519D77B7FD5E04176620</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>37DC14914C6C7E5F8902F64E5B354959</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>ELNTextFieldFormattingKit</string>
+			<key>target</key>
+			<string>2496C36DB5A6F9660E23DC9D48F3788F</string>
+			<key>targetProxy</key>
+			<string>40448430570FD4FBC66B64D38A71DC92</string>
+		</dict>
+		<key>3887A21EA2B890D8EFCB3B8F14A59345</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>58849055118E9190388228FFC836905B</string>
+				<string>08E0228FBC00519D77B7FD5E04176620</string>
+				<string>41F4B872D3D510E427769B657621BF90</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>Example/Pods/Target Support Files/ELNTextFieldFormattingKit</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3B46A1A99FC312C01B16C71239E90DCA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1120BF0A8086921AE7135FA6B30DE44E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>3D6BEE115B3946951D1CAEC92100B3E4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>30A89E509658485425CE61BDADDE07F4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3E6698D9D4B389BCB1E88DB3EBF963CA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ELNValidatorType.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3E69BA7323724511180B0E34F90F2664</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6EA433F76F0DB28D328BB894A645D1CE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>40448430570FD4FBC66B64D38A71DC92</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>2496C36DB5A6F9660E23DC9D48F3788F</string>
+			<key>remoteInfo</key>
+			<string>ELNTextFieldFormattingKit</string>
+		</dict>
+		<key>4058331691ECF2F38224A531DB6EB85C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIColor+ELNUtils.m</string>
+			<key>path</key>
+			<string>Source/UIColor+ELNUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4157696B45035BC47ED64E434E53B143</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSFileManager+ELNUtils.m</string>
+			<key>path</key>
+			<string>Source/NSFileManager+ELNUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>417752255CA2553E78362BE64DFCD92D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4058331691ECF2F38224A531DB6EB85C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>41F4B872D3D510E427769B657621BF90</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ELNTextFieldFormattingKit-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>433CD3331B6C3787F473C941B61FC68F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>18340F12838DEE43507667CC74401EB1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4397C4D76DB24A30ABBB296422DE1EB3</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>8E5D7DD7273F0202D56A09F1BFA27ADB</string>
+			<key>buildPhases</key>
+			<array>
+				<string>FC1F4137B8207DBB6CCEBE0E87DC2521</string>
+				<string>CB6F4CF4F34A1702B40C9C7C603F5522</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>2BB6B2F8FD21BDB20D8BE96965020174</string>
+				<string>80059A389AE6C82926A296FE22019DF9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-ELNTextFieldFormattingKit_Example</string>
+			<key>productName</key>
+			<string>Pods-ELNTextFieldFormattingKit_Example</string>
+			<key>productReference</key>
+			<string>C014D00B5CCAC06024B122164201B0B0</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>4446A69B5CA7A630946A6CE54D87ED88</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIView+ELNUtils.m</string>
+			<key>path</key>
+			<string>Source/UIView+ELNUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>44F8B0A0B661135EBE924EAB96A5746D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>60900D092100AE3C813AC877126505DD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4520DA79B2C36161645F6E738CF7A63A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSError+ELNUtils.m</string>
+			<key>path</key>
+			<string>Source/NSError+ELNUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>466768DECCE8929690AEF9D6BF3B1D13</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D934E691628DA423224F735FF6C5BC8A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>46E522268DCD72E0FEC592A5FD0C6277</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0270B0B54CDA80BD97D543DF0F342966</string>
+				<string>01E4592377D6B9CA67836139163D902D</string>
+				<string>2A974AAA368042230195C625F01F015C</string>
+				<string>95F31D8C90DEB1A4E38C078682A2A878</string>
+				<string>564C8E331017009CDEAD5F41EC93CE8A</string>
+				<string>E86693F0BBC15EFBD53D44703E9869A1</string>
+				<string>A88475137D6FD95437B50AB1313DC90E</string>
+				<string>3410D1F86BFC645C5B8CA032708AC943</string>
+				<string>241CAB2F12F688F16488346628CD05D1</string>
+				<string>81F445222A356DF0D79F1316E875414E</string>
+				<string>9374537A324CB3B6F541D1052551C25E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>4777F958AB214D9F4B196ED51AD82225</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>596AFC283922DC623253D46BFD3D4A88</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>47B397CF295E21F5F929CD4050AED188</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B9FC076DCDD3A90CE098CD3B5B2EB336</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>47E97F6B980442F083D55A391E8F91C6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ELNPhoneNumberMask.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4A25402D2B53D92DB4A82D43A83427D6</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>1580297F739CDA86A109A77CEB81A454</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>4B84839A0DB1E5D77CAADF06902B5617</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-ELNTextFieldFormattingKit_Example.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4BA2A2CFD5921C67BEB260E5543C5446</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UILabel+ELNUtils.h</string>
+			<key>path</key>
+			<string>Source/UILabel+ELNUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4D24D352E4A4C8024E77DEBF45DDB6AF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ELNUtils.h</string>
+			<key>path</key>
+			<string>Source/ELNUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4D313EB2F24A4792928DED67EE5CDF59</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSNumber+ELNUtils.m</string>
+			<key>path</key>
+			<string>Source/NSNumber+ELNUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4E4EFB74C641AE1A67FD07FEB3DBA70A</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>4777F958AB214D9F4B196ED51AD82225</string>
+				<string>A4ECDD0A5A76B2FE4089B537CA72A0D4</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>507CA230F72031F0C36AB52571FCA151</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9F91A691CFE219EF53711D2195C6D3ED</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>512EE3078A7467322DCFB68E770C2023</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5FD22B79F6ABD5EB1E00E9C782AA199C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>51446C22581CB858A63D0C4EAB6607C7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-ELNTextFieldFormattingKit_Example-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>539144DCEBCAF324D78523C754C57705</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EEAC8B6D3496138E8AB5D5F743E2415A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>54D84E52CB5D9DC2C8DA1EE3C3529B29</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSBundle+ELNUtils.h</string>
+			<key>path</key>
+			<string>Source/NSBundle+ELNUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>56193BB068572F7165171AE4D0E009D7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ELNTextFieldFormatter.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>564C8E331017009CDEAD5F41EC93CE8A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9E3666E8F1F81946C93AA5A2E8E563BF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>56EA702A92BCCC6D2C65F07834910D23</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UITableViewCell+ELNUtils.m</string>
+			<key>path</key>
+			<string>Source/UITableViewCell+ELNUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5773C817DA1F0CD44BBED5C653BB09FA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6F37346647C8F6EDC07F21A5553A001A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>58849055118E9190388228FFC836905B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>ELNTextFieldFormattingKit.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>596AFC283922DC623253D46BFD3D4A88</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-ELNTextFieldFormattingKit_Tests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5A61D376FBBFFC2370FA741F9727456D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ELNCurrencyFormatter.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5B1C7D1031E243809407DB727A0D266C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2CF4018F7DDBA236899CDA6C5E8040F4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>5B704A1D914FE2D74F28CBD7ABE9F745</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSError+ELNUtils.h</string>
+			<key>path</key>
+			<string>Source/NSError+ELNUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5C152A32D33879523991A49A9404EB9D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8CC37B4A55E33D9F607FC291E4563A84</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>5D2A18368487B76B3C065A3D8CF714B4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F86651030F3D5C43E5CA430D78524288</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>5FD22B79F6ABD5EB1E00E9C782AA199C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ELNCurrencyTextField.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>60378277B7F4900EB9EFD06CFE9376D8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-ELNTextFieldFormattingKit_Tests-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>60468B699F2795BA86C05964FC0621B5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>65087D9A3239911060A6157A790A585F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>60900D092100AE3C813AC877126505DD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIFont+ELNUtils.m</string>
+			<key>path</key>
+			<string>Source/UIFont+ELNUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>62D86C7685D0CB3B436B0A7988B7D8BD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E173E31341866C63404A54C567044FA3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>6358B8CEC31CCE0820FF06E49B20F992</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UICollectionView+ELNUtils.h</string>
+			<key>path</key>
+			<string>Source/UICollectionView+ELNUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>65087D9A3239911060A6157A790A585F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSArray+ELNUtils.h</string>
+			<key>path</key>
+			<string>Source/NSArray+ELNUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>654174361FF52647D5F69DE99F1D46AC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>92D3001F749F2AAE1D025017432D9DA4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>65BCABA2ABC43DED67A8DC60FC4A4B2D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ELNPhoneNumberMask.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>68BB315039E67265FC731EB6C503AD54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>47E97F6B980442F083D55A391E8F91C6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6A71EC25B5EED38E75C6741D35C015CD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>56EA702A92BCCC6D2C65F07834910D23</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6AF1FEE97DCE5155EC387E7FDBA67256</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>4B84839A0DB1E5D77CAADF06902B5617</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>6CC6092F94B3FC822CDE7AB61E26CDA9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSSortDescriptor+ELNUtils.h</string>
+			<key>path</key>
+			<string>Source/NSSortDescriptor+ELNUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6E7E5AF37923BFA48D6994B9BFC6535F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>6EA433F76F0DB28D328BB894A645D1CE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSString+ELNUtils.m</string>
+			<key>path</key>
+			<string>Source/NSString+ELNUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6F37346647C8F6EDC07F21A5553A001A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-ELNTextFieldFormattingKit_Example-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>72C2065B676FAD00D299580B77BBFF16</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>91EED018C12F5383DF1E322FB6A7A9F5</string>
+				<string>A285BA296CA407012A70255011A36AB1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7593CDB36621A5ABF5C46F0C27A5BBD3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>51446C22581CB858A63D0C4EAB6607C7</string>
+				<string>A083F3A6FA9BF42E1A67A5209FDC6C4E</string>
+				<string>6F37346647C8F6EDC07F21A5553A001A</string>
+				<string>D7EB79F37AC2BCAE728D10809407786C</string>
+				<string>32F825CAC4E426F0445D28491A194F40</string>
+				<string>4B84839A0DB1E5D77CAADF06902B5617</string>
+				<string>1580297F739CDA86A109A77CEB81A454</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-ELNTextFieldFormattingKit_Example</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-ELNTextFieldFormattingKit_Example</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>75A5FD01971DDAD6DD3B786CDF9FA337</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ELNMath.h</string>
+			<key>path</key>
+			<string>Source/ELNMath.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>761E81C7318468E8708534E36962E622</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ELNCurrencyTextField.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>767567A4CB12E663B8A0F1ED94B0A83B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIWindow+ELNUtils.h</string>
+			<key>path</key>
+			<string>Source/UIWindow+ELNUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>76847AA004C881A726750910BC866DEC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DCEBF3B57E600E58B9BC74036831A721</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>78D6DC412E99356660C1BC692FBC8577</key>
+		<dict>
+			<key>fileRef</key>
+			<string>75A5FD01971DDAD6DD3B786CDF9FA337</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>7B8D6F82B53683113D707BE24143A38D</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>2D2F844E7AF29062EC0CBF1FE2A7F528</string>
+			<key>remoteInfo</key>
+			<string>ELNUtils</string>
+		</dict>
+		<key>7BAA51ADB26ECBE2F92D01A3E183FC79</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-ELNTextFieldFormattingKit_Tests-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7C4DAC28D17E1E1C041FC91DFE5A0020</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7593CDB36621A5ABF5C46F0C27A5BBD3</string>
+				<string>2784BD4D3C357CDA29A67AEAAB37AF1D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7CDFD36A98F28DFE17363EA5475A2D15</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIFont+ELNUtils.h</string>
+			<key>path</key>
+			<string>Source/UIFont+ELNUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DB346D0F39D3F0E887471402A8071AB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
+				<string>8923530FD7A2D1C294A4147227F7D2C5</string>
+				<string>433CD3331B6C3787F473C941B61FC68F</string>
+				<string>507CA230F72031F0C36AB52571FCA151</string>
+				<string>EDC7BBE29BB0EB5C8527D99D5AF47D28</string>
+				<string>7C4DAC28D17E1E1C041FC91DFE5A0020</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7FB0A1D51BA47032639ACCBFF16AE9EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5B704A1D914FE2D74F28CBD7ABE9F745</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>80059A389AE6C82926A296FE22019DF9</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>ELNUtils</string>
+			<key>target</key>
+			<string>2D2F844E7AF29062EC0CBF1FE2A7F528</string>
+			<key>targetProxy</key>
+			<string>30F981DD72F7E3C014074B11E3A4B499</string>
+		</dict>
+		<key>80234C50D3AE4F196D0FB1F73B86F5BF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIResponder+ELNUtils.m</string>
+			<key>path</key>
+			<string>Source/UIResponder+ELNUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>816E4170F70EBA4DF7ADE74AFA73992B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-ELNTextFieldFormattingKit_Tests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>81F445222A356DF0D79F1316E875414E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F28195CCFB7B5F6E2F265F51F16B4638</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>824EFB42BC82286772103D0DD7D3BE9F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6E7E5AF37923BFA48D6994B9BFC6535F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>84C3EAE0CC8AD475936CEF7891567F74</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ELNTextFieldFormatter.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>85800672C6EB8E7FFD5DBBE23100A298</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F16249B9A66C23C3ED3080C77EC3C592</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>85BCA6DAEABD25E410C0E177FE7931A7</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>ELNUtils</string>
+			<key>target</key>
+			<string>2D2F844E7AF29062EC0CBF1FE2A7F528</string>
+			<key>targetProxy</key>
+			<string>F144CC8B930CF906866710FBEA073C86</string>
+		</dict>
+		<key>87CEDA89B0C2575E5AE1F9866AD827C4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ELNAmountValidator.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8923530FD7A2D1C294A4147227F7D2C5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CCBC4F4A1B7F374A2585C833C22790B4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Development Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>899344C7681424797F2FFEB6E3245D52</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ELNUtils-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>89A7A2FA6BB11156C6660B5C363A15C5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FF6D3CD6409FDD6B862E10195D97E40E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>8A2A11EA7C67670A9327993A12D2B09C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-ELNTextFieldFormattingKit_Tests-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8C5203E60C1B425498314A5969AF7D47</key>
+		<dict>
+			<key>fileRef</key>
+			<string>84C3EAE0CC8AD475936CEF7891567F74</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8CC37B4A55E33D9F607FC291E4563A84</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSData+ELNUtils.h</string>
+			<key>path</key>
+			<string>Source/NSData+ELNUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E5D7DD7273F0202D56A09F1BFA27ADB</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>6AF1FEE97DCE5155EC387E7FDBA67256</string>
+				<string>4A25402D2B53D92DB4A82D43A83427D6</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>8F012F30F37BBCBC6B62D45709C8285A</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>0BD108F4E9A35403C7915E74D1D18A7C</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/ELNUtils/ELNUtils-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>8FA128974407457ACCA8977512DCEBF6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSLocale+ELNUtils.h</string>
+			<key>path</key>
+			<string>Source/NSLocale+ELNUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8FDA3981660499E6082AE4AFD3AB9D58</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A6DA2452CB7793FCC997F117DA07F794</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>916DF96A522944DB6ACE40D96AA52D46</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ELNUtils-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>91EED018C12F5383DF1E322FB6A7A9F5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6E7E5AF37923BFA48D6994B9BFC6535F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>92D3001F749F2AAE1D025017432D9DA4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIWindow+ELNUtils.m</string>
+			<key>path</key>
+			<string>Source/UIWindow+ELNUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9374537A324CB3B6F541D1052551C25E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E6698D9D4B389BCB1E88DB3EBF963CA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>95F31D8C90DEB1A4E38C078682A2A878</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5A61D376FBBFFC2370FA741F9727456D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>98C7C99E5124ACC8AD53EDC856C36020</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>4E4EFB74C641AE1A67FD07FEB3DBA70A</string>
+			<key>buildPhases</key>
+			<array>
+				<string>C4CDF928D1071AAAC797F752A03A0F12</string>
+				<string>F3A0F352BC3D6375EB771FE81D2BBA71</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>37DC14914C6C7E5F8902F64E5B354959</string>
+				<string>85BCA6DAEABD25E410C0E177FE7931A7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-ELNTextFieldFormattingKit_Tests</string>
+			<key>productName</key>
+			<string>Pods-ELNTextFieldFormattingKit_Tests</string>
+			<key>productReference</key>
+			<string>FAB7F008127617FE766CBBECFB9DF161</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>9A7A67B4EAFD31537A40371B7F712ADC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIImage+ELNUtils.m</string>
+			<key>path</key>
+			<string>Source/UIImage+ELNUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9DAD432A03234ED51B9888428B556879</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-ELNTextFieldFormattingKit_Tests-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9E3666E8F1F81946C93AA5A2E8E563BF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ELNCurrencyMask.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9F91A691CFE219EF53711D2195C6D3ED</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>29C9C5292BC01C2B0A3F832DCF2AF229</string>
+				<string>10617DFC589CE8A9BDA29AE5BD0DBAA1</string>
+				<string>75A5FD01971DDAD6DD3B786CDF9FA337</string>
+				<string>1120BF0A8086921AE7135FA6B30DE44E</string>
+				<string>4D24D352E4A4C8024E77DEBF45DDB6AF</string>
+				<string>65087D9A3239911060A6157A790A585F</string>
+				<string>18F1B80936C7BF1894EF222CAA59CF43</string>
+				<string>54D84E52CB5D9DC2C8DA1EE3C3529B29</string>
+				<string>C12D0E3EE66AB5241980C6745761F26C</string>
+				<string>8CC37B4A55E33D9F607FC291E4563A84</string>
+				<string>D934E691628DA423224F735FF6C5BC8A</string>
+				<string>5B704A1D914FE2D74F28CBD7ABE9F745</string>
+				<string>4520DA79B2C36161645F6E738CF7A63A</string>
+				<string>E173E31341866C63404A54C567044FA3</string>
+				<string>4157696B45035BC47ED64E434E53B143</string>
+				<string>8FA128974407457ACCA8977512DCEBF6</string>
+				<string>30A89E509658485425CE61BDADDE07F4</string>
+				<string>17ECA5ACF89ED35791CE4362C592ECCC</string>
+				<string>4D313EB2F24A4792928DED67EE5CDF59</string>
+				<string>6CC6092F94B3FC822CDE7AB61E26CDA9</string>
+				<string>A33EF6E4763B48EE875AFF282BE49987</string>
+				<string>EEAC8B6D3496138E8AB5D5F743E2415A</string>
+				<string>6EA433F76F0DB28D328BB894A645D1CE</string>
+				<string>D7694FD31B49AA2A42CCFE2CD0B1A351</string>
+				<string>1907BA4AD60D6B1778ADA1FEE0E69777</string>
+				<string>6358B8CEC31CCE0820FF06E49B20F992</string>
+				<string>2FD41146E0BE277677ABC1CF9D476555</string>
+				<string>F86651030F3D5C43E5CA430D78524288</string>
+				<string>4058331691ECF2F38224A531DB6EB85C</string>
+				<string>7CDFD36A98F28DFE17363EA5475A2D15</string>
+				<string>60900D092100AE3C813AC877126505DD</string>
+				<string>B9FC076DCDD3A90CE098CD3B5B2EB336</string>
+				<string>9A7A67B4EAFD31537A40371B7F712ADC</string>
+				<string>4BA2A2CFD5921C67BEB260E5543C5446</string>
+				<string>F16249B9A66C23C3ED3080C77EC3C592</string>
+				<string>BC65E4E8A3BB74158C785FB59A1262BE</string>
+				<string>80234C50D3AE4F196D0FB1F73B86F5BF</string>
+				<string>A6DA2452CB7793FCC997F117DA07F794</string>
+				<string>F7D364B0C79EBAF40AC71D4D0C79B394</string>
+				<string>2766796B65E583B0A5B0461501DCAB82</string>
+				<string>56EA702A92BCCC6D2C65F07834910D23</string>
+				<string>2CF4018F7DDBA236899CDA6C5E8040F4</string>
+				<string>4446A69B5CA7A630946A6CE54D87ED88</string>
+				<string>FF6D3CD6409FDD6B862E10195D97E40E</string>
+				<string>A404B8B3FBA26E6232716FB823B93F21</string>
+				<string>767567A4CB12E663B8A0F1ED94B0A83B</string>
+				<string>92D3001F749F2AAE1D025017432D9DA4</string>
+				<string>1A98BC950059587A2E00A37C0774C58C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>ELNUtils</string>
+			<key>path</key>
+			<string>ELNUtils</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A083F3A6FA9BF42E1A67A5209FDC6C4E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-ELNTextFieldFormattingKit_Example-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A09D5C9E085E9377672378BD25D413F0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D7694FD31B49AA2A42CCFE2CD0B1A351</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>A285BA296CA407012A70255011A36AB1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C3B7BDF5CE5CB8F095FE12DA55D9A9BB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A33EF6E4763B48EE875AFF282BE49987</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSSortDescriptor+ELNUtils.m</string>
+			<key>path</key>
+			<string>Source/NSSortDescriptor+ELNUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A404B8B3FBA26E6232716FB823B93F21</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIViewController+ELNUtils.m</string>
+			<key>path</key>
+			<string>Source/UIViewController+ELNUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A40BFA61F142B70985F8ACDE3D1636B5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4BA2A2CFD5921C67BEB260E5543C5446</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>A4805DE454A508F5661A96A105466572</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4157696B45035BC47ED64E434E53B143</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A4ECDD0A5A76B2FE4089B537CA72A0D4</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>816E4170F70EBA4DF7ADE74AFA73992B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>A52482EC643DDEB34870F0DD62833CDB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4D24D352E4A4C8024E77DEBF45DDB6AF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>A634022078A15F03B5B561783BEA72A4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>00B4667CB025E7BF8179E4F597A1D88A</string>
+				<string>D87E036C4B4B2F0DE1EA8BDB54A4D5BF</string>
+				<string>FF25FA7923B1BE18F36E76A997563BCF</string>
+				<string>223757536ABDE2C3A4016F31F2FDE64E</string>
+				<string>466768DECCE8929690AEF9D6BF3B1D13</string>
+				<string>1967C7C32C01E6E756ABABC66DF8CB4B</string>
+				<string>A4805DE454A508F5661A96A105466572</string>
+				<string>3D6BEE115B3946951D1CAEC92100B3E4</string>
+				<string>DD682900FCBA738F5D7BFB405F637CB9</string>
+				<string>DE81BF120625EB71398FDE7EF8C663C1</string>
+				<string>3E69BA7323724511180B0E34F90F2664</string>
+				<string>366110A9A1B4AFF5BFD60AFECBF26057</string>
+				<string>125B66DF945768A249460FD416442D4C</string>
+				<string>417752255CA2553E78362BE64DFCD92D</string>
+				<string>44F8B0A0B661135EBE924EAB96A5746D</string>
+				<string>ED6D58B41150EFBCAAAB0FDB4630EF96</string>
+				<string>85800672C6EB8E7FFD5DBBE23100A298</string>
+				<string>D640F7A43F43F85B1FB49EE1F33AE446</string>
+				<string>05317DE6680AA01924EBE2457483E165</string>
+				<string>6A71EC25B5EED38E75C6741D35C015CD</string>
+				<string>C96C4282AB0D6C02F95E383397150594</string>
+				<string>331FBF5A6474BD3D281F73C4C079814A</string>
+				<string>654174361FF52647D5F69DE99F1D46AC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>A6DA2452CB7793FCC997F117DA07F794</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UITableView+ELNUtils.h</string>
+			<key>path</key>
+			<string>Source/UITableView+ELNUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A88475137D6FD95437B50AB1313DC90E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>65BCABA2ABC43DED67A8DC60FC4A4B2D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>AB61A1FCFDF7CBB65B71194DBEFC7FBC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-ELNTextFieldFormattingKit_Tests-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ADB337DADBE47FE76A29BBBBD3A65BFF</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>58849055118E9190388228FFC836905B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/ELNTextFieldFormattingKit/ELNTextFieldFormattingKit-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>AF950437FB24BE9FA76988D29519E6B6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BC65E4E8A3BB74158C785FB59A1262BE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>B4DA598CE3048E1FA5417BF169B9765F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1B36BD658C0461CFC589D5504FE780FB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B9FC076DCDD3A90CE098CD3B5B2EB336</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIImage+ELNUtils.h</string>
+			<key>path</key>
+			<string>Source/UIImage+ELNUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>BC65E4E8A3BB74158C785FB59A1262BE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIResponder+ELNUtils.h</string>
+			<key>path</key>
+			<string>Source/UIResponder+ELNUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BDA34AA7930AF6D7C9B9A95DBAFD40F1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ELNCurrencyFormatter.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BE1834467FE529685681A2391CA85E88</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ELNCharactersValidator.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C014D00B5CCAC06024B122164201B0B0</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods-ELNTextFieldFormattingKit_Example.a</string>
+			<key>path</key>
+			<string>libPods-ELNTextFieldFormattingKit_Example.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>C12D0E3EE66AB5241980C6745761F26C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSBundle+ELNUtils.m</string>
+			<key>path</key>
+			<string>Source/NSBundle+ELNUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C2113069ED0A0CA0484C01F5C8905865</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BDA34AA7930AF6D7C9B9A95DBAFD40F1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C3B7BDF5CE5CB8F095FE12DA55D9A9BB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>C4CDF928D1071AAAC797F752A03A0F12</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>1CAA995AA8087EA967EA5B50EEC5229B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C96C4282AB0D6C02F95E383397150594</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4446A69B5CA7A630946A6CE54D87ED88</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CB6F4CF4F34A1702B40C9C7C603F5522</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>1EF4C3FA828B13111968D83E1AA889A7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>CCBC4F4A1B7F374A2585C833C22790B4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E7F48941F8310892F4EA20EECB9EAA98</string>
+				<string>3887A21EA2B890D8EFCB3B8F14A59345</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>ELNTextFieldFormattingKit</string>
+			<key>path</key>
+			<string>../..</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D19542438B4EFA6CA8C5D1F1944775F8</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>0067F73003C03800520D92942B46A3C9</string>
+				<string>8F012F30F37BBCBC6B62D45709C8285A</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>D23857C2DE2C9A4C14BDF63752811986</key>
+		<dict>
+			<key>fileRef</key>
+			<string>29C9C5292BC01C2B0A3F832DCF2AF229</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>D41D8CD98F00B204E9800998ECF8427E</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0700</string>
+				<key>LastUpgradeCheck</key>
+				<string>0700</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>7DB346D0F39D3F0E887471402A8071AB</string>
+			<key>productRefGroup</key>
+			<string>EDC7BBE29BB0EB5C8527D99D5AF47D28</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>2496C36DB5A6F9660E23DC9D48F3788F</string>
+				<string>2D2F844E7AF29062EC0CBF1FE2A7F528</string>
+				<string>4397C4D76DB24A30ABBB296422DE1EB3</string>
+				<string>98C7C99E5124ACC8AD53EDC856C36020</string>
+			</array>
+		</dict>
+		<key>D640F7A43F43F85B1FB49EE1F33AE446</key>
+		<dict>
+			<key>fileRef</key>
+			<string>80234C50D3AE4F196D0FB1F73B86F5BF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D7694FD31B49AA2A42CCFE2CD0B1A351</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSURLRequest+ELNUtils.h</string>
+			<key>path</key>
+			<string>Source/NSURLRequest+ELNUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D7EB79F37AC2BCAE728D10809407786C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-ELNTextFieldFormattingKit_Example-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D87E036C4B4B2F0DE1EA8BDB54A4D5BF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>899344C7681424797F2FFEB6E3245D52</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D934E691628DA423224F735FF6C5BC8A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSData+ELNUtils.m</string>
+			<key>path</key>
+			<string>Source/NSData+ELNUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCEBF3B57E600E58B9BC74036831A721</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ELNAmountValidator.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DD682900FCBA738F5D7BFB405F637CB9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4D313EB2F24A4792928DED67EE5CDF59</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DE81BF120625EB71398FDE7EF8C663C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A33EF6E4763B48EE875AFF282BE49987</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DE86909BF2BB5201C909DF1A6D4912C0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2766796B65E583B0A5B0461501DCAB82</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>E1457F51B237323D88913F4D1156C177</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>2496C36DB5A6F9660E23DC9D48F3788F</string>
+			<key>remoteInfo</key>
+			<string>ELNTextFieldFormattingKit</string>
+		</dict>
+		<key>E173E31341866C63404A54C567044FA3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSFileManager+ELNUtils.h</string>
+			<key>path</key>
+			<string>Source/NSFileManager+ELNUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E1C5463B24A63D93569B1E2088B5855C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ELNCardNumberMask.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E7F48941F8310892F4EA20EECB9EAA98</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>87CEDA89B0C2575E5AE1F9866AD827C4</string>
+				<string>DCEBF3B57E600E58B9BC74036831A721</string>
+				<string>E1C5463B24A63D93569B1E2088B5855C</string>
+				<string>0596CBC75EE118ACF4743A9BF023114B</string>
+				<string>18B18E6217689AE21A70CEE09F52BAFD</string>
+				<string>BE1834467FE529685681A2391CA85E88</string>
+				<string>5A61D376FBBFFC2370FA741F9727456D</string>
+				<string>BDA34AA7930AF6D7C9B9A95DBAFD40F1</string>
+				<string>9E3666E8F1F81946C93AA5A2E8E563BF</string>
+				<string>1B36BD658C0461CFC589D5504FE780FB</string>
+				<string>761E81C7318468E8708534E36962E622</string>
+				<string>5FD22B79F6ABD5EB1E00E9C782AA199C</string>
+				<string>65BCABA2ABC43DED67A8DC60FC4A4B2D</string>
+				<string>47E97F6B980442F083D55A391E8F91C6</string>
+				<string>56193BB068572F7165171AE4D0E009D7</string>
+				<string>84C3EAE0CC8AD475936CEF7891567F74</string>
+				<string>F74F462457A14B85059747755B1B8F0E</string>
+				<string>F28195CCFB7B5F6E2F265F51F16B4638</string>
+				<string>3E6698D9D4B389BCB1E88DB3EBF963CA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Source</string>
+			<key>path</key>
+			<string>Source</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E86693F0BBC15EFBD53D44703E9869A1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>761E81C7318468E8708534E36962E622</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>ED4918382961B6CCCD183187E01A7DB7</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libELNUtils.a</string>
+			<key>path</key>
+			<string>libELNUtils.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>ED6D58B41150EFBCAAAB0FDB4630EF96</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9A7A67B4EAFD31537A40371B7F712ADC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>ED827A46EF4ABDFCB9A4DA85D7D29D1F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6358B8CEC31CCE0820FF06E49B20F992</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>EDC7BBE29BB0EB5C8527D99D5AF47D28</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1F40189FE49C1C1C4DDBB135B4B2C22B</string>
+				<string>ED4918382961B6CCCD183187E01A7DB7</string>
+				<string>C014D00B5CCAC06024B122164201B0B0</string>
+				<string>FAB7F008127617FE766CBBECFB9DF161</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EEAC8B6D3496138E8AB5D5F743E2415A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSString+ELNUtils.h</string>
+			<key>path</key>
+			<string>Source/NSString+ELNUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F144CC8B930CF906866710FBEA073C86</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>2D2F844E7AF29062EC0CBF1FE2A7F528</string>
+			<key>remoteInfo</key>
+			<string>ELNUtils</string>
+		</dict>
+		<key>F16249B9A66C23C3ED3080C77EC3C592</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UILabel+ELNUtils.m</string>
+			<key>path</key>
+			<string>Source/UILabel+ELNUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F28195CCFB7B5F6E2F265F51F16B4638</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ELNTextMask.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F3A0F352BC3D6375EB771FE81D2BBA71</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>824EFB42BC82286772103D0DD7D3BE9F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>F74F462457A14B85059747755B1B8F0E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ELNTextFieldFormattingKit.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F77736897BA205C0F0C0DAC809DE8B55</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>ELNUtils</string>
+			<key>target</key>
+			<string>2D2F844E7AF29062EC0CBF1FE2A7F528</string>
+			<key>targetProxy</key>
+			<string>7B8D6F82B53683113D707BE24143A38D</string>
+		</dict>
+		<key>F7C0D17EE9B97079CF8D172F0D32E2E6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6CC6092F94B3FC822CDE7AB61E26CDA9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>F7D364B0C79EBAF40AC71D4D0C79B394</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UITableView+ELNUtils.m</string>
+			<key>path</key>
+			<string>Source/UITableView+ELNUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F86651030F3D5C43E5CA430D78524288</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIColor+ELNUtils.h</string>
+			<key>path</key>
+			<string>Source/UIColor+ELNUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FAB7F008127617FE766CBBECFB9DF161</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods-ELNTextFieldFormattingKit_Tests.a</string>
+			<key>path</key>
+			<string>libPods-ELNTextFieldFormattingKit_Tests.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>FC1F4137B8207DBB6CCEBE0E87DC2521</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5773C817DA1F0CD44BBED5C653BB09FA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>FE34497AA0541198CC972BA68E3D0A3D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>58849055118E9190388228FFC836905B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/ELNTextFieldFormattingKit/ELNTextFieldFormattingKit-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>FF25FA7923B1BE18F36E76A997563BCF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>18F1B80936C7BF1894EF222CAA59CF43</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FF6D3CD6409FDD6B862E10195D97E40E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIViewController+ELNUtils.h</string>
+			<key>path</key>
+			<string>Source/UIViewController+ELNUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>D41D8CD98F00B204E9800998ECF8427E</string>
+</dict>
+</plist>

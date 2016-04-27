@@ -5,6 +5,8 @@
 //  Created by Geor Kasapidi on 02/08/2016.
 //
 
+#import <ELNTextFieldFormattingKit/ELNTextFieldFormattingKit.h>
+
 @import UIKit;
 
 @interface ELNAppDelegate : UIResponder <UIApplicationDelegate>

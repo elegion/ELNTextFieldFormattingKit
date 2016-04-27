@@ -1,0 +1,13 @@
+PODS:
+  - ELNTestUtils (0.0.1)
+  - ELNUtils (0.3.2)
+
+DEPENDENCIES:
+  - ELNTestUtils (~> 0.0.1)
+  - ELNUtils (~> 0.3.0)
+
+SPEC CHECKSUMS:
+  ELNTestUtils: 47fad519627dcf24f0c8243c39beb0ca86f87de6
+  ELNUtils: 950eb73599adda562bb85e4dbbe042d6dfab15b5
+
+COCOAPODS: 0.39.0

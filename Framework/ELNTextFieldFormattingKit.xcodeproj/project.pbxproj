@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35B2D8416774079EB3E47F85 /* libPods-ELNTextFieldFormattingKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C728FAC11802ACAB4C290BAD /* libPods-ELNTextFieldFormattingKit.a */; };
+		DDB402D92A09391A4617EB79 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 882DDA8BB2651CF70A5E267A /* libPods-Tests.a */; };
+		FE8265E11CD1571200D1CDDC /* ELNAmountValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8265CF1CD1571200D1CDDC /* ELNAmountValidator.h */; };
+		FE8265E21CD1571200D1CDDC /* ELNAmountValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8265D01CD1571200D1CDDC /* ELNAmountValidator.m */; };
+		FE8265E31CD1571200D1CDDC /* ELNCardNumberMask.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8265D11CD1571200D1CDDC /* ELNCardNumberMask.h */; };
+		FE8265E41CD1571200D1CDDC /* ELNCardNumberMask.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8265D21CD1571200D1CDDC /* ELNCardNumberMask.m */; };
+		FE8265E51CD1571200D1CDDC /* ELNCharactersValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8265D31CD1571200D1CDDC /* ELNCharactersValidator.h */; };
+		FE8265E61CD1571200D1CDDC /* ELNCharactersValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8265D41CD1571200D1CDDC /* ELNCharactersValidator.m */; };
+		FE8265E71CD1571200D1CDDC /* ELNCurrencyFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8265D51CD1571200D1CDDC /* ELNCurrencyFormatter.h */; };
+		FE8265E81CD1571200D1CDDC /* ELNCurrencyFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8265D61CD1571200D1CDDC /* ELNCurrencyFormatter.m */; };
+		FE8265E91CD1571200D1CDDC /* ELNCurrencyMask.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8265D71CD1571200D1CDDC /* ELNCurrencyMask.h */; };
+		FE8265EA1CD1571200D1CDDC /* ELNCurrencyMask.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8265D81CD1571200D1CDDC /* ELNCurrencyMask.m */; };
+		FE8265EB1CD1571200D1CDDC /* ELNCurrencyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8265D91CD1571200D1CDDC /* ELNCurrencyTextField.h */; };
+		FE8265EC1CD1571200D1CDDC /* ELNCurrencyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8265DA1CD1571200D1CDDC /* ELNCurrencyTextField.m */; };
+		FE8265ED1CD1571200D1CDDC /* ELNPhoneNumberMask.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8265DB1CD1571200D1CDDC /* ELNPhoneNumberMask.h */; };
+		FE8265EE1CD1571200D1CDDC /* ELNPhoneNumberMask.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8265DC1CD1571200D1CDDC /* ELNPhoneNumberMask.m */; };
+		FE8265EF1CD1571200D1CDDC /* ELNTextFieldFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8265DD1CD1571200D1CDDC /* ELNTextFieldFormatter.h */; };
+		FE8265F01CD1571200D1CDDC /* ELNTextFieldFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8265DE1CD1571200D1CDDC /* ELNTextFieldFormatter.m */; };
+		FE8265F11CD1571200D1CDDC /* ELNTextMask.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8265DF1CD1571200D1CDDC /* ELNTextMask.h */; };
+		FE8265F21CD1571200D1CDDC /* ELNValidatorType.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8265E01CD1571200D1CDDC /* ELNValidatorType.h */; };
+		FE8266001CD157D800D1CDDC /* ELNTextFieldFormattingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8265C31CD156AF00D1CDDC /* ELNTextFieldFormattingKit.framework */; };
+		FE8266091CD1596000D1CDDC /* ELNTextFieldFormattingKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8266081CD1590E00D1CDDC /* ELNTextFieldFormattingKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE8266011CD157D800D1CDDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE8265BA1CD156AF00D1CDDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE8265C21CD156AF00D1CDDC;
+			remoteInfo = ELNTextFieldFormattingKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		882DDA8BB2651CF70A5E267A /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCA832123DDE9FDB00EFB8B /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		92659954A729ED0C25DB06A9 /* Pods-ELNTextFieldFormattingKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELNTextFieldFormattingKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ELNTextFieldFormattingKit/Pods-ELNTextFieldFormattingKit.release.xcconfig"; sourceTree = "<group>"; };
+		9EF64EFBEB590B19CBFE4F32 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C728FAC11802ACAB4C290BAD /* libPods-ELNTextFieldFormattingKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELNTextFieldFormattingKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F548D28A09E818AB2E65B1E9 /* Pods-ELNTextFieldFormattingKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELNTextFieldFormattingKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ELNTextFieldFormattingKit/Pods-ELNTextFieldFormattingKit.debug.xcconfig"; sourceTree = "<group>"; };
+		FE8265C31CD156AF00D1CDDC /* ELNTextFieldFormattingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ELNTextFieldFormattingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8265CF1CD1571200D1CDDC /* ELNAmountValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNAmountValidator.h; sourceTree = "<group>"; };
+		FE8265D01CD1571200D1CDDC /* ELNAmountValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNAmountValidator.m; sourceTree = "<group>"; };
+		FE8265D11CD1571200D1CDDC /* ELNCardNumberMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNCardNumberMask.h; sourceTree = "<group>"; };
+		FE8265D21CD1571200D1CDDC /* ELNCardNumberMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNCardNumberMask.m; sourceTree = "<group>"; };
+		FE8265D31CD1571200D1CDDC /* ELNCharactersValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNCharactersValidator.h; sourceTree = "<group>"; };
+		FE8265D41CD1571200D1CDDC /* ELNCharactersValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNCharactersValidator.m; sourceTree = "<group>"; };
+		FE8265D51CD1571200D1CDDC /* ELNCurrencyFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNCurrencyFormatter.h; sourceTree = "<group>"; };
+		FE8265D61CD1571200D1CDDC /* ELNCurrencyFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNCurrencyFormatter.m; sourceTree = "<group>"; };
+		FE8265D71CD1571200D1CDDC /* ELNCurrencyMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNCurrencyMask.h; sourceTree = "<group>"; };
+		FE8265D81CD1571200D1CDDC /* ELNCurrencyMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNCurrencyMask.m; sourceTree = "<group>"; };
+		FE8265D91CD1571200D1CDDC /* ELNCurrencyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNCurrencyTextField.h; sourceTree = "<group>"; };
+		FE8265DA1CD1571200D1CDDC /* ELNCurrencyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNCurrencyTextField.m; sourceTree = "<group>"; };
+		FE8265DB1CD1571200D1CDDC /* ELNPhoneNumberMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNPhoneNumberMask.h; sourceTree = "<group>"; };
+		FE8265DC1CD1571200D1CDDC /* ELNPhoneNumberMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNPhoneNumberMask.m; sourceTree = "<group>"; };
+		FE8265DD1CD1571200D1CDDC /* ELNTextFieldFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNTextFieldFormatter.h; sourceTree = "<group>"; };
+		FE8265DE1CD1571200D1CDDC /* ELNTextFieldFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNTextFieldFormatter.m; sourceTree = "<group>"; };
+		FE8265DF1CD1571200D1CDDC /* ELNTextMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNTextMask.h; sourceTree = "<group>"; };
+		FE8265E01CD1571200D1CDDC /* ELNValidatorType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNValidatorType.h; sourceTree = "<group>"; };
+		FE8265F31CD1572300D1CDDC /* Default.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Default.xcconfig; sourceTree = "<group>"; };
+		FE8265F41CD1572300D1CDDC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE8265FB1CD157D800D1CDDC /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8265FF1CD157D800D1CDDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE8266061CD158D800D1CDDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE8266081CD1590E00D1CDDC /* ELNTextFieldFormattingKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELNTextFieldFormattingKit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE8265BF1CD156AF00D1CDDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B2D8416774079EB3E47F85 /* libPods-ELNTextFieldFormattingKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8265F81CD157D700D1CDDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8266001CD157D800D1CDDC /* ELNTextFieldFormattingKit.framework in Frameworks */,
+				DDB402D92A09391A4617EB79 /* libPods-Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		309678D0433183BED399DEF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F548D28A09E818AB2E65B1E9 /* Pods-ELNTextFieldFormattingKit.debug.xcconfig */,
+				92659954A729ED0C25DB06A9 /* Pods-ELNTextFieldFormattingKit.release.xcconfig */,
+				9EF64EFBEB590B19CBFE4F32 /* Pods-Tests.debug.xcconfig */,
+				8FCA832123DDE9FDB00EFB8B /* Pods-Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C6F2A4C0A3C4DEAFE7C394A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE8266061CD158D800D1CDDC /* UIKit.framework */,
+				C728FAC11802ACAB4C290BAD /* libPods-ELNTextFieldFormattingKit.a */,
+				882DDA8BB2651CF70A5E267A /* libPods-Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE8265B91CD156AF00D1CDDC = {
+			isa = PBXGroup;
+			children = (
+				FE8265C51CD156AF00D1CDDC /* Source */,
+				FE8265FC1CD157D800D1CDDC /* Tests */,
+				FE8265C41CD156AF00D1CDDC /* Products */,
+				309678D0433183BED399DEF0 /* Pods */,
+				7C6F2A4C0A3C4DEAFE7C394A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE8265C41CD156AF00D1CDDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE8265C31CD156AF00D1CDDC /* ELNTextFieldFormattingKit.framework */,
+				FE8265FB1CD157D800D1CDDC /* Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE8265C51CD156AF00D1CDDC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FE8265CF1CD1571200D1CDDC /* ELNAmountValidator.h */,
+				FE8265D01CD1571200D1CDDC /* ELNAmountValidator.m */,
+				FE8265D11CD1571200D1CDDC /* ELNCardNumberMask.h */,
+				FE8265D21CD1571200D1CDDC /* ELNCardNumberMask.m */,
+				FE8265D31CD1571200D1CDDC /* ELNCharactersValidator.h */,
+				FE8265D41CD1571200D1CDDC /* ELNCharactersValidator.m */,
+				FE8265D51CD1571200D1CDDC /* ELNCurrencyFormatter.h */,
+				FE8265D61CD1571200D1CDDC /* ELNCurrencyFormatter.m */,
+				FE8265D71CD1571200D1CDDC /* ELNCurrencyMask.h */,
+				FE8265D81CD1571200D1CDDC /* ELNCurrencyMask.m */,
+				FE8265D91CD1571200D1CDDC /* ELNCurrencyTextField.h */,
+				FE8265DA1CD1571200D1CDDC /* ELNCurrencyTextField.m */,
+				FE8265DB1CD1571200D1CDDC /* ELNPhoneNumberMask.h */,
+				FE8265DC1CD1571200D1CDDC /* ELNPhoneNumberMask.m */,
+				FE8265DD1CD1571200D1CDDC /* ELNTextFieldFormatter.h */,
+				FE8265DE1CD1571200D1CDDC /* ELNTextFieldFormatter.m */,
+				FE8265DF1CD1571200D1CDDC /* ELNTextMask.h */,
+				FE8265E01CD1571200D1CDDC /* ELNValidatorType.h */,
+				FE8266081CD1590E00D1CDDC /* ELNTextFieldFormattingKit.h */,
+				FE8265CE1CD156FD00D1CDDC /* Supporting Files */,
+			);
+			name = Source;
+			path = ../Source;
+			sourceTree = "<group>";
+		};
+		FE8265CE1CD156FD00D1CDDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE8265F31CD1572300D1CDDC /* Default.xcconfig */,
+				FE8265F41CD1572300D1CDDC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = ../Framework;
+			sourceTree = "<group>";
+		};
+		FE8265FC1CD157D800D1CDDC /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FE8265FF1CD157D800D1CDDC /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FE8265C01CD156AF00D1CDDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8265ED1CD1571200D1CDDC /* ELNPhoneNumberMask.h in Headers */,
+				FE8265EF1CD1571200D1CDDC /* ELNTextFieldFormatter.h in Headers */,
+				FE8265E11CD1571200D1CDDC /* ELNAmountValidator.h in Headers */,
+				FE8265E91CD1571200D1CDDC /* ELNCurrencyMask.h in Headers */,
+				FE8265E31CD1571200D1CDDC /* ELNCardNumberMask.h in Headers */,
+				FE8266091CD1596000D1CDDC /* ELNTextFieldFormattingKit.h in Headers */,
+				FE8265F21CD1571200D1CDDC /* ELNValidatorType.h in Headers */,
+				FE8265F11CD1571200D1CDDC /* ELNTextMask.h in Headers */,
+				FE8265EB1CD1571200D1CDDC /* ELNCurrencyTextField.h in Headers */,
+				FE8265E71CD1571200D1CDDC /* ELNCurrencyFormatter.h in Headers */,
+				FE8265E51CD1571200D1CDDC /* ELNCharactersValidator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FE8265C21CD156AF00D1CDDC /* ELNTextFieldFormattingKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE8265CB1CD156AF00D1CDDC /* Build configuration list for PBXNativeTarget "ELNTextFieldFormattingKit" */;
+			buildPhases = (
+				9A3F00AFAE4066F99B3ED540 /* Check Pods Manifest.lock */,
+				FE8265BE1CD156AF00D1CDDC /* Sources */,
+				FE8265BF1CD156AF00D1CDDC /* Frameworks */,
+				FE8265C01CD156AF00D1CDDC /* Headers */,
+				FE8265C11CD156AF00D1CDDC /* Resources */,
+				8F1E20A6D3FB9DB3068F41A1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ELNTextFieldFormattingKit;
+			productName = ELNTextFieldFormattingKit;
+			productReference = FE8265C31CD156AF00D1CDDC /* ELNTextFieldFormattingKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE8265FA1CD157D700D1CDDC /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE8266051CD157D800D1CDDC /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				4289958C05AFF03EF2C1951E /* Check Pods Manifest.lock */,
+				FE8265F71CD157D700D1CDDC /* Sources */,
+				FE8265F81CD157D700D1CDDC /* Frameworks */,
+				FE8265F91CD157D700D1CDDC /* Resources */,
+				DCD022C7BF283E3615196897 /* Embed Pods Frameworks */,
+				F1A17F303A1DBA0D09D3CB9D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE8266021CD157D800D1CDDC /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = FE8265FB1CD157D800D1CDDC /* Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE8265BA1CD156AF00D1CDDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "e-legion";
+				TargetAttributes = {
+					FE8265C21CD156AF00D1CDDC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FE8265FA1CD157D700D1CDDC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FE8265BD1CD156AF00D1CDDC /* Build configuration list for PBXProject "ELNTextFieldFormattingKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE8265B91CD156AF00D1CDDC;
+			productRefGroup = FE8265C41CD156AF00D1CDDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE8265C21CD156AF00D1CDDC /* ELNTextFieldFormattingKit */,
+				FE8265FA1CD157D700D1CDDC /* Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE8265C11CD156AF00D1CDDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8265F91CD157D700D1CDDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4289958C05AFF03EF2C1951E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F1E20A6D3FB9DB3068F41A1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ELNTextFieldFormattingKit/Pods-ELNTextFieldFormattingKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A3F00AFAE4066F99B3ED540 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DCD022C7BF283E3615196897 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1A17F303A1DBA0D09D3CB9D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE8265BE1CD156AF00D1CDDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8265E61CD1571200D1CDDC /* ELNCharactersValidator.m in Sources */,
+				FE8265EA1CD1571200D1CDDC /* ELNCurrencyMask.m in Sources */,
+				FE8265E41CD1571200D1CDDC /* ELNCardNumberMask.m in Sources */,
+				FE8265E21CD1571200D1CDDC /* ELNAmountValidator.m in Sources */,
+				FE8265EE1CD1571200D1CDDC /* ELNPhoneNumberMask.m in Sources */,
+				FE8265EC1CD1571200D1CDDC /* ELNCurrencyTextField.m in Sources */,
+				FE8265F01CD1571200D1CDDC /* ELNTextFieldFormatter.m in Sources */,
+				FE8265E81CD1571200D1CDDC /* ELNCurrencyFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8265F71CD157D700D1CDDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE8266021CD157D800D1CDDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE8265C21CD156AF00D1CDDC /* ELNTextFieldFormattingKit */;
+			targetProxy = FE8266011CD157D800D1CDDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FE8265C91CD156AF00D1CDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE8265CA1CD156AF00D1CDDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE8265CC1CD156AF00D1CDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F548D28A09E818AB2E65B1E9 /* Pods-ELNTextFieldFormattingKit.debug.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.e-legion.ELNTextFieldFormattingKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FE8265CD1CD156AF00D1CDDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92659954A729ED0C25DB06A9 /* Pods-ELNTextFieldFormattingKit.release.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.e-legion.ELNTextFieldFormattingKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FE8266031CD157D800D1CDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EF64EFBEB590B19CBFE4F32 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.e-legion.Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE8266041CD157D800D1CDDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FCA832123DDE9FDB00EFB8B /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.e-legion.Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE8265BD1CD156AF00D1CDDC /* Build configuration list for PBXProject "ELNTextFieldFormattingKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8265C91CD156AF00D1CDDC /* Debug */,
+				FE8265CA1CD156AF00D1CDDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE8265CB1CD156AF00D1CDDC /* Build configuration list for PBXNativeTarget "ELNTextFieldFormattingKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8265CC1CD156AF00D1CDDC /* Debug */,
+				FE8265CD1CD156AF00D1CDDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE8266051CD157D800D1CDDC /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8266031CD157D800D1CDDC /* Debug */,
+				FE8266041CD157D800D1CDDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE8265BA1CD156AF00D1CDDC /* Project object */;
+}
