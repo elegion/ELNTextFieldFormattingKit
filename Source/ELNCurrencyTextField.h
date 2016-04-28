@@ -10,6 +10,8 @@
 
 #import "ELNCurrencyMask.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 /**
  *  Text Field accuires self delegate to properly position cursor. So you should use ValueChaned event to obtain value changes.
  */
@@ -17,8 +19,10 @@
 
 @property (nonatomic, strong, readonly) ELNCurrencyMask *currencyMask;
 @property (nonatomic, copy) NSNumber *value;
-@property (nonatomic, copy) NSString *currencyCode;
-@property (nonatomic, copy) BOOL(^shouldBeginEditing)(UITextField *textField);
-@property (nonatomic, copy) BOOL(^shouldUpdateTextToValue)(UITextField *textField, NSString *text);
+@property (nonatomic, copy, nullable) NSString *currencyCode;
+@property (nonatomic, copy, nullable) BOOL(^shouldBeginEditing)(UITextField *textField);
+@property (nonatomic, copy, nullable) BOOL(^shouldUpdateTextToValue)(UITextField *textField, NSString *text);
 
 @end
+
+NS_ASSUME_NONNULL_END

@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @protocol ELNTextMask <NSObject, NSCopying>
 
 - (BOOL)shouldChangeText:(NSString *)text withReplacementString:(NSString *)string inRange:(NSRange)range;
@@ -15,3 +17,5 @@
 - (NSString *)formattedStringFromString:(NSString *)string cursorPosition:(NSUInteger *)cursorPosition;
 
 @end
+
+NS_ASSUME_NONNULL_END

@@ -13,6 +13,6 @@
 
 @interface ELNCurrencyMask : NSObject <ELNTextMask>
 
-@property (nonatomic, copy) ELNCurrencyFormatter *formatter;
+@property (nonatomic, copy, null_resettable) ELNCurrencyFormatter *formatter;
 
 @end

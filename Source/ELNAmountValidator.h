@@ -10,7 +10,7 @@
 
 @interface ELNAmountValidator : ELNCharactersValidator
 
-@property (nonatomic, strong, readonly) NSCharacterSet *punctuationCharacterSet;
+@property (nonatomic, strong, readonly, nullable) NSCharacterSet *punctuationCharacterSet;
 
 /**
  *  Default integer part length is 15 digits
@@ -21,6 +21,6 @@
  */
 @property (nonatomic, assign) NSUInteger maxFractionalLength;
 
-@property (nonatomic, strong) NSNumber *maxValue;
+@property (nonatomic, strong, nullable) NSNumber *maxValue;
 
 @end

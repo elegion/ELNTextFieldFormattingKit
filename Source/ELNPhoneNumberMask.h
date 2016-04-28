@@ -15,6 +15,6 @@
 /**
  *  Specifies not editable phone number prefix. Phone number prefix will be separated by a whitespace from the actual phone number.
  */
-@property (nonatomic, copy) NSString *prefix;
+@property (nonatomic, copy, nullable) NSString *prefix;
 
 @end
