@@ -13,8 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol ELNTextMask <NSObject, NSCopying>
 
 - (BOOL)shouldChangeText:(NSString *)text withReplacementString:(NSString *)string inRange:(NSRange)range;
-- (NSString *)filteredStringFromString:(NSString *)string cursorPosition:(NSUInteger *)cursorPosition;
-- (NSString *)formattedStringFromString:(NSString *)string cursorPosition:(NSUInteger *)cursorPosition;
+- (NSString *)filteredStringFromString:(NSString *)string cursorPosition:(NSUInteger * __nullable)cursorPosition;
+- (NSString *)formattedStringFromString:(NSString *)string cursorPosition:(NSUInteger * __nullable)cursorPosition;
 
 @end
 

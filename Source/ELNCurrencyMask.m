@@ -27,10 +27,18 @@ static NSUInteger const kMaximumIntegerDigits = 42;
     self = [super init];
     if (self) {
         self.validator = [ELNAmountValidator new];
-        self.formatter = [ELNCurrencyFormatter new];
-        self.formatter.shouldReduceFractionDigits = YES;
     }
     return self;
+}
+
+#pragma mark - Accessors
+
+- (ELNCurrencyFormatter *)formatter {
+    if (!_formatter) {
+        _formatter = [ELNCurrencyFormatter new];
+        _formatter.shouldReduceFractionDigits = YES;
+    }
+    return _formatter;
 }
 
 #pragma mark - NSCopying
