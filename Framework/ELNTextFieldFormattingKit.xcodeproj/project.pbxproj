@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35B2D8416774079EB3E47F85 /* libPods-ELNTextFieldFormattingKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C728FAC11802ACAB4C290BAD /* libPods-ELNTextFieldFormattingKit.a */; };
-		DDB402D92A09391A4617EB79 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 882DDA8BB2651CF70A5E267A /* libPods-Tests.a */; };
+		3A394F099B00281323B149A1 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C23337C131F9D87AD2A6013A /* libPods-Tests.a */; };
+		E150514D0F544299EC1020A5 /* libPods-ELNTextFieldFormattingKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05651DDC64E1BA1C9FFFFF74 /* libPods-ELNTextFieldFormattingKit.a */; };
 		FE8265E11CD1571200D1CDDC /* ELNAmountValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8265CF1CD1571200D1CDDC /* ELNAmountValidator.h */; };
 		FE8265E21CD1571200D1CDDC /* ELNAmountValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8265D01CD1571200D1CDDC /* ELNAmountValidator.m */; };
 		FE8265E31CD1571200D1CDDC /* ELNCardNumberMask.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8265D11CD1571200D1CDDC /* ELNCardNumberMask.h */; };
@@ -42,12 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		882DDA8BB2651CF70A5E267A /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FCA832123DDE9FDB00EFB8B /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		92659954A729ED0C25DB06A9 /* Pods-ELNTextFieldFormattingKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELNTextFieldFormattingKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ELNTextFieldFormattingKit/Pods-ELNTextFieldFormattingKit.release.xcconfig"; sourceTree = "<group>"; };
-		9EF64EFBEB590B19CBFE4F32 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C728FAC11802ACAB4C290BAD /* libPods-ELNTextFieldFormattingKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELNTextFieldFormattingKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F548D28A09E818AB2E65B1E9 /* Pods-ELNTextFieldFormattingKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELNTextFieldFormattingKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ELNTextFieldFormattingKit/Pods-ELNTextFieldFormattingKit.debug.xcconfig"; sourceTree = "<group>"; };
+		05651DDC64E1BA1C9FFFFF74 /* libPods-ELNTextFieldFormattingKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELNTextFieldFormattingKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79FC7BE6F186442115F20BFB /* Pods-ELNTextFieldFormattingKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELNTextFieldFormattingKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ELNTextFieldFormattingKit/Pods-ELNTextFieldFormattingKit.release.xcconfig"; sourceTree = "<group>"; };
+		C23337C131F9D87AD2A6013A /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D325AD4B38D0C26AD27401BB /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F0BF7FCC5CB1155DE32EA010 /* Pods-ELNTextFieldFormattingKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELNTextFieldFormattingKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ELNTextFieldFormattingKit/Pods-ELNTextFieldFormattingKit.debug.xcconfig"; sourceTree = "<group>"; };
+		F2239884C307674E9BCE0010 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE8265C31CD156AF00D1CDDC /* ELNTextFieldFormattingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ELNTextFieldFormattingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8265CF1CD1571200D1CDDC /* ELNAmountValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNAmountValidator.h; sourceTree = "<group>"; };
 		FE8265D01CD1571200D1CDDC /* ELNAmountValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNAmountValidator.m; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35B2D8416774079EB3E47F85 /* libPods-ELNTextFieldFormattingKit.a in Frameworks */,
+				E150514D0F544299EC1020A5 /* libPods-ELNTextFieldFormattingKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,32 +89,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE8266001CD157D800D1CDDC /* ELNTextFieldFormattingKit.framework in Frameworks */,
-				DDB402D92A09391A4617EB79 /* libPods-Tests.a in Frameworks */,
+				3A394F099B00281323B149A1 /* libPods-Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		309678D0433183BED399DEF0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F548D28A09E818AB2E65B1E9 /* Pods-ELNTextFieldFormattingKit.debug.xcconfig */,
-				92659954A729ED0C25DB06A9 /* Pods-ELNTextFieldFormattingKit.release.xcconfig */,
-				9EF64EFBEB590B19CBFE4F32 /* Pods-Tests.debug.xcconfig */,
-				8FCA832123DDE9FDB00EFB8B /* Pods-Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		7C6F2A4C0A3C4DEAFE7C394A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				FE8266061CD158D800D1CDDC /* UIKit.framework */,
-				C728FAC11802ACAB4C290BAD /* libPods-ELNTextFieldFormattingKit.a */,
-				882DDA8BB2651CF70A5E267A /* libPods-Tests.a */,
+				05651DDC64E1BA1C9FFFFF74 /* libPods-ELNTextFieldFormattingKit.a */,
+				C23337C131F9D87AD2A6013A /* libPods-Tests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF3F60983203AE59E74C8E02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0BF7FCC5CB1155DE32EA010 /* Pods-ELNTextFieldFormattingKit.debug.xcconfig */,
+				79FC7BE6F186442115F20BFB /* Pods-ELNTextFieldFormattingKit.release.xcconfig */,
+				F2239884C307674E9BCE0010 /* Pods-Tests.debug.xcconfig */,
+				D325AD4B38D0C26AD27401BB /* Pods-Tests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		FE8265B91CD156AF00D1CDDC = {
@@ -123,8 +123,8 @@
 				FE8265C51CD156AF00D1CDDC /* Source */,
 				FE8265FC1CD157D800D1CDDC /* Tests */,
 				FE8265C41CD156AF00D1CDDC /* Products */,
-				309678D0433183BED399DEF0 /* Pods */,
 				7C6F2A4C0A3C4DEAFE7C394A /* Frameworks */,
+				EF3F60983203AE59E74C8E02 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -211,12 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE8265CB1CD156AF00D1CDDC /* Build configuration list for PBXNativeTarget "ELNTextFieldFormattingKit" */;
 			buildPhases = (
-				9A3F00AFAE4066F99B3ED540 /* Check Pods Manifest.lock */,
+				8F8784C7774D5AF12791FD33 /* 📦 Check Pods Manifest.lock */,
 				FE8265BE1CD156AF00D1CDDC /* Sources */,
 				FE8265BF1CD156AF00D1CDDC /* Frameworks */,
 				FE8265C01CD156AF00D1CDDC /* Headers */,
 				FE8265C11CD156AF00D1CDDC /* Resources */,
-				8F1E20A6D3FB9DB3068F41A1 /* Copy Pods Resources */,
+				63BFB9B728EB3593BBE98818 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,12 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE8266051CD157D800D1CDDC /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
-				4289958C05AFF03EF2C1951E /* Check Pods Manifest.lock */,
+				8B1E2BDD4570E27EBF374851 /* 📦 Check Pods Manifest.lock */,
 				FE8265F71CD157D700D1CDDC /* Sources */,
 				FE8265F81CD157D700D1CDDC /* Frameworks */,
 				FE8265F91CD157D700D1CDDC /* Resources */,
-				DCD022C7BF283E3615196897 /* Embed Pods Frameworks */,
-				F1A17F303A1DBA0D09D3CB9D /* Copy Pods Resources */,
+				0F3EDD5C1AAF9961580BD75E /* 📦 Embed Pods Frameworks */,
+				0034B34236B57F0D50702B9E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -301,59 +301,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4289958C05AFF03EF2C1951E /* Check Pods Manifest.lock */ = {
+		0034B34236B57F0D50702B9E /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8F1E20A6D3FB9DB3068F41A1 /* Copy Pods Resources */ = {
+		0F3EDD5C1AAF9961580BD75E /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ELNTextFieldFormattingKit/Pods-ELNTextFieldFormattingKit-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9A3F00AFAE4066F99B3ED540 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		DCD022C7BF283E3615196897 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,19 +331,49 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F1A17F303A1DBA0D09D3CB9D /* Copy Pods Resources */ = {
+		63BFB9B728EB3593BBE98818 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ELNTextFieldFormattingKit/Pods-ELNTextFieldFormattingKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B1E2BDD4570E27EBF374851 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F8784C7774D5AF12791FD33 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -506,7 +506,7 @@
 		};
 		FE8265CC1CD156AF00D1CDDC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F548D28A09E818AB2E65B1E9 /* Pods-ELNTextFieldFormattingKit.debug.xcconfig */;
+			baseConfigurationReference = F0BF7FCC5CB1155DE32EA010 /* Pods-ELNTextFieldFormattingKit.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -524,7 +524,7 @@
 		};
 		FE8265CD1CD156AF00D1CDDC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92659954A729ED0C25DB06A9 /* Pods-ELNTextFieldFormattingKit.release.xcconfig */;
+			baseConfigurationReference = 79FC7BE6F186442115F20BFB /* Pods-ELNTextFieldFormattingKit.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -542,7 +542,7 @@
 		};
 		FE8266031CD157D800D1CDDC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EF64EFBEB590B19CBFE4F32 /* Pods-Tests.debug.xcconfig */;
+			baseConfigurationReference = F2239884C307674E9BCE0010 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -553,7 +553,7 @@
 		};
 		FE8266041CD157D800D1CDDC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FCA832123DDE9FDB00EFB8B /* Pods-Tests.release.xcconfig */;
+			baseConfigurationReference = D325AD4B38D0C26AD27401BB /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
