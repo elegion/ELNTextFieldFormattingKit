@@ -27,50 +27,41 @@ static NSString * const kRefreshControlSelector = @"RefreshControl";
 #pragma clang diagnostic pop
 }
 
-@end
+#pragma mark - Cell And Header/Footer Views Registration
 
-
-@implementation UITableView (ELNNibRegistration)
-
-- (void)eln_registerCellForClass:(Class)cellClass
-{
+- (void)eln_registerCellWithClass:(Class)cellClass {
     [self registerClass:cellClass forCellReuseIdentifier:NSStringFromClass(cellClass)];
 }
 
-- (void)eln_registerCellNIBForClass:(Class)cellClass
-{
+- (void)eln_registerCellNibWithClass:(Class)cellClass {
     NSString *className = NSStringFromClass(cellClass);
-    UINib *nib = [UINib nibWithNibName:className bundle:nil];
-    NSAssert(nib, @"No NIB found for specified class.");
+    NSBundle *bundle = [NSBundle bundleForClass:cellClass];
+    UINib *nib = [UINib nibWithNibName:className bundle:bundle];
+    NSAssert(nib, @"No nib found for class %@.", className);
     [self registerNib:nib forCellReuseIdentifier:className];
 }
 
-- (id)eln_dequeueReusableCellForClass:(Class)cellClass
-{
+- (id)eln_dequeueReusableCellWithClass:(Class)cellClass {
     return [self dequeueReusableCellWithIdentifier:NSStringFromClass(cellClass)];
 }
 
-- (id)eln_dequeueReusableCellForClass:(Class)cellClass indexPath:(NSIndexPath *)indexPath
-{
-    return [self dequeueReusableCellWithIdentifier:NSStringFromClass(cellClass)
-                                      forIndexPath:indexPath];
+- (id)eln_dequeueReusableCellWithClass:(Class)cellClass indexPath:(NSIndexPath *)indexPath {
+    return [self dequeueReusableCellWithIdentifier:NSStringFromClass(cellClass) forIndexPath:indexPath];
 }
 
-- (void)eln_registerHeaderFooterViewForClass:(Class)headerFooterViewClass
-{
+- (void)eln_registerHeaderFooterViewWithClass:(Class)headerFooterViewClass {
     [self registerClass:headerFooterViewClass forHeaderFooterViewReuseIdentifier:NSStringFromClass(headerFooterViewClass)];
 }
 
-- (void)eln_registerHeaderFooterViewNIBForClass:(Class)headerFooterViewClass
-{
+- (void)eln_registerHeaderFooterViewNibWithClass:(Class)headerFooterViewClass {
     NSString *className = NSStringFromClass(headerFooterViewClass);
-    UINib *nib = [UINib nibWithNibName:className bundle:nil];
-    NSAssert(nib, @"No NIB found for specified class.");
+    NSBundle *bundle = [NSBundle bundleForClass:headerFooterViewClass];
+    UINib *nib = [UINib nibWithNibName:className bundle:bundle];
+    NSAssert(nib, @"No nib found for class %@.", className);
     [self registerNib:nib forHeaderFooterViewReuseIdentifier:className];
 }
 
-- (id)eln_dequeueReusableHeaderFooterViewForClass:(Class)headerFooterViewClass
-{
+- (id)eln_dequeueReusableHeaderFooterViewWithClass:(Class)headerFooterViewClass {
     return [self dequeueReusableHeaderFooterViewWithIdentifier:NSStringFromClass(headerFooterViewClass)];
 }
 

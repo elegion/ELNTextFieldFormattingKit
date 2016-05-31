@@ -8,6 +8,8 @@
 
 @import UIKit;
 
+NS_ASSUME_NONNULL_BEGIN
+
 /// Returns default separator insets for cell.
 extern UIEdgeInsets ELNTableViewCellDefaultSeparatorInsets();
 
@@ -16,6 +18,8 @@ extern UIEdgeInsets ELNTableViewCellDefaultSeparatorInsets();
 - (void)eln_setSeparatorInset:(UIEdgeInsets)separatorInset;
 
 /// Returns height for autolayout based cell.
-- (CGFloat)eln_heightForWidth:(CGFloat)width configuration:(void (^)(UITableViewCell *cell))configuration;
+- (CGFloat)eln_heightForWidth:(CGFloat)width configuration:(void (^ _Nullable)(UITableViewCell *cell))configuration;
 
 @end
+
+NS_ASSUME_NONNULL_END

@@ -8,6 +8,8 @@
 
 @import Foundation;
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface NSArray<__covariant ObjectType> (ELNUtils)
 
 /// Returns the first object in the array passing the test.
@@ -32,3 +34,5 @@ to avoid parameter variable shadowing during nested block usage.
 - (void)eln_apply:(void (^)(ObjectType obj))block;
 
 @end
+
+NS_ASSUME_NONNULL_END

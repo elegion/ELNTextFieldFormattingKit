@@ -3,7 +3,8 @@ source 'https://github.com/elegion/ios-podspecs.git'
 
 target 'ELNTextFieldFormattingKit' do
 
-  pod 'ELNUtils', '~> 0.3.0'
+  pod 'ELNUtils', '~> 0.6.0'
+  pod 'ELNValidators', '~> 0.0.10'
 
 end
 

@@ -7,14 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A394F099B00281323B149A1 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C23337C131F9D87AD2A6013A /* libPods-Tests.a */; };
-		E150514D0F544299EC1020A5 /* libPods-ELNTextFieldFormattingKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05651DDC64E1BA1C9FFFFF74 /* libPods-ELNTextFieldFormattingKit.a */; };
-		FE8265E11CD1571200D1CDDC /* ELNAmountValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8265CF1CD1571200D1CDDC /* ELNAmountValidator.h */; };
-		FE8265E21CD1571200D1CDDC /* ELNAmountValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8265D01CD1571200D1CDDC /* ELNAmountValidator.m */; };
+		BA47FA68C8E045A988BCF5EF /* libPods-ELNTextFieldFormattingKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B88230E70199DE0732B61102 /* libPods-ELNTextFieldFormattingKit.a */; };
+		C63642C0D0528B031FF10E93 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4352CEBAC1D67BA7B6A1D30 /* libPods-Tests.a */; };
 		FE8265E31CD1571200D1CDDC /* ELNCardNumberMask.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8265D11CD1571200D1CDDC /* ELNCardNumberMask.h */; };
 		FE8265E41CD1571200D1CDDC /* ELNCardNumberMask.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8265D21CD1571200D1CDDC /* ELNCardNumberMask.m */; };
-		FE8265E51CD1571200D1CDDC /* ELNCharactersValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8265D31CD1571200D1CDDC /* ELNCharactersValidator.h */; };
-		FE8265E61CD1571200D1CDDC /* ELNCharactersValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8265D41CD1571200D1CDDC /* ELNCharactersValidator.m */; };
 		FE8265E71CD1571200D1CDDC /* ELNCurrencyFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8265D51CD1571200D1CDDC /* ELNCurrencyFormatter.h */; };
 		FE8265E81CD1571200D1CDDC /* ELNCurrencyFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8265D61CD1571200D1CDDC /* ELNCurrencyFormatter.m */; };
 		FE8265E91CD1571200D1CDDC /* ELNCurrencyMask.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8265D71CD1571200D1CDDC /* ELNCurrencyMask.h */; };
@@ -26,7 +22,6 @@
 		FE8265EF1CD1571200D1CDDC /* ELNTextFieldFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8265DD1CD1571200D1CDDC /* ELNTextFieldFormatter.h */; };
 		FE8265F01CD1571200D1CDDC /* ELNTextFieldFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8265DE1CD1571200D1CDDC /* ELNTextFieldFormatter.m */; };
 		FE8265F11CD1571200D1CDDC /* ELNTextMask.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8265DF1CD1571200D1CDDC /* ELNTextMask.h */; };
-		FE8265F21CD1571200D1CDDC /* ELNValidatorType.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8265E01CD1571200D1CDDC /* ELNValidatorType.h */; };
 		FE8266001CD157D800D1CDDC /* ELNTextFieldFormattingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8265C31CD156AF00D1CDDC /* ELNTextFieldFormattingKit.framework */; };
 		FE8266091CD1596000D1CDDC /* ELNTextFieldFormattingKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8266081CD1590E00D1CDDC /* ELNTextFieldFormattingKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -42,19 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05651DDC64E1BA1C9FFFFF74 /* libPods-ELNTextFieldFormattingKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELNTextFieldFormattingKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		79FC7BE6F186442115F20BFB /* Pods-ELNTextFieldFormattingKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELNTextFieldFormattingKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ELNTextFieldFormattingKit/Pods-ELNTextFieldFormattingKit.release.xcconfig"; sourceTree = "<group>"; };
-		C23337C131F9D87AD2A6013A /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D325AD4B38D0C26AD27401BB /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F0BF7FCC5CB1155DE32EA010 /* Pods-ELNTextFieldFormattingKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELNTextFieldFormattingKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ELNTextFieldFormattingKit/Pods-ELNTextFieldFormattingKit.debug.xcconfig"; sourceTree = "<group>"; };
-		F2239884C307674E9BCE0010 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4352CEBAC1D67BA7B6A1D30 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88230E70199DE0732B61102 /* libPods-ELNTextFieldFormattingKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELNTextFieldFormattingKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCDE463CBB58F9C21BED8651 /* Pods-ELNTextFieldFormattingKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELNTextFieldFormattingKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ELNTextFieldFormattingKit/Pods-ELNTextFieldFormattingKit.debug.xcconfig"; sourceTree = "<group>"; };
+		D020802E3C48DA7C18CD516E /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EC1FA70418A046F6785A3518 /* Pods-ELNTextFieldFormattingKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELNTextFieldFormattingKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ELNTextFieldFormattingKit/Pods-ELNTextFieldFormattingKit.release.xcconfig"; sourceTree = "<group>"; };
+		F89886B824DBD49AC1C7E666 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE8265C31CD156AF00D1CDDC /* ELNTextFieldFormattingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ELNTextFieldFormattingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE8265CF1CD1571200D1CDDC /* ELNAmountValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNAmountValidator.h; sourceTree = "<group>"; };
-		FE8265D01CD1571200D1CDDC /* ELNAmountValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNAmountValidator.m; sourceTree = "<group>"; };
 		FE8265D11CD1571200D1CDDC /* ELNCardNumberMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNCardNumberMask.h; sourceTree = "<group>"; };
 		FE8265D21CD1571200D1CDDC /* ELNCardNumberMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNCardNumberMask.m; sourceTree = "<group>"; };
-		FE8265D31CD1571200D1CDDC /* ELNCharactersValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNCharactersValidator.h; sourceTree = "<group>"; };
-		FE8265D41CD1571200D1CDDC /* ELNCharactersValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNCharactersValidator.m; sourceTree = "<group>"; };
 		FE8265D51CD1571200D1CDDC /* ELNCurrencyFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNCurrencyFormatter.h; sourceTree = "<group>"; };
 		FE8265D61CD1571200D1CDDC /* ELNCurrencyFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNCurrencyFormatter.m; sourceTree = "<group>"; };
 		FE8265D71CD1571200D1CDDC /* ELNCurrencyMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNCurrencyMask.h; sourceTree = "<group>"; };
@@ -66,7 +57,6 @@
 		FE8265DD1CD1571200D1CDDC /* ELNTextFieldFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNTextFieldFormatter.h; sourceTree = "<group>"; };
 		FE8265DE1CD1571200D1CDDC /* ELNTextFieldFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNTextFieldFormatter.m; sourceTree = "<group>"; };
 		FE8265DF1CD1571200D1CDDC /* ELNTextMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNTextMask.h; sourceTree = "<group>"; };
-		FE8265E01CD1571200D1CDDC /* ELNValidatorType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNValidatorType.h; sourceTree = "<group>"; };
 		FE8265F31CD1572300D1CDDC /* Default.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Default.xcconfig; sourceTree = "<group>"; };
 		FE8265F41CD1572300D1CDDC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE8265FB1CD157D800D1CDDC /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E150514D0F544299EC1020A5 /* libPods-ELNTextFieldFormattingKit.a in Frameworks */,
+				BA47FA68C8E045A988BCF5EF /* libPods-ELNTextFieldFormattingKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,30 +79,73 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE8266001CD157D800D1CDDC /* ELNTextFieldFormattingKit.framework in Frameworks */,
-				3A394F099B00281323B149A1 /* libPods-Tests.a in Frameworks */,
+				C63642C0D0528B031FF10E93 /* libPods-Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37062D931CFDF8D100BEF5EB /* Masks */ = {
+			isa = PBXGroup;
+			children = (
+				FE8265D11CD1571200D1CDDC /* ELNCardNumberMask.h */,
+				FE8265D21CD1571200D1CDDC /* ELNCardNumberMask.m */,
+				FE8265D71CD1571200D1CDDC /* ELNCurrencyMask.h */,
+				FE8265D81CD1571200D1CDDC /* ELNCurrencyMask.m */,
+				FE8265DB1CD1571200D1CDDC /* ELNPhoneNumberMask.h */,
+				FE8265DC1CD1571200D1CDDC /* ELNPhoneNumberMask.m */,
+				FE8265DF1CD1571200D1CDDC /* ELNTextMask.h */,
+			);
+			name = Masks;
+			sourceTree = "<group>";
+		};
+		37062D951CFDF8F900BEF5EB /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				FE8265D51CD1571200D1CDDC /* ELNCurrencyFormatter.h */,
+				FE8265D61CD1571200D1CDDC /* ELNCurrencyFormatter.m */,
+				FE8265DD1CD1571200D1CDDC /* ELNTextFieldFormatter.h */,
+				FE8265DE1CD1571200D1CDDC /* ELNTextFieldFormatter.m */,
+			);
+			name = Formatters;
+			sourceTree = "<group>";
+		};
+		37062D961CFDFD8800BEF5EB /* Text Fields */ = {
+			isa = PBXGroup;
+			children = (
+				FE8265D91CD1571200D1CDDC /* ELNCurrencyTextField.h */,
+				FE8265DA1CD1571200D1CDDC /* ELNCurrencyTextField.m */,
+			);
+			name = "Text Fields";
+			sourceTree = "<group>";
+		};
+		37062D971CFDFDD800BEF5EB /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				FE8265C51CD156AF00D1CDDC /* Source */,
+				FE8265CE1CD156FD00D1CDDC /* Supporting Files */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
 		7C6F2A4C0A3C4DEAFE7C394A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				FE8266061CD158D800D1CDDC /* UIKit.framework */,
-				05651DDC64E1BA1C9FFFFF74 /* libPods-ELNTextFieldFormattingKit.a */,
-				C23337C131F9D87AD2A6013A /* libPods-Tests.a */,
+				B88230E70199DE0732B61102 /* libPods-ELNTextFieldFormattingKit.a */,
+				A4352CEBAC1D67BA7B6A1D30 /* libPods-Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EF3F60983203AE59E74C8E02 /* Pods */ = {
+		C1CEF28D5DB413E1B5BF514C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F0BF7FCC5CB1155DE32EA010 /* Pods-ELNTextFieldFormattingKit.debug.xcconfig */,
-				79FC7BE6F186442115F20BFB /* Pods-ELNTextFieldFormattingKit.release.xcconfig */,
-				F2239884C307674E9BCE0010 /* Pods-Tests.debug.xcconfig */,
-				D325AD4B38D0C26AD27401BB /* Pods-Tests.release.xcconfig */,
+				BCDE463CBB58F9C21BED8651 /* Pods-ELNTextFieldFormattingKit.debug.xcconfig */,
+				EC1FA70418A046F6785A3518 /* Pods-ELNTextFieldFormattingKit.release.xcconfig */,
+				F89886B824DBD49AC1C7E666 /* Pods-Tests.debug.xcconfig */,
+				D020802E3C48DA7C18CD516E /* Pods-Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -120,11 +153,11 @@
 		FE8265B91CD156AF00D1CDDC = {
 			isa = PBXGroup;
 			children = (
-				FE8265C51CD156AF00D1CDDC /* Source */,
-				FE8265FC1CD157D800D1CDDC /* Tests */,
-				FE8265C41CD156AF00D1CDDC /* Products */,
+				37062D971CFDFDD800BEF5EB /* Framework */,
 				7C6F2A4C0A3C4DEAFE7C394A /* Frameworks */,
-				EF3F60983203AE59E74C8E02 /* Pods */,
+				C1CEF28D5DB413E1B5BF514C /* Pods */,
+				FE8265C41CD156AF00D1CDDC /* Products */,
+				FE8265FC1CD157D800D1CDDC /* Tests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,26 +173,10 @@
 		FE8265C51CD156AF00D1CDDC /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				FE8265CF1CD1571200D1CDDC /* ELNAmountValidator.h */,
-				FE8265D01CD1571200D1CDDC /* ELNAmountValidator.m */,
-				FE8265D11CD1571200D1CDDC /* ELNCardNumberMask.h */,
-				FE8265D21CD1571200D1CDDC /* ELNCardNumberMask.m */,
-				FE8265D31CD1571200D1CDDC /* ELNCharactersValidator.h */,
-				FE8265D41CD1571200D1CDDC /* ELNCharactersValidator.m */,
-				FE8265D51CD1571200D1CDDC /* ELNCurrencyFormatter.h */,
-				FE8265D61CD1571200D1CDDC /* ELNCurrencyFormatter.m */,
-				FE8265D71CD1571200D1CDDC /* ELNCurrencyMask.h */,
-				FE8265D81CD1571200D1CDDC /* ELNCurrencyMask.m */,
-				FE8265D91CD1571200D1CDDC /* ELNCurrencyTextField.h */,
-				FE8265DA1CD1571200D1CDDC /* ELNCurrencyTextField.m */,
-				FE8265DB1CD1571200D1CDDC /* ELNPhoneNumberMask.h */,
-				FE8265DC1CD1571200D1CDDC /* ELNPhoneNumberMask.m */,
-				FE8265DD1CD1571200D1CDDC /* ELNTextFieldFormatter.h */,
-				FE8265DE1CD1571200D1CDDC /* ELNTextFieldFormatter.m */,
-				FE8265DF1CD1571200D1CDDC /* ELNTextMask.h */,
-				FE8265E01CD1571200D1CDDC /* ELNValidatorType.h */,
 				FE8266081CD1590E00D1CDDC /* ELNTextFieldFormattingKit.h */,
-				FE8265CE1CD156FD00D1CDDC /* Supporting Files */,
+				37062D951CFDF8F900BEF5EB /* Formatters */,
+				37062D931CFDF8D100BEF5EB /* Masks */,
+				37062D961CFDFD8800BEF5EB /* Text Fields */,
 			);
 			name = Source;
 			path = ../Source;
@@ -172,7 +189,6 @@
 				FE8265F41CD1572300D1CDDC /* Info.plist */,
 			);
 			name = "Supporting Files";
-			path = ../Framework;
 			sourceTree = "<group>";
 		};
 		FE8265FC1CD157D800D1CDDC /* Tests */ = {
@@ -192,15 +208,12 @@
 			files = (
 				FE8265ED1CD1571200D1CDDC /* ELNPhoneNumberMask.h in Headers */,
 				FE8265EF1CD1571200D1CDDC /* ELNTextFieldFormatter.h in Headers */,
-				FE8265E11CD1571200D1CDDC /* ELNAmountValidator.h in Headers */,
 				FE8265E91CD1571200D1CDDC /* ELNCurrencyMask.h in Headers */,
 				FE8265E31CD1571200D1CDDC /* ELNCardNumberMask.h in Headers */,
 				FE8266091CD1596000D1CDDC /* ELNTextFieldFormattingKit.h in Headers */,
-				FE8265F21CD1571200D1CDDC /* ELNValidatorType.h in Headers */,
 				FE8265F11CD1571200D1CDDC /* ELNTextMask.h in Headers */,
 				FE8265EB1CD1571200D1CDDC /* ELNCurrencyTextField.h in Headers */,
 				FE8265E71CD1571200D1CDDC /* ELNCurrencyFormatter.h in Headers */,
-				FE8265E51CD1571200D1CDDC /* ELNCharactersValidator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,12 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE8265CB1CD156AF00D1CDDC /* Build configuration list for PBXNativeTarget "ELNTextFieldFormattingKit" */;
 			buildPhases = (
-				8F8784C7774D5AF12791FD33 /* 📦 Check Pods Manifest.lock */,
+				F0A8C0AA177D4B6079F95907 /* 📦 Check Pods Manifest.lock */,
 				FE8265BE1CD156AF00D1CDDC /* Sources */,
 				FE8265BF1CD156AF00D1CDDC /* Frameworks */,
 				FE8265C01CD156AF00D1CDDC /* Headers */,
 				FE8265C11CD156AF00D1CDDC /* Resources */,
-				63BFB9B728EB3593BBE98818 /* 📦 Copy Pods Resources */,
+				78F20F7637F067201EF2E48A /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,12 +244,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE8266051CD157D800D1CDDC /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
-				8B1E2BDD4570E27EBF374851 /* 📦 Check Pods Manifest.lock */,
+				5372F08E3670D498FC4171D9 /* 📦 Check Pods Manifest.lock */,
 				FE8265F71CD157D700D1CDDC /* Sources */,
 				FE8265F81CD157D700D1CDDC /* Frameworks */,
 				FE8265F91CD157D700D1CDDC /* Resources */,
-				0F3EDD5C1AAF9961580BD75E /* 📦 Embed Pods Frameworks */,
-				0034B34236B57F0D50702B9E /* 📦 Copy Pods Resources */,
+				C68F44B51729DE74DCCB5877 /* 📦 Embed Pods Frameworks */,
+				24E384510DD1D66590A7F9A6 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,6 +284,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = FE8265B91CD156AF00D1CDDC;
 			productRefGroup = FE8265C41CD156AF00D1CDDC /* Products */;
@@ -301,7 +315,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0034B34236B57F0D50702B9E /* 📦 Copy Pods Resources */ = {
+		24E384510DD1D66590A7F9A6 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -316,37 +330,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0F3EDD5C1AAF9961580BD75E /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		63BFB9B728EB3593BBE98818 /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ELNTextFieldFormattingKit/Pods-ELNTextFieldFormattingKit-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8B1E2BDD4570E27EBF374851 /* 📦 Check Pods Manifest.lock */ = {
+		5372F08E3670D498FC4171D9 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,7 +345,37 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		8F8784C7774D5AF12791FD33 /* 📦 Check Pods Manifest.lock */ = {
+		78F20F7637F067201EF2E48A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ELNTextFieldFormattingKit/Pods-ELNTextFieldFormattingKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C68F44B51729DE74DCCB5877 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0A8C0AA177D4B6079F95907 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -383,10 +397,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE8265E61CD1571200D1CDDC /* ELNCharactersValidator.m in Sources */,
 				FE8265EA1CD1571200D1CDDC /* ELNCurrencyMask.m in Sources */,
 				FE8265E41CD1571200D1CDDC /* ELNCardNumberMask.m in Sources */,
-				FE8265E21CD1571200D1CDDC /* ELNAmountValidator.m in Sources */,
 				FE8265EE1CD1571200D1CDDC /* ELNPhoneNumberMask.m in Sources */,
 				FE8265EC1CD1571200D1CDDC /* ELNCurrencyTextField.m in Sources */,
 				FE8265F01CD1571200D1CDDC /* ELNTextFieldFormatter.m in Sources */,
@@ -506,7 +518,7 @@
 		};
 		FE8265CC1CD156AF00D1CDDC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0BF7FCC5CB1155DE32EA010 /* Pods-ELNTextFieldFormattingKit.debug.xcconfig */;
+			baseConfigurationReference = BCDE463CBB58F9C21BED8651 /* Pods-ELNTextFieldFormattingKit.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -524,7 +536,7 @@
 		};
 		FE8265CD1CD156AF00D1CDDC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79FC7BE6F186442115F20BFB /* Pods-ELNTextFieldFormattingKit.release.xcconfig */;
+			baseConfigurationReference = EC1FA70418A046F6785A3518 /* Pods-ELNTextFieldFormattingKit.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -542,7 +554,7 @@
 		};
 		FE8266031CD157D800D1CDDC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2239884C307674E9BCE0010 /* Pods-Tests.debug.xcconfig */;
+			baseConfigurationReference = F89886B824DBD49AC1C7E666 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -553,7 +565,7 @@
 		};
 		FE8266041CD157D800D1CDDC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D325AD4B38D0C26AD27401BB /* Pods-Tests.release.xcconfig */;
+			baseConfigurationReference = D020802E3C48DA7C18CD516E /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

@@ -8,6 +8,8 @@
 
 @import Foundation;
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface NSLocale (ELNUtils)
 
 /** 
@@ -18,3 +20,5 @@
 + (NSLocale *)eln_localeForPreferredLocalization;
 
 @end
+
+NS_ASSUME_NONNULL_END

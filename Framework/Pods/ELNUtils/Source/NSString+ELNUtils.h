@@ -8,6 +8,8 @@
 
 @import UIKit;
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface NSString (ELNUtils)
 
 /// Removes specified characters from string
@@ -29,6 +31,8 @@
  */
 + (NSString *)eln_localizedStringWithFormat:(NSString *)format, ... NS_FORMAT_FUNCTION(1,2);
 
-- (CGRect)eln_boundingRectWithSize:(CGSize)size font:(UIFont *)font lineBreakMode:(NSLineBreakMode)lineBreakMode numberOfLines:(NSInteger)numberOfLines;
+- (CGRect)eln_boundingRectWithSize:(CGSize)size font:(nullable UIFont *)font lineBreakMode:(NSLineBreakMode)lineBreakMode numberOfLines:(NSInteger)numberOfLines;
 
 @end
+
+NS_ASSUME_NONNULL_END

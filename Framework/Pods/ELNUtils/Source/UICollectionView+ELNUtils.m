@@ -17,28 +17,22 @@
     }
 }
 
-@end
+#pragma mark - Cell Registration
 
-
-@implementation UICollectionView (ELNNibRegistration)
-
-- (void)eln_registerCellForClass:(Class)cellClass
-{
+- (void)eln_registerCellWithClass:(Class)cellClass {
     [self registerClass:cellClass forCellWithReuseIdentifier:NSStringFromClass(cellClass)];
 }
 
-- (void)eln_registerCellNIBForClass:(Class)cellClass
-{
+- (void)eln_registerCellNibWithClass:(Class)cellClass {
     NSString *className = NSStringFromClass(cellClass);
-    UINib *nib = [UINib nibWithNibName:className bundle:nil];
-    NSAssert(nib, @"No NIB found for specified class.");
+    NSBundle *bundle = [NSBundle bundleForClass:cellClass];
+    UINib *nib = [UINib nibWithNibName:className bundle:bundle];
+    NSAssert(nib, @"No nib found for class %@.", className);
     [self registerNib:nib forCellWithReuseIdentifier:className];
 }
 
-- (id)eln_dequeueReusableCellForClass:(Class)cellClass indexPath:(NSIndexPath *)indexPath
-{
-    return [self dequeueReusableCellWithReuseIdentifier:NSStringFromClass(cellClass)
-                                           forIndexPath:indexPath];
+- (__kindof UICollectionViewCell *)eln_dequeueReusableCellWithClass:(Class)cellClass indexPath:(NSIndexPath *)indexPath {
+    return [self dequeueReusableCellWithReuseIdentifier:NSStringFromClass(cellClass) forIndexPath:indexPath];
 }
 
 @end

@@ -14,6 +14,7 @@
  */
 @interface UIFont (ELNUtils)
 
+#if __IPHONE_OS_VERSION_MIN_REQUIRED < __IPHONE_8_0
 + (UIFont *)eln_semiboldSystemFontOfSize:(CGFloat)size;
 
 + (UIFont *)eln_mediumSystemFontOfSize:(CGFloat)size;
@@ -21,5 +22,6 @@
 + (UIFont *)eln_lightSystemFontOfSize:(CGFloat)size;
 
 + (UIFont *)eln_thinSystemFontOfSize:(CGFloat)size;
+#endif
 
 @end

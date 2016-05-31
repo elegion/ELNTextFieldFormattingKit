@@ -122,12 +122,12 @@ static NSUInteger const kMaximumIntegerDigits = 42;
         return NO;
         
     } else {
-        if (![self.validator isValid:string allowsEmpty:YES error:nil]) {
+        if (![self.validator isValid:string error:nil]) {
             return NO;
         }
         
         NSString *filteredString = [self filteredStringFromString:replacedText cursorPosition:NULL];
-        if (![self.validator isValid:filteredString allowsEmpty:YES error:nil]) {
+        if (![self.validator isValid:filteredString error:nil]) {
             return NO;
         }
         

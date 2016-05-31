@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = "ELNTextFieldFormattingKit"
-  s.version          = "0.0.3"
+  s.version          = "0.0.4"
   s.summary          = "Collection of text field formatters for phone number, card and currency inputs"
   s.homepage         = 'https://github.com/elegion/ios-ELNTextFieldFormattingKit'
   s.authors          = '.'
@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.source_files = "Source/**/*"
 
   s.frameworks = 'UIKit'
-  s.dependency 'ELNUtils', '~> 0.3.0'
-  
+  s.dependency 'ELNUtils', '~> 0.6.0'
+  s.dependency 'ELNValidators', '~> 0.0.10'
+
 end

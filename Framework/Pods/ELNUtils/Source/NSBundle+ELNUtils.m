@@ -45,4 +45,8 @@ static NSString * const kBundleNameKey = @"CFBundleName";
     return [self objectForInfoDictionaryKey:kBundleNameKey];
 }
 
+- (nullable id)eln_objectForInfoDictionaryKeyPath:(NSString *)keyPath {
+    return [self.infoDictionary valueForKeyPath:keyPath];
+}
+
 @end

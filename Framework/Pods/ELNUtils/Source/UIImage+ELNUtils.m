@@ -50,4 +50,29 @@
     }];
 }
 
++ (UIImage *)eln_alphaImageNamed:(NSString *)name blendedWithColor:(UIColor *)color
+{
+    UIImage *image = [UIImage imageNamed:name];
+    
+    UIGraphicsBeginImageContextWithOptions (image.size, NO, image.scale);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    
+    CGContextTranslateCTM(context, 0, image.size.height);
+    CGContextScaleCTM(context, 1.0, -1.0);
+    
+    CGRect rect = CGRectMake(0, 0, image.size.width, image.size.height);
+    
+    CGContextSetBlendMode(context, kCGBlendModeNormal);
+    [color setFill];
+    CGContextFillRect(context, rect);
+    
+    CGContextSetBlendMode(context, kCGBlendModeDestinationIn);
+    CGContextDrawImage(context, rect, image.CGImage);
+    
+    UIImage *coloredImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return coloredImage;
+}
+
 @end

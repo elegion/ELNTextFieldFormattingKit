@@ -29,6 +29,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// Returns a value for CFBundleName key declared in bundle's plist.
 - (nullable NSString *)eln_name;
 
+- (nullable id)eln_objectForInfoDictionaryKeyPath:(NSString *)keyPath;
+
 @end
 
 NS_ASSUME_NONNULL_END

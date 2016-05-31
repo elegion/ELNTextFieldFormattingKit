@@ -8,6 +8,8 @@
 
 @import Foundation;
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface NSSortDescriptor (ELNUtils)
 
 /**
@@ -15,6 +17,8 @@
  
  @param string Formatted string. For example string "title,-description" becomes "title ASC, description DESC"
  */
-+ (NSArray *)eln_sortDescriptorsFromString:(NSString *)string;
++ (nullable NSArray *)eln_sortDescriptorsFromString:(nullable NSString *)string;
 
 @end
+
+NS_ASSUME_NONNULL_END

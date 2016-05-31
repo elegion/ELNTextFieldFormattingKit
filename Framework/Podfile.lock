@@ -1,15 +1,18 @@
 PODS:
   - ELNTestUtils (0.0.1)
-  - ELNUtils (0.3.2)
+  - ELNUtils (0.6.0)
+  - ELNValidators (0.0.10)
 
 DEPENDENCIES:
   - ELNTestUtils (~> 0.0.1)
-  - ELNUtils (~> 0.3.0)
+  - ELNUtils (~> 0.6.0)
+  - ELNValidators (~> 0.0.10)
 
 SPEC CHECKSUMS:
   ELNTestUtils: 47fad519627dcf24f0c8243c39beb0ca86f87de6
-  ELNUtils: 950eb73599adda562bb85e4dbbe042d6dfab15b5
+  ELNUtils: 7dfa59a5fdc651d4b62b4df3dd823607da13246e
+  ELNValidators: fdee07fe4304b42129a80888c1b13078b152f93c
 
-PODFILE CHECKSUM: 4a421ac0998b7fbfe6a1190d62e1d1d1a4cfabe6
+PODFILE CHECKSUM: 4cc3b88e2fc43018d4e9a6faa226fbc583ca626c
 
 COCOAPODS: 1.0.0

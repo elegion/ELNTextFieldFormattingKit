@@ -8,6 +8,8 @@
 
 @import UIKit;
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface UIColor (ELNUtils)
 
 + (UIColor *)eln_colorWithHex:(unsigned)hex;
@@ -19,3 +21,5 @@
 - (UIColor *)eln_blendWithColor:(UIColor *)color alpha:(CGFloat)alpha;
 
 @end
+
+NS_ASSUME_NONNULL_END

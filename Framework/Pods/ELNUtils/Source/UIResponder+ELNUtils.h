@@ -8,9 +8,13 @@
 
 @import UIKit;
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface UIResponder (ELNUtils)
 
 /// @see http://stackoverflow.com/questions/5029267/is-there-any-way-of-asking-an-ios-view-which-of-its-children-has-first-responder/14135456#14135456
 + (__kindof UIResponder *)eln_currentFirstResponder;
 
 @end
+
+NS_ASSUME_NONNULL_END

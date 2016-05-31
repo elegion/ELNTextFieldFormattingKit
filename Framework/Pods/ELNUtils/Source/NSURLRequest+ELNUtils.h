@@ -8,9 +8,13 @@
 
 @import Foundation;
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface NSURLRequest (ELNUtils)
 
 /// Returns curl formatted string for request.
 - (NSString *)eln_CURL;
 
 @end
+
+NS_ASSUME_NONNULL_END

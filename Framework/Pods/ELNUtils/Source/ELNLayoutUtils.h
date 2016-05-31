@@ -4,6 +4,8 @@
 
 @import UIKit;
 
+NS_ASSUME_NONNULL_BEGIN
+
 /** 
  UIView category for easy manual layout.
  */
@@ -60,3 +62,5 @@
 - (void)eln_setContentSizeToFitSubviewsWithInset:(CGSize)inset;
 
 @end
+
+NS_ASSUME_NONNULL_END
